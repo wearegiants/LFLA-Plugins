@@ -1,0 +1,52 @@
+.LA_Dialog_Div {
+	margin:0;
+	padding:0;
+	border:0;
+	z-index:9009;
+	}
+.LA_Dialog_Div div {
+	padding:0;
+	margin:0;
+	border:0;
+	vertical-align:top;
+	}
+.LA_Dialog_Div .bottom {
+	height: 0px;
+	}
+.LA_Dialog_Div .top {
+	height: 0px;
+	}	
+.LA_Dialog_Div .middle {
+	padding:0 3px 0 10px;
+	}
+.LA_Dialog_Div .text {
+	margin:0;	
+	vertical-align:middle;
+	text-align:left;
+	}
+.LA_Dialog_Div .text ul{
+	margin:2px 0 2px 0;
+	padding:0 0 0 15px;
+	}
+.LA_Dialog_Div a {
+	text-decoration:none;
+	color:#365da0;
+	}
+.LA_Dialog_Div a:hover {
+	color:#FE5815;
+	}
+	
+.LA_Dialog_Div u a{
+	text-decoration:underline ;
+	color:#365da0;
+	}
+.LA_Dialog_Div u a:hover {
+	text-decoration:underline ;
+	color:#FE5815;
+	}
+.LA_Dialog_Div  li { 
+	list-style-image:url(DialogHistory/fleche.html);
+}
+.ma_new_list li{
+	list-style-image:url(DialogHistory/bullet_orange.html);
+}

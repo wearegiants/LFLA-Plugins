@@ -1,0 +1,45 @@
+.sheet {
+	background-color: #2EA2CC;
+	color: #fff;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1.heading-blue {
+	font-size: 1.5em;
+	background: #222;
+	border-color: #0074a2;
+	padding: 20px 20px 20px 26px;
+	color: #eee;
+	margin: 0;
+}
+div#welcome-panel {
+	max-width: 1040px;
+	border: 0;
+}
+.welcome-panel.heading {
+	padding: 0 !important;
+}
+.button:hover {
+	border: 0;
+}
+.wp-list-table.widefat {
+	border: 0;
+}
+.welcome-panel {
+	padding: 0;
+}
+.welcome-panel-content {
+	padding: 10px 0;
+}
+div.sep {
+	border: 1px solid #fff;
+}
+.button.view {
+	background-color: #222;
+	border-color: #222;
+}
+.button.view:hover {
+	background-color: #222;
+	border: 0;
+}

@@ -1,0 +1,86 @@
+/***********************************************/
+/*  EDF - Particulier : Question
+/***********************************************/
+
+.LA_extQuestion {
+	color : #FFFFFF;
+	font: normal 14px Arial;
+	margin:0;
+	padding:0;
+	border:0;
+	
+	z-index:9008;
+	position:absolute;
+	bottom:45px;
+	left:16px;
+	z-index:9014;
+}
+.LA_extQuestion tr,.LA_extQuestion  table,.LA_extQuestion td,.LA_extQuestion p {
+	padding:0;
+	margin:0;
+	border:0;
+}
+.LA_extQuestion table {
+	width:662px;
+	height:28px;
+}
+.LA_extQuestion .LA_div_close{
+}
+.LA_extQuestion .LAbt_close {
+}
+.LA_extQuestion .LAbt_close:hover {
+}
+	
+.LA_extQuestion .Text {
+	margin:1px;
+	text-align:left;
+	}
+.LA_extQuestion .Text #maquestion{
+	font: normal 16px Arial;
+}
+	
+.LA_extQuestion .TopLeft {
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .TopRight {
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .BottomRight {
+	background: #f0eae1;
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .BottomLeft {
+	background: #f0eae1;
+	width:0;
+	height:0;
+	}
+	
+	
+.LA_extQuestion .TopCenter {
+}
+.LA_extQuestion .MiddleLeft {
+	background: red;
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .MiddleRight {
+	background: red;
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .BottomCenter {
+	background: #f0eae1;
+	width:0;
+	height:0;
+	}
+.LA_extQuestion .MiddleCenter {
+	padding-left:14px;
+	width:660px;
+	height:28px;
+	background: 0 0 url("ExtQuestion/fond.html") no-repeat;	
+	text-align:center;
+	vertical-align:middle;
+	}

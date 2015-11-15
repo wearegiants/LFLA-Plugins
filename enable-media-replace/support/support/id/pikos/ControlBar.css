@@ -1,0 +1,52 @@
+/***********************************************/
+/*  EDF - Particulier : ControlBar
+/***********************************************/
+
+.ControlBar{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	letter-spacing:10;	
+	line-height:15px;
+	color : #4d4d4d;
+	width:700px;
+	height:457px;
+	background: 0 0 url("ControlBar/fond.html") no-repeat;
+	z-index : 9012;	
+}
+.la_swf {
+	top:0;
+	left:0;
+}
+.Exit{
+	position : absolute;
+	top : 28px;
+	right:15px;
+	z-index : 9016;	
+}
+
+.Credit{
+	z-index:9400;
+	position : absolute;
+	bottom : 25px;
+	right:25px;
+	width:180px;
+	height:15px;
+	z-index : 9017;	
+}
+.Credit a{
+	background: 0 0 url("ControlBar/credit.html") no-repeat;
+	width:180px;
+	height:15px;
+	display:block;
+
+}
+.Credit a:hover{
+	background: 0 100% url("ControlBar/credit.html") no-repeat;
+}
+
+.Help{
+	position : absolute;
+	bottom : 120px;
+	left:221px;
+	z-index : 9018;	
+}

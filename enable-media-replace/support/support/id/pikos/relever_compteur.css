@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* ### T1P3M1 TLS ### */
+#Page #MainTLS {}
+
+#Page #MainTLS #ContentHead {width:620px;}
+
+#Page #MainTLS #MainTabs {}
+#Page #MainTLS #MainTabs ul li { width: auto; }
+#Page #MainTLS #MainTabs ul li a { width: 193px; }
+
+#Page #MainTLS #ContentFoot {}
+#Page #MainTLS #ContentFoot a.action { background: url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat 0 5px; clear:both; display:inline-block; margin:0; padding:0 0 0 15px; text-decoration:none;}
+#Page #MainTLS #ContentFoot a.action:hover { background-image: url(FRONT/NetExpress/img/t1_bullet_link_over.gif); }
+
+/* ===================================================================== */
+/* Formulaire */
+/* ===================================================================== */
+
+#Page #MainTLS #ContentMain form.formCompteur { }
+#Page #MainTLS #ContentMain form.formCompteur label { clear: both; display: inline-block; padding: 5px 0; font-weight: bold; }
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroup,
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroupList,
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroupImg { overflow: hidden; width: 100%; }
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroup label.formRadio { margin: 0 10px 0 0;}
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroupList label.formRadio { display: block; }
+#Page #MainTLS #ContentMain form.formCompteur label.formRadio input { height: 14px; width: 14px; margin: 0 5px 0 0; vertical-align: middle;  }
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroupImg label.formRadio { clear: none; float: left; width: 50%; }
+#Page #MainTLS #ContentMain form.formCompteur .formRadioGroupImg label.formRadio img { display: block; margin: 10px 0 0 10px; }
+
+#Page #MainTLS #ContentMain form.formCompteur .contentIcon { text-align: center; margin: 10px 0; width: 140px; }
+#Page #MainTLS #ContentMain form.formCompteur .cgIcon { background: 0; margin: 10px 0 10px 140px; _margin-left:0; padding: 0; }
+#Page #MainTLS #ContentMain form.formCompteur .cgIcon .contentText { background: 0; padding: 0; }
+
+/* Content shadow */
+#Page #MainTLS #ContentMain .contentShadow,
+#Page #MainTLS #ContentMain .contentShadow .contentShadowInner { background:url(FRONT/NetExpress/img/bg_bloc_ombre.png) 0 0 no-repeat; }
+#Page #MainTLS #ContentMain .contentShadow { clear: both; margin: 15px 0; padding: 14px 0 0; width: 620px; }
+#Page #MainTLS #ContentMain .contentShadow .contentShadowInner { background-position: 100% 100%; overflow: hidden; padding: 10px 7px 25px 6px; zoom: 1; }
+#Page #MainTLS #ContentMain .contentShadow .contentIcon { text-align: center; }
+#Page #MainTLS #ContentMain .contentShadow .contentGroup { padding: 0 10px; }
+#Page #MainTLS #ContentMain .contentShadow .cgIcon { padding: 0; }
+#Page #MainTLS #ContentMain .contentShadow .widthHalf { display: inline; float: left; }
+#Page #MainTLS #ContentMain .contentShadow .w_actionButton { margin: 0; }

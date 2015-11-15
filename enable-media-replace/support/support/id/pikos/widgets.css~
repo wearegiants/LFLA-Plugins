@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#Page #Widgets {width:960px; clear:both; margin:0 auto; padding:0; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_widget_bg_top.png) 5px 0 no-repeat; position:relative; top:25px; padding:0; overflow:hidden;}
+
+#Page #Widgets h2 {padding:0 21px; font-size:1.3em; /padding-top:10px; float:left; position:relative; height:21px; /margin:3px 0 0 0;}
+#Page #Widgets .action {position:relative; top:15px;}
+#Page #Widgets .action a {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_widget_choice.png) 15px 0 no-repeat; padding-left:35px; border-left:1px solid #CCC;}
+
+/* ===================================================================== */
+/* ##### Choix des widgets ##### */
+/* ===================================================================== */
+
+#Page #Widgets #WidgetsListBlock {clear:both; display:none; top:0; left:30px; height:203px; /height:223px;}
+#Page #Widgets #WidgetsListBlock .widgetsList {margin-top:15px;}
+#Page #Widgets #WidgetsListBlock select {position:absolute; right:34px; _right:53px; border:1px solid #969696; font-size:0.9em; height:18px;}
+#Page #Widgets #WidgetsListBlock span.message {margin-left:30px; color:#333;}
+#Page #Widgets #WidgetsListBlock .action {clear:both; margin-top:5px; position:absolute; right:25px; top:10px; _right:45px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_help.gif) 0 0 no-repeat; padding-left:342px; height:45px;}
+#Page #Widgets #WidgetsListBlock .action a {border:none;}
+#Page #Widgets .widgetThumbnail { padding:0; width:133px; height:160px; margin:0 16px 0 0 ; border:1px solid #E8E8E8; cursor:move; background-color:#FFF; /*overflow:hidden;*/ cursor:move; position:relative; z-index:50; text-align:center; float:left; display:block;}
+#Page #Widgets .widgetThumbnail img {margin-top:15px;}
+#Page #Widgets .widgetThumbnail h3 {font-size:1.2em; margin:10px 0;}
+#Page #Widgets .widgetThumbnail span {font-size:0.9em; padding:0 10px;}
+
+#WgCarouselBlock {position: relative; z-index:20; width:942px; top:15px; left:10px;}
+#WgCarouselBlock .scroller {z-index: 22; position: relative; overflow: hidden; width:892px; left:26px;}
+#WgCarouselBlock .scroller ul {position: relative; padding: 0; margin: 0; top: 0; left: 0; width: 2000px; height: 160px; overflow: visible;}
+#WgCarouselBlock .scroller-prev {z-index: 22; width:20px; height:160px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_left.png) no-repeat 0 50% scroll; position:absolute; left:10px; top:0;}
+#WgCarouselBlock .scroller-next {z-index: 22; width:20px; height:160px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_right.png) no-repeat 100% 50% scroll; position:absolute; right:10px; top:0;}
+#WgCarouselBlock .scroller-prev:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_left_hover.png); cursor:pointer;}
+#WgCarouselBlock .scroller-next:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_right_hover.png); cursor:pointer;}
+#WgCarouselBlock #WgCarShadowLeft {display:block; width:20px; height:160px;background: transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wgCarBgLeft.png) scroll 100% 50% no-repeat; _background:none; _border-right:1px solid #CCC; position:absolute; top:0; left:10px; _left:5px; z-index:21;}
+#WgCarouselBlock #WgCarShadowRight {display:block; width:20px; height:160px; background: transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wgCarBgRight.png) scroll 0 50% no-repeat; _background:none; _border-left:1px solid #CCC; position:absolute; top:0; right:10px; _right:5px; z-index:21;}
+
+/* ===================================================================== */
+/* ##### Habillage générique des widgets ##### */
+/* ===================================================================== */
+
+#Page #Widgets #UserWidgets {width:962px; _width:985px;  clear:both; height:260px; position: relative; margin:0; padding:0; _margin-left:-30px; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_widget_bg_bottom.png) 5px 100% no-repeat; _background-position:35px 100%; margin-top:15px; padding-right:1px; _padding-left:-30px;}
+#Page #Widgets #UserWidgets .widgetBlock {border: 1px solid transparent; _border-color: #fff; float:left; width:196px; height:230px; margin-left:32px;}
+#Page #Widgets #UserWidgets .dropActive {border:1px dashed #FFA02F;} /* au drag surcharge class widgetBlock */
+#Page #Widgets #UserWidgets .widgetPlaceHolder {border:1px dotted #FFA02F; width:196px; height:230px; float:left; background-color:#EAEAEA; margin-left:32px;}
+#Page #Widgets #UserWidgets .widgetBlock .widgetParam {display:none; width:194px; height:228px;}
+#Page #Widgets #UserWidgets .boxSimple {margin:0; padding:0; width:194px; border:1px solid #E8E8E8; height:228px; float:left; background:#FFF; position:relative; font-size:1em;}
+#Page #Widgets #UserWidgets .boxSimple .boxTop {padding:9px 0 0 9px; width:auto;  cursor:move; vertical-align:bottom; height:55px;}
+#Page #Widgets #UserWidgets .boxSimple .boxTop img {float:left; margin:0 7px 15px 0;}
+#Page #Widgets #UserWidgets .boxSimple .boxTop h3 {font-size:1.3em; font-weight:normal;  color:#333; margin:0; padding:2px 0 0 0; line-height:1.3em; }
+#Page #Widgets #UserWidgets .boxSimple .boxCenter {position:relative; /*top:55px; */left:9px; width:176px; height:133px;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom {font-size:0.9em; position:relative; bottom:5px; left:9px; width:176px;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom span{position:relative; top:17px; left:0;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom span a {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) 0 5px no-repeat; padding-left:15px;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action{margin:0; float:none; position:absolute; top:-194px;  right:-27px;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action a { position:relative; top: 1px; z-index:1; display:block; /*float:left;*/ width: 16px; height:16px; background:#FFF url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_picto_rss.png) 50% 50% no-repeat; border:1px solid #E8E8E8; margin: 0 0 -1px 0; padding:0;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action a:hover {background:#FFF url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_picto_rss_hover.png) 50% 50% no-repeat; border-color:#FFA02F; z-index:2;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action a.param {background:#FFF url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_picto_param.png) 50% 50% no-repeat; position:relative;}
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action a.param:hover {background:#FFF url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_picto_param_hover.png) 50% 50% no-repeat; }
+#Page #Widgets #UserWidgets .boxSimple .boxBottom div.action span{display:none;}
+
+/* Widgets avec Carroussel */ /* A SUPPRIMER SI OK */
+/*#Page #Widgets .boxCenterContent .jcarousel-container-vertical {}
+#Page #Widgets .boxCenterContent .jcarousel-clip-vertical {width:175px; height:132px;}
+#Page #Widgets .boxCenterContent .jcarousel-prev-vertical {z-index: 22; width:13px; height:12px; background:transparent url(http://bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_up.png) no-repeat 0 0 scroll; position:absolute; bottom:-27px; right:17px;}
+#Page #Widgets .boxCenterContent .jcarousel-next-vertical {z-index: 22; width:13px; height:12px; background:transparent url(http://bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_down.png) no-repeat 0 0 scroll; position:absolute; bottom:-27px; right:0; }
+#Page #Widgets .boxCenterContent .jcarousel-prev-vertical:hover,
+#Page #Widgets .boxCenterContent .jcarousel-next-vertical:hover { background-position:0 100%;}
+#Page #Widgets .boxCenterContent ul.jcarousel-list-vertical {font-size:0.95em;}
+#Page #Widgets .boxCenterContent li.jcarousel-item-vertical {height:auto; margin-bottom:3px; background:transparent url(http://bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 0 5px; padding-left:15px;}*/
+
+/* Widgets avec Scroller */
+#Page #Widgets .boxCenterContent .scroller {position: relative; top: 0; left: 0; margin: 0; padding: 0; overflow: hidden; width:175px; height:132px;}
+#Page #Widgets .boxCenterContent .scroller ul {padding: 0; margin: 0}
+#Page #Widgets .boxCenterContent .scroller li {font-size:0.95em; display:block; list-style: none; width: auto; height: auto; margin-bottom:3px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 0 5px; padding-left:15px;}
+#Page #Widgets .boxCenterContent .scroller-prev-vertical {width:13px; height:12px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_up.png) no-repeat 0 0 scroll; position:absolute; bottom:-22px; right:17px;}
+#Page #Widgets .boxCenterContent .scroller-next-vertical {width:13px; height:12px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/wg_arrow_down.png) no-repeat 0 0 scroll; position:absolute; bottom:-22px; right:0; }
+#Page #Widgets .boxCenterContent .scroller-prev-vertical:hover,
+#Page #Widgets .boxCenterContent .scroller-next-vertical:hover {background-position:0 100%;}
+
+/* Widgets paramétrage */
+#Page #Widgets #UserWidgets .boxSimple fieldset {padding: 0;}
+#Page #Widgets #UserWidgets .boxSimple label {display:block; font-size:0.9em; margin-bottom:5px;}
+#Page #Widgets #UserWidgets .boxSimple button {border:1px solid #969696; text-transform:uppercase;  font-size:0.8em; height:16px; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_search_button_bg.png) 0 100% repeat-x; padding-bottom:2px; /padding-bottom:0px; position:relative; bottom:-10px;}
+#Page #Widgets #UserWidgets .boxSimple button:hover,
+#Page #Widgets #UserWidgets .boxSimple button:focus {border:1px solid #FE5815; color:#09357A;}
+#Page #Widgets #UserWidgets .boxSimple button.formButtonSubmit {float:right;}
+#Page #Widgets #UserWidgets .boxSimple select {border:1px solid #969696; font-size:0.9em; height:18px; width:175px;}
+#Page #Widgets #UserWidgets .boxSimple select:hover,
+#Page #Widgets #UserWidgets .boxSimple select:focus {border:1px solid #FE5815; color:#09357A; background-color:#F0F0F0;}
+
+/* ===================================================================== */
+/* ##### Habillages spécifiques des widgets ##### */
+/* ===================================================================== */
+
+/* Widget bourse */
+#Page .wgBourse {}
+#Page .wgBourse .boxCenterContent {font-size:0.8em;}
+#Page .wgBourse img {margin:5px 2px 1px 2px;}
+#Page .wgBourse #WgBourseDateHeure,
+#Page .wgBourse .wgBourseDateHeure {padding:0 10px 5px 10px; font-size:1.15em; color:#FFA02F; font-weight:bold; text-align:right; vertical-align:bottom;}
+#Page .wgBourse #WgBourseDateHeure span,
+#Page .wgBourse .wgBourseDateHeure span {display:block; float:left; color:#999;}
+#Page .wgBourse #WgBourseAction,
+#Page .wgBourse .wgBourseAction {clear:both; height:39px;  font-size:1.1em; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_bourse_action_bg.png) 0 0 no-repeat;}
+#Page .wgBourse #WgBourseAction span,
+#Page .wgBourse .wgBourseAction span {float:left; padding:3px 0 0 10px;}
+#Page .wgBourse #WgBourseAction span span,
+#Page .wgBourse .wgBourseAction span span {clear:left; padding:0; font-size:1em; font-weight:bold;}
+#Page .wgBourse #WgBourseAction #WgBourseCours,
+#Page .wgBourse .wgBourseAction .wgBourseCours {display:block; float:right; width:85px; height:34px; margin:3px 3px 0 0; padding:5px 0 0 0; color:#FFF; font-size:1.8em; text-align:center; font-weight:bold; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/widget_bourse_cours_bg.png) 0 0 no-repeat;}
+#Page .wgBourse #WgBourseCac40,
+#Page .wgBourse .wgBourseCac40 {clear:both;  padding-left:9px; font-size:1.1em;}
+#Page .wgBourse #WgBourseCac40 span,
+#Page .wgBourse .wgBourseCac40 span {font-weight:bold;}
+
+/* WebTV */
+#Page #Widgets .wgWebTV {}
+#Page #Widgets .wgWebTV .boxCenterContent li.jcarousel-item-vertical {height:auto; background:none; padding:0; width:auto; margin:0 0 20px 0; position:relative;}
+#Page #Widgets .wgWebTV .boxCenterContent li.jcarousel-item-vertical a span {display:block; color:#000;}
+#Page #Widgets .wgWebTV .boxCenterContent li.jcarousel-item-vertical a span.action {margin:0; width:176px; height:98px; position:absolute; top:0; left:0; z-index:5; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn.png) 50% 50% no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn.gif);}
+#Page #Widgets .wgWebTV .boxCenterContent li.jcarousel-item-vertical a:hover span.action {background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn_hover.png) 50% 50% no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn_hover.gif);}
+#Page #Widgets .wgWebTV .boxCenterContent .scroller li {height:auto; background:none; padding:0; width:auto; margin:0 0 20px 0; position:relative;}
+#Page #Widgets .wgWebTV .boxCenterContent .scroller li a span {display:block; color:#000;}
+#Page #Widgets .wgWebTV .boxCenterContent .scroller li a span.action {margin:0; width:176px; height:98px; position:absolute; top:0; left:0; z-index:5; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn.png) 50% 50% no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn.gif);}
+#Page #Widgets .wgWebTV .boxCenterContent .scroller li a:hover span.action {background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn_hover.png) 50% 50% no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/video_play_btn_hover.gif);}
+#Page #Widgets .wgWebTV .score {width:64px;height:11px;background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/video_stars.png);background-repeat:no-repeat; margin-top:3px;}
+#Page #Widgets .wgWebTV .score0 {background-position:100% 0;}
+#Page #Widgets .wgWebTV .score1 {background-position:80% 0;}
+#Page #Widgets .wgWebTV .score2 {background-position:60% 0;}
+#Page #Widgets .wgWebTV .score3 {background-position:40% 0;}
+#Page #Widgets .wgWebTV .score4 {background-position:20% 0;}
+#Page #Widgets .wgWebTV .score5 {background-position:0 0;}
+
+/* Smart clouds */
+#Page #Widgets .wgSmartClouds .boxCenterContent {text-align:center; width:175px;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a {margin:0 5px; font-weight:900; font-weight:bold; display:inline-block;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a.score1 {font-size:11px; color:#64a3cf; font-weight:500;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a.score2 {font-size:12px; color:#1e75b4; font-weight:600;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a.score3 {font-size:13px; color:#0065ac; font-weight:700;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a.score4 {font-size:15px; color:#00599d; font-weight:800;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a.score5 {font-size:17px; color:#003974; font-weight:900;}
+#Page #Widgets .wgSmartClouds .boxCenterContent a:hover {text-decoration:underline; color:#FE5815; cursor:pointer;}
+
+/* Actus sport */
+#Page #Widgets .wgSports .boxCenterContent li.jcarousel-item-vertical {height:auto; background:none; padding:0; width:auto; /**/margin:0 0 10px 0; position:relative;}
+#Page #Widgets .wgSports .boxCenterContent li.jcarousel-item-vertical img {float:left; clear:both; margin:0 5px 0 0;}
+#Page #Widgets .wgSports .boxCenterContent li.jcarousel-item-vertical span {display:block;}
+#Page #Widgets .wgSports .boxCenterContent li.jcarousel-item-vertical span.date {display:block; padding:0; margin:0 0 5px 0;}
+#Page #Widgets .wgSports .boxCenterContent li.jcarousel-item-vertical {height:65px;}  /*Améliore scroll x2 - A supprimer si News trop longue */
+#Page #Widgets .wgSports .boxCenterContent .scroller li {height:auto; background:none; padding:0; width:auto; /**/margin:0 0 10px 0; position:relative;}
+#Page #Widgets .wgSports .boxCenterContent .scroller li img {float:left; clear:both; margin:0 5px 0 0;}
+#Page #Widgets .wgSports .boxCenterContent .scroller li span {display:block;}
+#Page #Widgets .wgSports .boxCenterContent .scroller li span.date {display:block; padding:0; margin:0 0 5px 0;}
+
+/* Mes favoris */
+#Page #Widgets .widgetParam .wgFavorisParamScroller {width:175px; height:100px; overflow:auto;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller ul {margin:0; padding:0;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller li {list-style:none; margin-bottom:3px; font-size:0.95em;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller li a {color:#09357A; height:auto; margin-bottom:3px; cursor:move;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller li:hover {background-color:#F1F1F1; cursor:move;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller li.linkSelected {background-color:#E1E1E1; color:#09357A;}
+#Page #Widgets .widgetParam .wgFavorisParamScroller li.linkSelected:hover {background-color:#D1D1D1;}
+
+/* EJP */
+#Page #Widgets .wgEjp .wgDay {float:left; position:relative; width:88px; height:88px; margin:0; padding:0; color:#000;}
+#Page #Widgets .wgEjp .wgNext {color:#999;}
+#Page #Widgets .wgEjp .wgDay img {position:absolute; right:0; z-index:2; bottom:0;}
+#Page #Widgets .wgEjp .wgDay .wgDate {display:block; position:absolute; top:0; left:0; font-size:0.8em; z-index:3; font-weight:bold;}
+#Page #Widgets .wgEjp .wgLegend {clear:both; font-size:0.9em; padding:10px 0 0 0; color:#000;}
+#Page #Widgets .wgEjp .wgLegend span { margin: 0 6px 0 0;}
+#Page #Widgets .wgEjp .wgLegend img {margin:0 1px -2px 0;}
+#Page #Widgets .wgEjp strong {display:block; clear:both; font-weight:normal; font-size:1em; padding:5px 0 0 0;}
+#Page #Widgets .wgEjp strong span {color:#999;}
+
+/* Tempo */
+#Page #Widgets .wgTempo .wgDay {float:left; position:relative width:103px; height:64px; margin:0; padding:0;}
+#Page #Widgets .wgTempo .wgNext {float:right; position:relative; height:64px; margin:0; padding:0; width:59px;}
+#Page #Widgets .wgTempo .wgNext img {position:absolute; bottom:0; right:0;}
+#Page #Widgets .wgTempo .wgNext span {display:block; text-align:center;padding: 0 10px; color:#000; font-size:0.9em;}
+#Page #Widgets .wgTempo .wgDate {clear:both; padding:20px 0 7px 0; font-weight:bold;}
+#Page #Widgets .wgTempo .wgLegend {clear:both; font-size:0.9em; padding:10px 0 0 0; color:#000;}
+#Page #Widgets .wgTempo .wgLegend span {padding:0 0 0 3px;}
+#Page #Widgets .wgTempo .wgLegend span span {padding:0 0 0 3px; color:#999;}
+#Page #Widgets .wgTempo .wgLegend img {margin-bottom:-2px;}

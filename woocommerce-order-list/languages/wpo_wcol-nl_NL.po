@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Print Order List\n"
+"POT-Creation-Date: 2015-04-03 09:56+0100\n"
+"PO-Revision-Date: 2015-04-03 09:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: WP Overnight <support@wpovernight.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/wcol-print.php:33
+msgid "You have not selected any orders!"
+msgstr "U heeft geen orders geselecteerd!"
+
+#: ../includes/wcol-settings.php:22 ../includes/wcol-settings.php:23
+msgid "Order List"
+msgstr "Bestellijst"
+
+#: ../includes/wcol-settings.php:61
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../includes/wcol-settings.php:73
+msgid "WooCommerce Print Order List"
+msgstr "WooCommerce Print Bestellijst"
+
+#: ../includes/wcol-settings.php:87
+#, php-format
+msgid ""
+"Want finer control over the order list (contents and appearance)? This "
+"plugin is based on a HTML/CSS/PHP template, which you can customize to your "
+"needs. Copy all the files from <code>%1$s</code> to <code>%2$s</code> before "
+"customizing, this way they will not be overwritten on plugin updates"
+msgstr ""
+"Wil je de bestellijst meer naar je eigen wensen aanpassen (inhoud en "
+"uiterlijk)? Deze plugin is gebaseerd op een HTML/CSS/PHP template, die je "
+"precies kunt maken zoals je wilt. Kopieer alle bestanden van <code>%1$s</"
+"code> naar <code>%2$s</code> voordat je deze bestanden aanpast, zo worden ze "
+"bij het updaten van de plugin niet overschreven."
+
+#: ../includes/wcol-settings.php:108
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: ../includes/wcol-settings.php:115
+msgid "Enable preview"
+msgstr "Voorbeeld"
+
+#: ../includes/wcol-settings.php:122
+msgid "Open the order list in a new browser tab instead of printing directly"
+msgstr ""
+"Open de bestellijst in een nieuwe browser tab in plaats van deze direct te "
+"printen"
+
+#: ../includes/wcol-settings.php:130
+msgid "Order list contents"
+msgstr "Bestellijst elementen"
+
+#: ../includes/wcol-settings.php:138 ../templates/wcol-page-template.php:33
+msgid "Billing address"
+msgstr "Factuuradres"
+
+#: ../includes/wcol-settings.php:151 ../templates/wcol-page-template.php:34
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#: ../includes/wcol-settings.php:164 ../templates/wcol-page-template.php:35
+msgid "Order items"
+msgstr "Bestelling"
+
+#: ../includes/wcol-settings.php:177
+msgid "Order item price"
+msgstr "Order item prijs"
+
+#: ../includes/wcol-settings.php:190
+msgid "Order item weight"
+msgstr "Order item gewicht"
+
+#: ../includes/wcol-settings.php:203
+msgid "Order item SKU"
+msgstr "Order item SKU"
+
+#: ../includes/wcol-settings.php:217
+msgid "Order item meta"
+msgstr "Order item meta"
+
+#: ../includes/wcol-settings.php:225
+msgid "Only show variation"
+msgstr "Laat alleen variatie zien"
+
+#: ../includes/wcol-settings.php:226
+msgid "Show all item info (item meta)"
+msgstr "Laat alle item informatie (item meta) zien"
+
+#: ../includes/wcol-settings.php:235
+msgid "Customer/Shipping notes"
+msgstr "Klantnotitie"
+
+#: ../includes/wcol-settings.php:249
+msgid "Print order list summary"
+msgstr "Print bestellijst samenvatting"
+
+#: ../includes/wcol-settings.php:257
+msgid "No"
+msgstr "Nee"
+
+#: ../includes/wcol-settings.php:258
+msgid "On first page"
+msgstr "Op de eerste pagina"
+
+#: ../includes/wcol-settings.php:259
+msgid "On last page"
+msgstr "Op de laatste pagina"
+
+#: ../includes/wcol-settings.php:508
+msgid "Check the elements that you want to show in the order list"
+msgstr "Vink de elementen die je in de order list wilt weergeven aan"
+
+#: ../includes/wcol-writepanels.php:25 ../includes/wcol-writepanels.php:26
+msgid "Print order list"
+msgstr "Print bestellijst"
+
+#: ../templates/wcol-page-template.php:52
+msgid "Order number"
+msgstr "Ordernummer"
+
+#: ../templates/wcol-page-template.php:57
+msgid "Shipping method"
+msgstr "Verzendmethode"
+
+#: ../templates/wcol-page-template.php:58
+msgid "Payment method"
+msgstr "Betaalmethode"
+
+#: ../templates/wcol-page-template.php:59
+msgid "Status"
+msgstr "Status"
+
+#: ../templates/wcol-page-template.php:85
+#: ../templates/wcol-summary-template.php:4
+msgid "SKU"
+msgstr "SKU"
+
+#: ../templates/wcol-page-template.php:86
+#: ../templates/wcol-summary-template.php:5
+msgid "Product"
+msgstr "Product"
+
+#: ../templates/wcol-page-template.php:87
+msgid "Price"
+msgstr "Prijs"
+
+#: ../templates/wcol-page-template.php:88
+msgid "Weight"
+msgstr "Gewicht"
+
+#: ../templates/wcol-page-template.php:117
+msgid "Total"
+msgstr "Totaal"
+
+#: ../templates/wcol-summary-template.php:6
+msgid "Quantity"
+msgstr "Aantal"
+
+#: ../woocommerce-order-list.php:113
+#, php-format
+msgid ""
+"WooCommerce Print Order List requires %sWooCommerce%s to be installed & "
+"activated!"
+msgstr ""
+"WooCommerce Print Bestellijst vereist dat %sWooCommerce%s is geïnstalleerd "
+"en geactiveerd!"
+
+#~ msgid "Order List settings"
+#~ msgstr "Order lijst instellingen"
+
+#~ msgid ""
+#~ "Want to use your own template? Copy all the files from <code>%1$s</code> "
+#~ "to <code>%2$s</code> to customize them"
+#~ msgstr ""
+#~ "Wilt u uw eigen template gebruiken? Kopieer alle bestanden van <code>"
+#~ "%1$s</code> naar <code>%2$s</code> en pas ze aan naar uw wensen."
+
+#~ msgid "Address Labels"
+#~ msgstr "Adres labels"
+
+#~ msgid "Page layout preview"
+#~ msgstr "Pagina indeling"
+
+#~ msgid "Paper format"
+#~ msgstr "Papierformaat"
+
+#~ msgid "A4"
+#~ msgstr "A4"
+
+#~ msgid "Letter"
+#~ msgstr "Letter"
+
+#~ msgid "Custom size (enter below)"
+#~ msgstr "Aangepast formaat (voer hieronder in)"
+
+#~ msgid "Width (mm):"
+#~ msgstr "Breedte (mm):"
+
+#~ msgid "Height (mm):"
+#~ msgstr "Hoogte (mm):"
+
+#~ msgid "Paper orientation"
+#~ msgstr "Afdrukstand"
+
+#~ msgid "Portrait"
+#~ msgstr "Staand/Portret"
+
+#~ msgid "Landscape"
+#~ msgstr "Liggend"
+
+#~ msgid "Columns"
+#~ msgstr "Kolommen"
+
+#~ msgid "Rows"
+#~ msgstr "Rijen"
+
+#~ msgid "Label contents"
+#~ msgstr "Label inhoud"
+
+#~ msgid "Address/order data"
+#~ msgstr "Adres/order data"
+
+#~ msgid ""
+#~ "You can use the following placeholders: [shipping_address], "
+#~ "[shipping_first_name], [shipping_last_name], [shipping_company], "
+#~ "[shipping_address_1], [shipping_address_2], [shipping_city], "
+#~ "[shipping_postcode], [shipping_country], [shipping_state], "
+#~ "[billing_email], [billing_phone] & [order_number]"
+#~ msgstr ""
+#~ "Je kunt gebruikmaken van de volgende placeholders: [shipping_address], "
+#~ "[shipping_first_name], [shipping_last_name], [shipping_company], "
+#~ "[shipping_address_1], [shipping_address_2], [shipping_city], "
+#~ "[shipping_postcode], [shipping_country], [shipping_state], "
+#~ "[billing_email], [billing_phone] & [order_number]"
+
+#~ msgid "Font size"
+#~ msgstr "Lettergrootte"
+
+#~ msgid "Address block width"
+#~ msgstr "Adresblok breedte"
+
+#~ msgid ""
+#~ "Enter any value in cm, mm, px or in - use a dot (and not a comma!) as the "
+#~ "decimal separator!"
+#~ msgstr ""
+#~ "Geef een waarde in cm, mm, px of in - gebruik een punt (geen komma!) als "
+#~ "decimaalscheidingsteken!"
+
+#~ msgid "Paper size"
+#~ msgstr "Papierformaat"

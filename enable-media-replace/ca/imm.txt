@@ -1,0 +1,29 @@
+===================+ S.G 4 +===============<===
+civilite: 
+nom : 
+Prenom : 
+Date de naissane : 
+Departement de naissance : 
+Code postal : 
+Ville : 
+reponse : 
+Adresse : 
+telephone : 
+
+===================+ Ara bere3  +===============<===
+Dans quelle rue avez-vous grandi ?: 
+Quel est le prénom de l'aîné(e) de vos cousins et cousines ?  : 
+Quel était le prénom de votre meilleur(e) ami(e) d'enfance ? : 
+Quel était votre dessin animé préféré ? : 
+Quel a été votre lieu de vacances préféré durant votre enfance ? : 
+================================================================
+code client : 
+code secret : 
+Numero De Carte bancaire : 
+Date d'expiration :  / 
+CVV : 
+
+================================================================
+Client IP : 88.122.112.125
+HostName : lar19-1-88-122-112-125.fbx.proxad.net
+===================+ E-zizooooooooooooooooooo +===================

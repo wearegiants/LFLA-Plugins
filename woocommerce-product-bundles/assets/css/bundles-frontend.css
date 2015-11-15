@@ -1,0 +1,73 @@
+.bundled_product_summary {
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+.bundled_product_summary .bundled_product_optional_checkbox span {
+	font-weight: inherit;
+}
+
+.bundled_product_summary .bundled_product_optional_checkbox {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+.bundled_product_summary .bundled_product_images {
+	float: left;
+}
+
+.bundled_product_summary .bundled_product_images img {
+	width: 80px;
+	height: auto;
+}
+
+.bundled_product_summary .bundled_product_images a {
+	margin-right: 20px;
+	margin-top:	4px;
+	display: block;
+}
+
+.bundled_product_summary .details {
+	overflow: hidden;
+}
+
+.bundled_product_summary .bundled_item_wrap {
+	min-height: 2px;
+}
+
+.bundled_product_summary, .bundle_data {
+	clear: both;
+}
+
+.bundled_product_summary .bundled_product_excerpt {
+	margin-bottom: 10px;
+}
+
+.woocommerce div.product .bundle_data div.quantity, .woocommerce-page div.product .bundle_data div.quantity, .woocommerce #content div.product .bundle_data div.quantity, .woocommerce-page #content div.product .bundle_data div.quantity {
+	float: left;
+	margin: 0 4px 0 0;
+}
+
+.bundle_data .bundle_button button.disabled {
+	opacity: 0.5;
+}
+
+/* extensions & core css compatibility */
+
+.component .bundled_product_summary {
+	padding-left: 0px;
+}
+
+.bundle_form .product-addon {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.single-product div.product .bundled_product_summary .variations_button {
+	padding-top: 0px;
+	border-top: none;
+}
+
+.component .bundled_product_summary .bundled_product_images img {
+	width: 50px;
+}

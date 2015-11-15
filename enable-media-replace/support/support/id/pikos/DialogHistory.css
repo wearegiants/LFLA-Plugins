@@ -1,0 +1,145 @@
+
+.DialogHistory_expanded {
+	text-align : left; 
+	margin: 0 0 0 -16px;
+	padding:0;
+	position:absolute;
+	left:16px;
+	bottom:-57px;	
+	width:700px;
+	height:95px;
+	background-color:#fff;
+	border:0px;
+	z-index:9013;
+	
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	float:left;
+	background: url("DialogHistory/fond.html") 0 0 no-repeat;
+}
+.DialogHistory_expanded a, .DialogHistory_reduced a {
+	text-decoration:underline;
+	color : #000;
+}
+.DialogHistory_expanded a:hov, .DialogHistory_reduced a:hover{
+	text-decoration:underline;
+	color :#FE5815;	
+}
+
+.DialogHistory_expanded .LA_div_History_Text {
+	margin: 0;
+	padding:0;
+	display:block;
+	width:660px;
+	height:57px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text {
+	display:block;
+	padding:0 0 5px 7px;
+	height: 12px;
+}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text a:hover {}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text p {
+	width:100%;
+	font-size:11px;
+}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text ul {
+	margin:2px 0 2px 0;
+}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text span {
+	font-weight:bold;
+}
+
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text  .LA_Actor {
+	height:0;
+	display:none;
+}
+.DialogHistory_expanded .LA_div_History_Text .LA_DH_Text  .LA_You {
+	background:url("DialogHistory/fleche.html") 0% 0% no-repeat;
+	color:#365da0;
+	height: 15px;
+	padding-left : 15px;
+	margin-left : 30px;
+}
+
+.DialogHistory_expanded  .LA_div_History_Bt {
+	margin-left :16px;
+	margin-top : -2px;
+	width:660px;
+}
+.DialogHistory_expanded .LA_History_Bt {
+	cursor:pointer;
+	display:block;
+	height:20px;
+	background:url("DialogHistory/close_open.html") 0% 100% no-repeat;
+	text-decoration:none;
+}
+
+.DialogHistory_expanded .LA_History_Bt .LA_History_text{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#4d4d4d;
+}
+.DialogHistory_expanded .LA_History_Bt:hover {
+	display:block;
+	height:20px;
+	background:url("DialogHistory/close_open.html") 0% 0% no-repeat;
+}
+.DialogHistory_expanded .LA_History_Bt span{
+	display:block;
+	padding:2px 0 0 20px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+}
+
+
+.DialogHistory_reduced {
+	text-align : left; 
+	margin:-2px 0 0 -16px;
+	padding:0;
+	position:absolute;
+	left:16px;
+	bottom:-1px;
+	width:700px;
+	height:39px;
+
+	z-index:9013;
+	background: url("DialogHistory/fond-reduce.html") 0 0 no-repeat;
+}
+
+.DialogHistory_reduced .LA_div_History_Text {
+	display:none;
+	border : 1px solid red;
+}
+.DialogHistory_reduced  .LA_div_History_Bt {
+	margin-left :16px;
+	margin-top : -2px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+.DialogHistory_reduced .LA_History_Bt {
+	cursor:pointer;
+	display:block;
+	height:20px;
+	background:url("DialogHistory/close_open.html") 0% 0% no-repeat;
+	text-decoration:none;
+}
+.DialogHistory_reduced .LA_History_Bt:hover{
+	display:block;
+	height:20px;
+	background:url("DialogHistory/close_open.html") 0% 100% no-repeat;
+}
+
+.DialogHistory_reduced .LA_History_Bt .LA_History_text{
+	display:block;
+	padding:2px 0 0 20px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#4d4d4d;
+}

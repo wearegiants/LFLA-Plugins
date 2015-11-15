@@ -1,0 +1,54 @@
+.LA_ExtSatisfaction {
+	margin:0;
+	padding:0;
+	border:0;
+	
+	z-index:9008;
+	position:absolute;
+	top:237px;
+	right:31px;
+	z-index : 9011;
+}
+.LA_ExtSatisfaction tr,.LA_ExtSatisfaction table,.LA_ExtSatisfaction td,.LA_ExtSatisfaction p {
+	padding:0;
+	margin:0;
+	border:0;
+}
+.LA_ExtSatisfaction table {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	width:415px;
+}
+.LA_ExtSatisfaction .LA_div_close{}
+.LA_ExtSatisfaction .LAbt_close {}
+.LA_ExtSatisfaction .LAbt_close:hover {}
+	
+.LA_ExtSatisfaction .Text {	
+	font-weight : bold;
+}
+	
+	
+.LA_ExtSatisfaction .TopLeft {}
+.LA_ExtSatisfaction .TopRight {}
+.LA_ExtSatisfaction .TopCenter {}
+
+.LA_ExtSatisfaction .MiddleLeft {}
+.LA_ExtSatisfaction .MiddleRight {}
+.LA_ExtSatisfaction .MiddleCenter  .Text{
+	width:415px;
+	text-align:center;
+}
+.LA_ExtSatisfaction .MiddleCenter  .Text a{
+	text-decoration:none;
+	color:#365da0;
+	font-weight : normal;
+}
+.LA_ExtSatisfaction .MiddleCenter  .Text a:hover{
+	text-decoration:none;
+	color :#FE5815;	
+	font-weight : normal;
+}
+.LA_ExtSatisfaction .BottomLeft {}
+.LA_ExtSatisfaction .BottomRight {}	
+.LA_ExtSatisfaction .BottomCenter {}
+	

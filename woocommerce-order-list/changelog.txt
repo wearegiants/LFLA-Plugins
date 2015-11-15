@@ -1,0 +1,24 @@
+1.3.1 - 2015/05/01
+* Fix: printout errors when product doesn't exist or address data is missing
+
+1.3.0 - 2015/04/03
+* Feature: Added option to print summary of order list (total quanities of all products)
+* Tweak: Added order_ids to before & after order list actions
+
+1.2.2 - 2015/03/13
+* Feature: Option to preview order list in the browser before printing
+* Feature: Added order status
+* Fix: Prevent orders being cut off at page bottom
+
+1.2.1 - 2015/03/10
+* Feature: display product and total weight
+* Feature: several new filters & actions to customize the order list content
+
+1.2.0 - 2014/11/10
+* Added option to display full item meta
+
+1.1.0 - 2014/10/25
+* Actions and filters for easier customization
+
+1.0.0 - 2014/08/20
+* First release

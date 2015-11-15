@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===================================================================== */
+/* ##### Laura ##### */
+/* ===================================================================== */
+img#Laura {position:absolute; z-index:1; right:5px;}
+#Page #Content form#FormLaura fieldset { margin: 30px 0 0; position:relative; z-index:2;}
+#Page #Content form#FormLaura a {margin:5px 10px 0 0; float:right;}
+
+/* ===================================================================== */
+/* ##### Pour T1P2 ##### */
+/* ===================================================================== */
+/* ##### Onglets bleu ciel ##### */
+#Page .tnBlocSup #TabNav li a,
+#Page .tnBlocSup #TabNav li a span {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/nav_tab_france.png); _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/nav_tab_france.gif);}
+
+/* ===================================================================== */
+/* ##### Pour T1P3 ##### */
+/* ===================================================================== */
+/* ##### Picto pour h2 ##### */
+#Page #Main h2 {background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/pictoTitre_bleuCiel.jpg) no-repeat 0 0; height:69px; margin:12px 0 0 0;} /* Titre image 29px; */
+#Page #Main h2 img {margin:13px 0 0 48px;}
+/* ##### Annulation pour Home ##### */
+#Page #Main #Main1 h2,
+#Page #Main #Main2 h2,
+#Page #Main #Main3 h2,
+#Page #Main #MainH h2 {background:none; height:auto; margin:25px 0;}

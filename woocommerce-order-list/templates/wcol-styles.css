@@ -1,0 +1,125 @@
+body {
+	margin: 1cm;
+}
+
+html, body {
+	border: none;
+	height: auto;
+	font-size: 8pt;
+	font-family: sans-serif;
+	background-color: white;
+}
+
+table {
+	page-break-inside:auto;
+	border-collapse: collapse;
+	border: none;
+	width: 100%;
+}
+
+tr {
+	page-break-inside:avoid;
+	page-break-after:auto;
+}
+
+thead th {
+	font-size: 10pt;
+	text-align: left;
+	padding-bottom: 3mm;
+	border-bottom: 2px solid black;
+}
+
+td {
+	vertical-align: top;
+}
+
+.order-data > tbody > tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.order-data > tbody > tr > td {
+	padding: 3mm 1mm;
+}
+
+.order-header td {
+    -webkit-print-color-adjust: exact; 
+	background-color: #eee;
+	font-size: 10pt;
+	padding: 2mm 2mm 1mm 2mm!important;
+}
+
+.order-number {
+	font-size: 10pt;
+	font-weight: bold;
+	margin-right: 3mm;
+}
+
+.order-date, .order-time {
+	font-size: 10pt;
+	font-style: italic;
+}
+
+.payment-method, .shipping-method, .order-status {
+	font-size: 8pt;
+	font-style: italic;
+}
+
+.checkbox {
+	display: inline-block;
+	float: right;
+}
+
+th.billing-address-header,
+th.shipping-address-header,
+td.billing-address,
+td.shipping-address {
+	width: 25%;
+}
+
+.order-items-header,
+.order-items-cell {
+	width: 50%;
+}
+
+.order-items th.quantity {
+	width: 10%;
+}
+
+.order-items th.sku {
+	width: 10%;
+}
+
+.order-items th.price {
+	width: 20%;
+}
+
+.order-items th, .order-items td {
+	padding: 1mm 2mm;
+	font-size: inherit;
+}
+
+dl.variation {
+	margin: 0;
+	font-size: 80%;
+	color: #888;
+}
+
+dl.variation dd, dl.variation dt{
+	margin: 0;
+	display: inline;
+}
+
+dl.variation p {
+	font-size: inherit;
+	color: inherit;
+	display: inherit;
+}
+
+.summary {
+	font-size: 10pt;
+}
+
+.summary .sku,
+.summary .quantity {
+	width: 20%;
+}

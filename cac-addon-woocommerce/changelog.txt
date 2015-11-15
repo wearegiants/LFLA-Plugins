@@ -1,0 +1,43 @@
+== Changelog ==
+
+= 1.2 =
+Release Date: May 4th, 2015
+
+* [Added] Added product column: shipping class (editable, sortable, filterable )
+* [Added] Added product column: visibility (editable, sortable, filterable )
+* [Added] Added product column: featured (editable, sortable, filterable )
+* [Added] Products, Coupons and Order will be in it's own menu group inside the admin columns menu
+* [Added] Fixed error when using Weight column
+* [Added] Added languages folder and po file
+
+= 1.1 =
+Release Date: March 2nd, 2015
+
+* [Added] Added product upsells column, displaying all upsells for a product (editable)
+* [Added] Added product cross sells column, displaying all cross sells for a product (editable)
+* [Added] Added coupon amount column, displaying the amount or percentage of discount for a column (editable, sortable)
+* [Added] Added column for displaying whether a coupon is applide before or after tax (editable, sortable, filterable)
+* [Added] Added coupon include products column, displaying to which products the coupon can be applied (editable)
+* [Added] Added coupon exclude products column, displaying to which products the coupon cannot be applied (editable)
+* [Added] Added coupon free shipping column, displaying whether a coupon provides free shipping (editable, sortable, filterable)
+* [Added] Added coupon minimum amount column, displaying the minimum order amount necessary for a coupon to be applied (editable)
+* [Added] Coupon description column: added editability and sortability
+* [Added] Coupon type column: added editability and sortability
+* [Added] Coupon usage column: added editability
+* [Added] Order status column: added editability
+* [Removed] Removed column "Order cart discount", use "order discount".
+* [Update] Handle default WooCommerce columns without changing the column name
+* [Update] Implement SKU as default column
+* [Update] Add base for tooltips for stock status column
+* [Update] Changed product group to 'Default' and 'WooCommerce Custom'
+* [Update] Make product name column editable
+
+= 1.0.1 =
+Release Date: Januari 6th, 2015
+
+* [Added] Added order column: Product Thumbnails
+
+= 1.0 =
+Release Date: July 9th, 2014
+
+* Initial release

@@ -1,0 +1,49 @@
+/***********************************************/
+/*  EDF - Particulier : User_input
+/***********************************************/
+.LA_UserInput div{
+	margin:0;
+	padding:0;
+}
+.LA_UserInput {
+	position:absolute;
+	left:28px;
+	bottom:78px;
+	z-index:9015;
+}
+.LA_UserInput textarea{
+	z-index: 9010; 
+}
+.LA_UserInput_Text{
+	font:normal 11px Arial;
+	z-index: 9010; 
+	border :1px solid #979797;
+	width: 177px;
+	height:31px;
+}
+*+html .LA_UserInput_Text{
+	height:29px;
+}
+* html .LA_UserInput_Text{
+	height:29px;
+}
+.LA_UserInput_btdiv {
+	position:absolute;
+	right:-33px;
+	bottom:1px;
+	display:block;
+	width:34px;
+	height:33px;
+}
+
+.LA_UserInput_btdiv a{
+	display:block;
+	width:34px;
+	height:33px;
+	background: 0 0 url("UserInput/LA_UserInput_bt.html") no-repeat;
+}
+
+.LA_UserInput_btdiv a:hover{
+	background: 0 100% url("UserInput/LA_UserInput_bt.html") no-repeat;
+}
+

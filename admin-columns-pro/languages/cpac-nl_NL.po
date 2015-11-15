@@ -1,0 +1,621 @@
+#
+# Translators:
+# Tobias Schutter <info@codepress.nl>, 2013
+# Tobias Schutter <info@codepress.nl>, 2013-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Columns Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-09 17:58+0100\n"
+"PO-Revision-Date: 2015-04-09 22:45+0100\n"
+"Last-Translator: Codepress <info@codepress.nl>\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/admin-columns-pro/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: ../codepress-admin-columns\n"
+"X-Poedit-SearchPathExcluded-1: ../classes/inline-edit/library\n"
+
+#: ../admin-columns-pro.php:98 ../cac-addon-pro.php:163 ../classes/licence-manager-settings.php:529
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../classes/api.php:256
+msgid "Empty response from API."
+msgstr "Geen reactie van API."
+
+#: ../classes/export-import/classes/export_import.php:42
+msgid "Export field is empty. Please select your types from the left column."
+msgstr "Expoort velden zijn leeg. Selecteer een type uit de linker kolom."
+
+#: ../classes/export-import/classes/export_import.php:71
+msgid "Export/Import"
+msgstr "Exporteer/Importeer"
+
+#: ../classes/export-import/classes/export_import.php:88
+msgid "Results"
+msgstr "Resultaten"
+
+#: ../classes/export-import/classes/export_import.php:89 ../classes/export-import/classes/export_import.php:182
+#: ../classes/inline-edit/cac-addon-inline-edit.php:98
+msgid "Instructions"
+msgstr "Instructies"
+
+#: ../classes/export-import/classes/export_import.php:91
+msgid "Using the PHP export"
+msgstr "Gebruik the PHP export"
+
+#: ../classes/export-import/classes/export_import.php:93 ../classes/export-import/classes/export_import.php:168
+msgid "Copy the generated PHP code in the right column"
+msgstr "Kopieer de gegenereerde PHP code uit de rechter kolom"
+
+#: ../classes/export-import/classes/export_import.php:94 ../classes/export-import/classes/export_import.php:169
+msgid "Insert the code in your themes functions.php or in your plugin (on the init action)"
+msgstr "Voeg de code to aan je thema's functions.php of in een plugin (op de init action)"
+
+#: ../classes/export-import/classes/export_import.php:95 ../classes/export-import/classes/export_import.php:170
+msgid "Your columns settings are now loaded from your PHP code instead of from your stored settings!"
+msgstr "Je kolom instellingen worden nu geladen door je PHP code in plaats van de opgeslagen instellingen!"
+
+#: ../classes/export-import/classes/export_import.php:108
+msgid "Columns"
+msgstr "Kolommen"
+
+#: ../classes/export-import/classes/export_import.php:109
+msgid "Select the columns to be exported."
+msgstr "Selecteer de kolommen om te exporteren."
+
+#: ../classes/export-import/classes/export_import.php:120
+msgid "General"
+msgstr "Algemene"
+
+#: ../classes/export-import/classes/export_import.php:121
+msgid "Posts"
+msgstr "Posts"
+
+#: ../classes/export-import/classes/export_import.php:132
+msgid "select all"
+msgstr "selecteer alles"
+
+#: ../classes/export-import/classes/export_import.php:134
+msgid "Export PHP"
+msgstr "Exporteer PHP"
+
+#: ../classes/export-import/classes/export_import.php:135 ../classes/export-import/classes/export_import.php:150
+msgid "Download export file"
+msgstr "Download export bestand"
+
+#: ../classes/export-import/classes/export_import.php:139
+msgid "No stored column settings are found."
+msgstr "Geen opgeslagen instellingen zijn gevonden."
+
+#: ../classes/export-import/classes/export_import.php:151
+msgid "Admin Columns will export to a format compatible with the Admin Columns import functionality."
+msgstr ""
+
+#: ../classes/export-import/classes/export_import.php:153 ../classes/export-import/classes/export_import.php:166
+msgid "Select the columns you which to export from the list in the left column"
+msgstr "Selecteer de kolommen doe je wilt exporteren uit de linker kolom"
+
+#: ../classes/export-import/classes/export_import.php:154
+msgid "Click the &quot;Download export file&quot; button"
+msgstr "Klik de \"Download export bestand\" knop"
+
+#: ../classes/export-import/classes/export_import.php:155
+msgid "Save the .json-file when prompted"
+msgstr "Sla het json-bestand op wanner daar om gevraagd wordt"
+
+#: ../classes/export-import/classes/export_import.php:156
+msgid "Go to the Admin Columns import/export page in your other installation"
+msgstr "Ga naar de Admin Columns import/export pagina in je andere installatie"
+
+#: ../classes/export-import/classes/export_import.php:157
+msgid "Select the export .json-file"
+msgstr "Selecteer het gexporteerde json-bestand"
+
+#: ../classes/export-import/classes/export_import.php:158
+msgid "Click the &quot;Start import&quot; button"
+msgstr "Klik de \"Start importeren\" knop"
+
+#: ../classes/export-import/classes/export_import.php:159
+msgid "That's it!"
+msgstr "Klaar!"
+
+#: ../classes/export-import/classes/export_import.php:163
+msgid "Export to PHP"
+msgstr "Exporteer naar PHP"
+
+#: ../classes/export-import/classes/export_import.php:164
+msgid "Admin Columns will export PHP code you can directly insert in your plugin or theme."
+msgstr "Admin Columns kan PHP code exporteren die je direct kan gebruiken in je plugin of thema."
+
+#: ../classes/export-import/classes/export_import.php:167
+msgid "Click the &quot;Export to PHP&quot; button"
+msgstr "Klik de &quot;Exporteer naar PHP&quot; knop"
+
+#: ../classes/export-import/classes/export_import.php:180
+msgid "Import"
+msgstr "Importeer"
+
+#: ../classes/export-import/classes/export_import.php:181
+msgid "Import your Admin Column settings here."
+msgstr "Importeer je Admin Column instellingen hier."
+
+#: ../classes/export-import/classes/export_import.php:184
+msgid "Import Columns Types"
+msgstr "Importeer Kolom Typen"
+
+#: ../classes/export-import/classes/export_import.php:186
+msgid "Choose a Admin Columns Export file to upload."
+msgstr "Kies een Admin Column Exporteer bestand om te uploaden."
+
+#: ../classes/export-import/classes/export_import.php:187
+msgid "Click upload file and import."
+msgstr "Klik upload bestand en importeer."
+
+#: ../classes/export-import/classes/export_import.php:188
+msgid "That's it! You imported settings are now active."
+msgstr "Je bent klaar! Je geimporteerde instellingen zijn nu actief."
+
+#: ../classes/export-import/classes/export_import.php:197
+msgid "Upload file and import"
+msgstr "Upload bestand en importeer"
+
+#: ../classes/export-import/classes/export_import.php:412 ../classes/export-import/classes/export_import.php:414
+msgid "Sorry, there has been an error."
+msgstr "Sorry, er is een fout opgetreden."
+
+#: ../classes/export-import/classes/export_import.php:414
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Het exporteer bestand kon niet worden gevonden  bij <code>%s</code>. Waarschijnlijk wordt dit veroorzaakt door een rechten probleem."
+
+#: ../classes/export-import/classes/export_import.php:432
+msgid "Import failed. File does not contain Admin Column settings."
+msgstr "Importeren mislukt. Bestand bevat geen Admin Column instellingen."
+
+#: ../classes/export-import/classes/export_import.php:441
+#, php-format
+msgid "Screen %s does not exist."
+msgstr "Scherm %s bestaan niet."
+
+#: ../classes/filtering/classes/model.php:121
+#, php-format
+msgid "All %s"
+msgstr "Alle %s"
+
+#: ../classes/filtering/classes/model.php:143
+msgid "Empty"
+msgstr "Leeg"
+
+#: ../classes/filtering/classes/model.php:144
+msgid "Not empty"
+msgstr "Niet leeg"
+
+#: ../classes/filtering/classes/posts.php:476
+msgid "Not sticky"
+msgstr "Niet sticky"
+
+#: ../classes/filtering/classes/posts.php:477
+msgid "Sticky"
+msgstr "Sticky"
+
+#: ../classes/filtering/classes/posts.php:654
+msgid "False"
+msgstr "Onwaar"
+
+#: ../classes/filtering/classes/posts.php:655
+msgid "True"
+msgstr "Waar"
+
+#: ../classes/filtering/classes/posts.php:683 ../classes/filtering/filtering.php:101 ../classes/inline-edit/cac-addon-inline-edit.php:328
+#: ../classes/sortable/sortable.php:127
+msgid "No"
+msgstr "Nee"
+
+#: ../classes/filtering/classes/posts.php:684 ../classes/filtering/filtering.php:97 ../classes/inline-edit/cac-addon-inline-edit.php:324
+#: ../classes/sortable/sortable.php:123
+msgid "Yes"
+msgstr "Ja"
+
+#: ../classes/filtering/filtering.php:93
+msgid "Enable filtering?"
+msgstr "Enable filtering?"
+
+#: ../classes/filtering/filtering.php:93
+msgid "This will make the column support filtering."
+msgstr "Dit zal de kolom ondersteuning voor filteren geven."
+
+#: ../classes/filtering/filtering.php:114
+msgid "filter"
+msgstr "filter"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:96
+msgid "Enable inline editing for Custom Fields. Default is <code>off</code>"
+msgstr "Zet inline editing aan voor Custom Fields. Standaardwaarde is <code>uit</code>"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:101
+msgid "Notice"
+msgstr "Melding"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:103
+msgid "Inline edit will display all the raw values in an editable text field."
+msgstr "Inline edit zal de ruwe waarde tonen in een bewerkbaar tekst veld."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:106
+msgid "Except for Checkmark, Media Library, Post Title and Username."
+msgstr "Uitgezonderd zijn Checkmark, Media bibliotheek, Post Titel en Gebruikersnaam"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:109
+#, php-format
+msgid "Please read <a href=\"%s\">our documentation</a> if you plan to use these fields."
+msgstr "Lees eerst <a href=\"%s\">onze documentatie</a> als je van plan bent deze velden te gebruiken."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:197
+msgid "Select author"
+msgstr "Selecteer auteur"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:198
+msgid "Edit"
+msgstr "Bewerk"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:199
+msgid "Redo"
+msgstr "Redo"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:200
+msgid "Undo"
+msgstr "Herstel"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:201
+msgid "Delete"
+msgstr "Verwijder"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:202
+msgid "Download"
+msgstr "Download"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:204
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:205
+msgid "Please enter a valid float value."
+msgstr "Vul een geldige waarde in."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:206
+msgid "Please enter valid float values."
+msgstr "Vul een geldige waarde in."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:208
+msgid "Inline Edit"
+msgstr "Inline Edit"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:320
+msgid "Enable editing?"
+msgstr "Activeer \"Bewerken\"?"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:320
+msgid "This will make the column support inline editing."
+msgstr "Dit zorgt er voor dat de kolom waarden direct zijn te bewerken."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:358
+msgid "Date save format"
+msgstr "Oplag formaat datum"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:359
+msgid "Fill in the date format as it is stored. This is used to accurately determine the date."
+msgstr "Vul het datum formaat in zoals opgeslagen. Dit wordt gebruikt om de datum nauwkeurig te bepalen."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:368
+msgid "Fill in a date save format"
+msgstr "Vul een opslag formaat in voor de datum"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:370
+#, php-format
+msgid "Defaults to: %s."
+msgstr "Standaardwaarde: %s"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:371
+msgid "See all available formats"
+msgstr "Bekijk alle beschikbare formaten"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:404
+#, php-format
+msgid "The Inline Edit add-on is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../classes/inline-edit/classes/model.php:247
+msgid "Invalid request."
+msgstr "Foutief verzoek."
+
+#: ../classes/inline-edit/classes/model.php:253 ../classes/inline-edit/classes/model.php:847
+msgid "Invalid column."
+msgstr "Foutieve kolom."
+
+#: ../classes/inline-edit/classes/model.php:621
+msgid "None"
+msgstr "Geen"
+
+#: ../classes/inline-edit/classes/model.php:626
+msgid "- Select -"
+msgstr "- Selecteer -"
+
+#: ../classes/inline-edit/classes/model.php:835
+msgid "Required fields missing."
+msgstr "Verplichte velden missen."
+
+#: ../classes/inline-edit/classes/model.php:840
+msgid "Invalid item ID."
+msgstr "Ongeldige item ID."
+
+#: ../classes/inline-edit/classes/post.php:123
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: ../classes/inline-edit/classes/post.php:140
+msgid "No shipping class"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:156
+msgid "Default Template"
+msgstr "Standaard Template"
+
+#: ../classes/inline-edit/classes/post.php:272
+msgid "Excerpt automatically generated from content."
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:450
+msgid "Do not allow"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:451
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:452
+msgid "Allow"
+msgstr "Toegestaan"
+
+#: ../classes/inline-edit/classes/post.php:668
+msgid ", "
+msgstr ","
+
+#: ../classes/inline-edit/classes/post.php:714
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+#: ../classes/inline-edit/classes/post.php:717
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:724
+#, php-format
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: ../classes/inline-edit/classes/post.php:726
+msgid "Y/m/d"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:736
+msgid "Published"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:739
+msgid "Missed schedule"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:741
+msgid "Scheduled"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:743
+msgid "Last Modified"
+msgstr ""
+
+#: ../classes/inline-edit/classes/post.php:931
+msgid "The SKU must be unique."
+msgstr "De SKU moet uniek zijn."
+
+#: ../classes/inline-edit/classes/user.php:288
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:117
+#, php-format
+msgid "Licence not active. Enter your licence key under the <a href='%s'>Settings tab</a>."
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:201
+msgid "Empty licence."
+msgstr "Licentie leeg."
+
+#: ../classes/licence-manager-settings.php:208 ../classes/licence-manager-settings.php:214 ../classes/licence-manager-settings.php:224
+#: ../classes/licence-manager-settings.php:230
+msgid "Wrong response from API."
+msgstr "Verkeerde reactie van API."
+
+#: ../classes/licence-manager-settings.php:262
+msgid "Updates"
+msgstr "Updates"
+
+#: ../classes/licence-manager-settings.php:263 ../classes/licence-manager-settings.php:326
+msgid "Enter your licence code to receive automatic updates."
+msgstr "Vul je licentie in om automatische updates te ontvangen."
+
+#: ../classes/licence-manager-settings.php:282
+msgid "This plugin has been network activated."
+msgstr "Deze plugin is netwerk geactiveerd."
+
+#: ../classes/licence-manager-settings.php:284
+#, php-format
+msgid "Go to <a href=\"%s\">network settings</a>."
+msgstr "Ga naar <a href=\"%s\">network instellingen</a>."
+
+#: ../classes/licence-manager-settings.php:315
+msgid "Automatic updates are enabled."
+msgstr "Automatische updates zijn geactiveerd."
+
+#: ../classes/licence-manager-settings.php:316
+msgid "Deactivate licence"
+msgstr "Deactiveer licentie"
+
+#: ../classes/licence-manager-settings.php:323
+msgid "Enter your licence code"
+msgstr "Vul je licentie code in"
+
+#: ../classes/licence-manager-settings.php:324
+msgid "Update licence"
+msgstr "Update licentie"
+
+#: ../classes/licence-manager-settings.php:327
+#, php-format
+msgid "You can find your license key on your %s."
+msgstr "Je kunt de licentie code vinden op je %s"
+
+#: ../classes/licence-manager-settings.php:327
+msgid "account page"
+msgstr "account pagina"
+
+#: ../classes/licence-manager-settings.php:338
+msgid ""
+"Could not connect to admincolumns.com — You will not receive update notifications or be able to activate your license until this is fixed. "
+"This issue is often caused by an improperly configured SSL server (https). We recommend fixing the SSL configuration on your server, but "
+"if you need a quick fix you can:"
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:343
+msgid "Disable SSL"
+msgstr "Zet SSL uit"
+
+#: ../classes/licence-manager-settings.php:346
+msgid "Enable SSL"
+msgstr "Zet SSL aan"
+
+#: ../classes/licence-manager-settings.php:385
+#, php-format
+msgid "1 day"
+msgid_plural "%s days"
+msgstr[0] "1 dag"
+msgstr[1] "%s dagen"
+
+#: ../classes/licence-manager-settings.php:389
+#, php-format
+msgid "Your Admin Columns Pro license will expire in %s. %s now and get a %d%% discount!"
+msgstr "Je Admin Columns Pro licentei vervalt in %s. %s nu en krijg %d%% korting!"
+
+#: ../classes/licence-manager-settings.php:391 ../classes/licence-manager-settings.php:400
+msgid "Renew your license"
+msgstr "Vernieuw je licentie"
+
+#: ../classes/licence-manager-settings.php:398
+#, php-format
+msgid "Your Admin Columns Pro license will expire in %s. %s now and get a discount!"
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:407
+#, php-format
+msgid "Your Admin Columns Pro license has expired! Renew your license now by going to your %s on AdminColumns.com."
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:408
+msgid "My Account page"
+msgstr "Mijn account pagina"
+
+#: ../classes/licence-manager-settings.php:421
+msgid "Your license was successfully renewed!"
+msgstr "Je licentie is succesvol vernieuwd!"
+
+#: ../classes/licence-manager-settings.php:422
+msgid "Your license has not been renewed yet."
+msgstr "Je licentie is nog niet vernieuwd."
+
+#: ../classes/licence-manager-settings.php:424
+msgid "Check my license"
+msgstr "Bekijk mijn licentie"
+
+#: ../classes/licence-manager-settings.php:525
+msgid "To finish activating Admin Columns Pro, please "
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:527
+msgid "To update, "
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:529
+#, php-format
+msgid "go to %s and enter your licence key. If you don't have a licence key, you may <a href=\"%s\" target=\"_blank\">purchase one</a>."
+msgstr ""
+
+#: ../classes/licence-manager-settings.php:685
+#, php-format
+msgid "To enable updates for this product, please <a href='%s'>activate your license</a>."
+msgstr ""
+
+#: ../classes/ms-user/storage_model/ms-user.php:13
+msgid "Network Users"
+msgstr "Netwerk Gebruikers"
+
+#: ../classes/sortable/classes/model.php:82
+#, php-format
+msgid " by %s"
+msgstr "door %s"
+
+#: ../classes/sortable/classes/model.php:86
+msgid "Reset sorting preference"
+msgstr "Herstel sortering voorkeur"
+
+#: ../classes/sortable/classes/model.php:119
+msgid "Reset sorting"
+msgstr "Herstel sorting"
+
+#: ../classes/sortable/classes/model.php:169
+msgid "sorting preference succesfully reset."
+msgstr "sorteer voorkeur succesvol hertstelt."
+
+#: ../classes/sortable/sortable.php:56
+msgid "Show all results when sorting. Default is <code>off</code>."
+msgstr "Toon alle resultaten voor sorteren. Standaardwaarde is <code>uit</code>."
+
+#: ../classes/sortable/sortable.php:68
+msgid "Sortable add-on"
+msgstr "Sortable add-on"
+
+#: ../classes/sortable/sortable.php:119
+msgid "Enable sorting?"
+msgstr "Enable sorting?"
+
+#: ../classes/sortable/sortable.php:119
+msgid "This will make the column support sorting."
+msgstr "Dit zal de kolom ondersteuning voor sorting geven."
+
+#: ../classes/sortable/sortable.php:147
+msgid "sort"
+msgstr "sorteer"
+
+#: ../classes/taxonomy/column/ID.php:14
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/taxonomy/column/excerpt.php:15
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: ../classes/third-party/wordpress-seo.php:17
+msgid "Enter your SEO Title"
+msgstr "Vul je SEO Titel in"
+
+#: ../classes/third-party/wordpress-seo.php:21
+msgid "Enter your SEO Meta Description"
+msgstr "VUl je SEO Meta omschrijving in"

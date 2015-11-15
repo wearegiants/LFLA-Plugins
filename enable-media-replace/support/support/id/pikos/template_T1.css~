@@ -1,0 +1,295 @@
+@charset "utf-8";
+@import "wysiwyg.html";
+
+/* CSS Document */
+/* #################################################################################################### */
+/* RAZ  */
+/* #################################################################################################### */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	border:0 none;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+	vertical-align:baseline;
+	font-size:inherit;
+	}
+:focus {
+	outline: 0;
+}
+
+sup,sub {height:0; line-height:1; vertical-align:baseline; _vertical-align:bottom; position:relative; font-size:0.8em;}
+sup {bottom:0.2em;}
+sub {top:0.2em;}
+
+/* #################################################################################################### */
+/* HABILLAGE TEMP 1  */
+/* #################################################################################################### */
+
+#Page #Header a:link, #Page #Header a:visited, #Page #Header a:active,
+#Page #TabNavigation a:link, #Page #TabNavigation a:visited, #Page #TabNavigation a:active,
+#Page #SmartBanners a:link, #Page #SmartBanners a:visited, #Page #SmartBanners a:active,
+#Page #Widgets a:link, #Page #Widgets a:visited, #Page #Widgets a:active {
+	color:#09357A;
+	text-decoration:none;
+	}
+#Page #Header a:hover,
+#Page #TabNavigation a:hover,
+#Page #SmartBanners a:hover,
+#Page #Widgets a:hover {
+	color:#FFA02F;
+	}
+
+#Page span.message {color:#FFA02F;}
+#Page a:hover span.message {color:#09357A;}
+span.date {color:#FFA02F;}
+.clear {clear:both;}
+
+/* Styles génériques JCarousel */
+.jcarousel-container { position: relative; }
+.jcarousel-clip { z-index: 3; padding: 0; margin: 0; overflow: hidden; position: relative;}
+.jcarousel-list { z-index: 4; overflow:hidden; position: relative; top: 0; left: 0; margin: 0; padding: 0;}
+.jcarousel-list li, .jcarousel-item {/*float: left;*/ display:block; list-style: none; width: auto; height: auto;}
+.jcarousel-next {z-index: 3; /*display: none;*/}
+.jcarousel-prev {z-index: 3; /*display: none;*/}
+
+/* #################################################################################################### */
+/* STRUCTURE TEMP 1  */
+/* #################################################################################################### */
+
+body.template {text-align:center; font-size:62.5%; font-family:Arial, Helvetica, sans-serif; margin:0; padding:0; /*background-color:#F1F1F1;*/}
+
+#Page {/*margin:0 auto;*/ width:100%; text-align:left; font-size:1.2em; background-color:#FFFFFF; color: #4d4d4d; /*letter-spacing:0.01em;*/}
+
+/* #################################################################################################### */
+/* HEADER  */
+/* #################################################################################################### */
+
+#Page #Header {width:980px; margin:0 auto; height:110px; position:relative; top:0px; left:0px; z-index:18;}
+
+#Page #Header #HeaderIdentity {position:relative; top:0px; left:0px;}
+#Page #Header #HeaderIdentity #Logo {position:absolute; top:29px; left:15px;}
+#Page #Header #HeaderIdentity #Baseline {position:absolute; top:55px; left:196px;}
+#Page #Header #HeaderIdentity h1 {display:none;}
+
+#Page #Header #HeaderTop {font-size:0.95em; position: absolute; z-index:19; top:0px; right:0px;}
+#Page #Header #HeaderTop span.separator {display:block; padding:0; float:left; width:20px; height:15px; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_top_separator.png) 50% 50% no-repeat;}
+#Page #Header #HeaderTop #HeaderActions {float:left; }
+#Page #Header #HeaderTop #HeaderActions a {display:block; float:left; padding:5px 0 0 0;}
+#Page #Header #HeaderTop #HeaderActions span.separator {padding-top:0;}
+
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu {margin: 0; padding: 5px 0 0 0; float: left; position:relative;}
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li {display: block; list-style: none; padding:0; margin:0;}
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li a {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_puce_menu.png) 0 50% no-repeat; padding:0; padding-left: 15px;}
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li ul {display:none; position: absolute; z-index:19; top:24px; left:0; padding:10px 15px; margin:0; background-color:#FFF; border:1px solid #DDD; width:auto;}
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li ul li {float:none; display:list-item; margin:5px 0 0 0; padding:0; background:#FFF; _border:1px solid #fff;}
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li ul li a {display:block; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) 0 4px no-repeat; padding:0 0 5px 15px; /padding-bottom:2px; _padding-bottom:-2px; display: block; white-space: nowrap; margin:0; }
+#Page #Header #HeaderTop #HeaderActions #HETurgenceDepannageMenu li ul li a:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+#Page #Header #HeaderTop #HeaderExtLinks {float:left;}
+#Page #Header #HETsiteMenu {margin: 0; padding: 5px 0 0 0;}
+#Page #Header #HETsiteMenu li {display: block; list-style: none; padding:0;  margin:0;}
+#Page #Header #HETsiteMenu li a {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_puce_menu.png) 0 50% no-repeat; padding-left:15px;}
+#Page #Header #HETsiteMenu li ul.subnav {position: absolute; z-index:19; right:15px; /right:12px; _right:11px; top:24px; display:none; width:600px; padding:15px 5px; _padding-bottom:0;/*_padding:0 5px 0 5px;*/ margin:0; background-color:#FFF; border:1px solid #DDD;}
+#Page #Header #HETsiteMenu li ul.subnav li {padding:0 15px; width:89px; float:left; border-left:1px solid #DEDEDE; }
+#Page #Header #HETsiteMenu li ul.subnav li.first,
+#Page #Header #HETsiteMenu li ul.subnav li ul li {border:none;}
+#Page #Header #HETsiteMenu li ul.subnav li span {font-size:1.1em; margin:0; padding:0;}
+#Page #Header #HETsiteMenu li ul.subnav ul {margin:10px 0 0 0; padding:0; clear:both;}
+#Page #Header #HETsiteMenu li ul.subnav ul li {float:none; display:list-item; margin:5px 0 0 0; _margin-top:2px; padding:0; background:#FFF;}
+#Page #Header #HETsiteMenu li ul.subnav ul li a {display:block; font-size: 1em; color:#09357A; margin: 0; padding:0 0 0 15px;  background:#FFF url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) 0 4px no-repeat;}
+#Page #Header #HETsiteMenu li ul.subnav ul li a:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_over.gif);/**/color:#FFA02F;}
+
+#Page #Header #HeaderTop #HeaderSearch {float:left;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchForm {padding-top:3px;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchInputText {border:1px solid #969696; font-size:0.85em; margin:0; height:13px; padding-left:2px; /padding-left:4px; margin-top:1px;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchInputText:hover,
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchInputText:focus {border:1px solid #FFA02F; color:#09357A; background-color:#F0F0F0}
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchButton {border:1px solid #969696; text-transform:uppercase;  font-size:0.8em; height:18px; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_search_button_bg.png) 0 100% repeat-x; margin-right:15px; padding-bottom:2px; /padding-bottom:0px; position:relative; top:-1px; /top:0px; /left:3px;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchButton:hover,
+#Page #Header #HeaderTop #HeaderSearch #HeaderSearchButton:focus {border:1px solid #FFA02F; color:#09357A;}
+
+#Page #Header #HeaderTop #HeaderSearch #HeaderAdvancedSearch {margin-top:1px; /margin-top:-18px; font-size:0.98em;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderAdvancedSearch a {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) 0 4px no-repeat; padding:0 14px;}
+#Page #Header #HeaderTop #HeaderSearch #HeaderAdvancedSearch a:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+#Page #Header #HeaderIntLinks {position:absolute; top:55px; right:14px;; height:28px;} 
+#Page #Header #HeaderIntLinks img {/*margin-top:-7px;*/ position:relative; top:-7px;} 
+#Page #Header #HeaderIntLinks span {color:#ee7206; font-size:1.25em; /*margin-top:-3px;*/}
+
+#Page #Header #HeaderIntLinks #HITcountryMenu {position:absolute; right:0; top:5px; /top:17px;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li { white-space:nowrap; list-style: none; padding:0;  margin:0;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li a {font-size:0.9em; display:block; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_puce_menu.png) 0 50% no-repeat; padding-left:15px;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li ul {display:none; position: absolute; z-index:19; right:0; top:18px; padding:0 10px; margin:0; background-color:#FFF; border:1px solid #DDD; width:auto;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li ul li {padding:5px 0; border-top: 1px solid #DDD;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li ul li a {display:block; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) 0 4px no-repeat; padding:0 0 0 14px; display: block; white-space: nowrap;}
+#Page #Header #HeaderIntLinks #HITcountryMenu li ul li a:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+#Page #Header #HeaderIntLinks #HITcountryMenu li ul li.top { border-top: none;}
+
+
+/* #################################################################################################### */
+/* MAIN NAVIGATION  */
+/* #################################################################################################### */
+
+#Page #MainNavigation {width:100%; height:27px; margin:0 auto; position:relative; top:0; left:0; z-index:15; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_bg.png) 50% 0 no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_bg.gif);}
+#Page #MainNavigation #MnContainer {width:980px; margin:0 auto; position:relative;}
+#Page #MainNavigation ul.mainMenu {position: absolute; right:0; top:-16px; /top:-4px; z-index:16;}
+#Page #MainNavigation ul.mainMenu li {display: block; float:left; list-style: none; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_separator.png) no-repeat; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_separator.gif); padding-left:2px;}
+#Page #MainNavigation ul.mainMenu li a {display: block; padding: 8px 15px; text-decoration: none; color: #333; font-weight:bold;}
+#Page #MainNavigation ul.mainMenu li span {display: block; padding: 8px 15px; text-decoration: none; color: #333; font-weight:bold;}
+#Page #MainNavigation ul.mainMenu li.hoverActive a {color: #222; background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_hover.png) no-repeat 50% 25px; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/t1_main_navigation_hover.gif);position:relative; z-index:60;}
+#Page #MainNavigation ul.mainMenu li a:hover,
+#Page #MainNavigation ul.mainMenu li a.mnActive,
+#Page #MainNavigation ul.mainMenu li a.active {color:#FFF;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 {position:absolute; top:30px; right:0; _right:-2px; padding: 15px 5px; display: none; width:969px; z-index:50; background:#FFF; /*url(../img/t1_main_navigation_cont.png) repeat-x 0 100%;*/ border:1px solid #CCC; height:auto;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li {padding:0; width:168px; margin:0 5px 0 15px; background:none; position:relative;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li a {padding:0; margin:0;  font-size:1.3em; background:none; display:inline; font-weight:normal;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li a:hover {color:#FFA02F;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li.title {width:168px; margin:0 5px 0 0; padding: 0 15px; padding-top:-3px; border: 0; font-size: 1.4em; color:#4D4D4D; border-right:1px solid #DEDEDE; }
+#Page #MainNavigation ul.mainMenu ul.subnav1 li.title img {margin:8px 0;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li.title a {font-size:0.8em;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 li.title span {font-size:0.8em; display:block;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 ul {margin:7px 0 15px 0; padding:0; clear:both;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 ul li {float:none; display:list-item; margin:5px 0; _margin:4px 0 0 0; padding:0;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 ul li a {display:inline-block; font-size: 1em; color:#09357A; margin:0; padding:0 0 0 15px; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat 0 4px; background-attachment:scroll;}
+#Page #MainNavigation ul.mainMenu ul.subnav1 ul li a:hover {background-image:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_over.gif); color:#FFA02F;}
+#Page #MainNavigation ul.mainMenu ul.subparam { width:auto; /*height:70px;*/ padding: 7px 0;}
+#Page #MainNavigation ul.mainMenu ul.subparam li {width:155px; margin:2px 7px 0 7px; padding:0; !margin-right:6px;}
+#Page #MainNavigation ul.mainMenu ul.subparam form {margin:0; padding:0;}
+#Page #MainNavigation ul.mainMenu ul.subparam input {clear:both; float:right; margin-right:5px; padding:0;}
+#Page #MainNavigation ul.mainMenu ul.subparam label {display:block; float:right; font-size:1em; margin:2px; !margin:3px; padding:0; text-align:right;}
+#Page #MainNavigation ul.mainMenu ul.subparam button {background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_header_search_button_bg.png) 0 100% repeat-x ; border:1px solid #969696; clear: both; cursor: pointer; float: right; font-size: 0.75em; height: 18px; line-height: normal; margin: 0; padding-bottom:2px; /padding-bottom:0px; text-transform: uppercase; }
+#Page #MainNavigation ul.mainMenu ul.subparam button:hover,
+#Page #MainNavigation ul.mainMenu ul.subparam button:focus {border:1px solid #FFA02F; color:#09357A;}
+
+/* IE6 FIXES */
+#Page #MainNavigation ul.mainMenu li,
+#Page #MainNavigation ul.mainMenu li a {_float:left; _display: inline;}
+
+
+/* Variante Smart menu */
+#Page #MainNavigation ul.mainSmartMenu li { position: relative; z-index: 1; }
+#Page #MainNavigation ul.mainSmartMenu li.hoverActive a { background: 0; color: #fff; }
+
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav { position: absolute; top: -999em; left: -999em; width: 200px; z-index: 50; zoom: 1; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnavActive { top: 26px; left: -5px; }
+#Page #MainNavigation ul.mainSmartMenu .smsnAlignLeft .smartMenuSubnavActive { left: auto; right: -8px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smsnTop { background: transparent; height: 4px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smsnInner { background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_shadow.png) center bottom no-repeat\9; float: left; width: 188px; padding: 0 6px 5px; zoom: 1; }
+
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul { position: relative; background: #e6e6e6 url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_content.png) 0 0 repeat-x; -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; float: left; list-style: none; margin: 0; padding: 0; -moz-box-shadow: 0px 1px 8px 0 #aaa; -webkit-box-shadow: 0px 1px 8px 0 #aaa; box-shadow: 0px 1px 8px 0 #aaa; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li { background: 0; float: left; padding: 0; position: relative; white-space: normal; zoom: 1; width: 188px; z-index: 55; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li a { color: #333; display: block; font-weight: normal; padding: 0 10px; position: static; text-decoration: none; width: 168px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.first { }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.last { -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.hoverActive { background: #d96d0b url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_active.png) 0 0 repeat-x; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.hoverActive a { background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_white.gif) 4px 9px no-repeat; color: #fff; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li a span { border-bottom: 1px solid #e0e0e0; display: block; font-weight: normal; padding: 5px 8px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.hoverActive a span { border-bottom: 0; padding-bottom: 6px; color: #fff; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul li.last a span { border-bottom: 0; padding-bottom: 6px; }
+
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav { left: -999em; top: -999em; z-index: 60; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnavActive { top: 0px; left: 180px; }
+#Page #MainNavigation ul.mainSmartMenu .smsnAlignLeft .smartMenuSubnav .smartMenuSubnavActive { left: -192px; right: auto; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav .smsnTop { background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_shadow_top.png) left top no-repeat\9; margin: 0; height: 4px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav .smsnInner { background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_shadow.png) center bottom no-repeat\9; padding: 0 6px 5px; zoom: 1; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0px 1px 8px 0 #aaa; -webkit-box-shadow: 0px 1px 8px 0 #aaa; box-shadow: 0px 1px 8px 0 #aaa;}
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li { background: 0; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li a { background: 0; color: #333; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.first { -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; border-top-left-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; border-top-right-radius: 3px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.last { -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; border-bottom-right-radius: 3px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.hoverActive { background: #d96d0b url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_smartMenuSubnav_bg_active.png) 0 0 repeat-x; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.hoverActive a { background: url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_bullet_link_white.gif) 4px 9px no-repeat; color: #fff; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li a span { border-bottom: 1px solid #e0e0e0; color: #333; padding-bottom: 5px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.hoverActive a span { border-bottom: 0; padding-bottom: 6px; color: #fff; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav ul li.last a span { border-bottom: 0; }
+
+/* IE6 FIXES (pas d'ombre)*/
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnavActive { _top: 0px; _margin-top: 26px; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smsnTop { _display: none; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smsnInner { _background: none; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav ul { _border: 1px solid #d6d6d6; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav .smsnTop { _background: none; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnav .smsnInner { _background: none; }
+#Page #MainNavigation ul.mainSmartMenu .smartMenuSubnav .smartMenuSubnavActive { _top: -22px; }
+#Page #MainNavigation ul.mainSmartMenu .smsnAlignLeft .smartMenuSubnav .smartMenuSubnavActive { _left: -194px; }
+
+
+/* #################################################################################################### */
+/* CONTENT  */
+/* #################################################################################################### */
+
+#Page #Content {width:980px; margin:0 auto; clear:both; padding:0; font-size:1em; line-height:1.46em; position:relative;}
+#Page .shadow {display:none; float:left; width:100%; height:5px; position:absolute; bottom:-5px; left:0; z-index:3; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_shadow.png) 50% 0 no-repeat;}
+
+/* #################################################################################################### */
+/* SMART BANNERS */
+/* #################################################################################################### */
+
+#Page #SmartBanners {width:980px; margin:0 auto; clear:both;/*/float:left;_margin-left:-50px;*/ }
+#Page #SmartBanners h3 {font-size:1.6em; font-weight:normal; margin:0 0 15px 15px; padding-top:0; width:950px; border-top:medium none;}
+#Page #SmartBanners #SmartBannersContent { padding:0; position:relative; /*left:8px;*/ margin-left:8px; _margin-left:2px;}
+#Page #SmartBanners .boxSimple {float:left; position:relative; margin:5px 0 0 7px;}
+#Page #SmartBanners .boxSimple .boxCenter {margin:0;}
+#Page #SmartBanners .boxSimple .boxCenterContent {width:232px; height:161px; margin:0; padding:0; cursor:pointer; position:relative; z-index:1;}
+#Page #SmartBanners .boxSimple .boxCenter h2 {position:absolute; top:0px; left:14px; z-index:3; font-weight:normal; font-size:1.2em; text-transform:uppercase; line-height:1.1em; /margin-top:10px; font-weight:bold; cursor:text;}
+#Page #SmartBanners .boxSimple .boxCenter span {display:block; position:absolute; top:30px; z-index:2; padding:0 0 0 14px; font-size:1.3em;}
+#Page #SmartBanners .boxSimple .boxCenter span strong {font-size:1em;}
+#Page #SmartBanners .boxSimple .boxCenter a {display:block; width:232px; height:161px;}
+#Page #SmartBanners .boxSimple .boxCenter a img  {position:absolute; top:0px; left:0px; z-index:1; cursor:pointer;}
+#Page #SmartBanners .boxSimple .boxCenter a span.action {display:block; width:38px; height:37px; position:absolute; z-index:5; top:124px; left:194px; background:transparent url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/arrow_smartbanner.png) 100% 100% no-repeat; _background:transparent url(http://bleuciel.edf.com/FRONT/NetExpress/img/arrow_smartbanner.gif) 100% 100% no-repeat; padding:0; margin:0;}
+#Page #SmartBanners .boxSimple .boxCenter a:hover span.action {background-position:0 100%;}
+
+#Page #SmartBanners .blueBlue h2,
+#Page #SmartBanners .blueOrange h2,
+#Page #SmartBanners .blueWhite h2 {color:#285DA4;}
+#Page #SmartBanners .orangeBlue h2,
+#Page #SmartBanners .orangeOrange h2,
+#Page #SmartBanners .orangeWhite h2 {color:#ED7924;}
+#Page #SmartBanners .whiteBlue h2,
+#Page #SmartBanners .whiteOrange h2,
+#Page #SmartBanners .whiteWhite h2 {color:#FFF;}
+
+#Page #SmartBanners .blueBlue a span,
+#Page #SmartBanners .orangeBlue a span,
+#Page #SmartBanners .whiteBlue a span {color:#285DA4;}
+#Page #SmartBanners .blueOrange a span,
+#Page #SmartBanners .orangeOrange a span,
+#Page #SmartBanners .whiteOrange a span {color:#ED7924;}
+#Page #SmartBanners .blueWhite a span,
+#Page #SmartBanners .orangeWhite a span,
+#Page #SmartBanners .whiteWhite a span {color:#FFF;}
+
+/* #################################################################################################### */
+/* FOOTER  */
+/* #################################################################################################### */
+
+#Page #Footer {width:980px; clear:both; float:none;  margin:40px auto 0 auto; padding:15px 0 0 0; position:relative; top:5px;}
+#Page #Footer #FooterLogo {position:absolute; top:0px; left:15px;}
+#Page #Footer #FooterActions {background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_footer_actions_top_bg.png) 50% 10px no-repeat; position:relative; padding:15px 0; margin-left:15px;}
+#Page #Footer #FooterActions div.linksGroup {width:136px; float:left; font-size:1em; color:#3B3B3B; margin-top:15px;}
+#Page #Footer #FooterActions.footerCols7 div.linksGroup {width:137px;}
+#Page #Footer #FooterActions.footerCols6 div.linksGroup {width:160px;}
+#Page #Footer #FooterActions.footerCols5 div.linksGroup {width:193px;}
+#Page #Footer #FooterActions.footerCols4 div.linksGroup {width:241px;}
+#Page #Footer #FooterActions.footerCols3 div.linksGroup {width:321px;}
+#Page #Footer #FooterActions.footerCols2 div.linksGroup {width:482px;}
+#Page #Footer #FooterActions.footerCols1 div.linksGroup {width:965px;}
+#Page #Footer #FooterActions div.linksGroup span {display:block; height:35px; padding-right:10px;}
+#Page #Footer #FooterActions div.linksGroup ul {margin:0; padding:0;}
+#Page #Footer #FooterActions div.linksGroup ul li {display:block; font-size:0.9em; margin:8px 10px 7px 0;}
+#Page #Footer #FooterActions div.linksGroup ul li a:link,
+#Page #Footer #FooterActions div.linksGroup ul li a:visited,
+#Page #Footer #FooterActions div.linksGroup ul li a:active {color:#777777; text-decoration:none;}
+#Page #Footer #FooterActions div.linksGroup ul li a:hover {text-decoration:underline; color:#FFA02F;}
+
+#Page #Footer #FooterLinks {font-size:0.9em; line-height: 1.5; width:100%; clear:both; padding: 10px 0; }
+#Page #Footer #FooterLinks .row { clear: both; overflow: hidden; margin: 0 0 10px; padding: 0 15px; }
+#Page #Footer #FooterLinks span { float: right; }
+#Page #Footer #FooterLinks ul { float: left; margin:0; padding: 0; width: 720px; }
+#Page #Footer #FooterLinks ul li {display:inline; background:url(../../../../../bleuciel.edf.com/FRONT/NetExpress/img/t1_footer_separator.gif) 0 50% no-repeat; padding:0 0 0 10px; font-weight:bold;}
+#Page #Footer #FooterLinks ul li:first-child {background-image:none; padding-left: 0; }
+#Page #Footer #FooterLinks ul li a:link,
+#Page #Footer #FooterLinks ul li a:visited,
+#Page #Footer #FooterLinks ul li a:active {color:#777777;margin-right:5px; text-decoration:none;}
+#Page #Footer #FooterLinks ul li a:hover {text-decoration:underline; color:#FFA02F;}

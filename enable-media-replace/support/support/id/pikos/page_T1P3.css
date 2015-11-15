@@ -1,0 +1,954 @@
+@charset "utf-8";
+@import "fancybox.html";
+@import "modules.html";
+
+/* CSS Document */
+
+#Page #Main a:link, #Page #Main a:visited, #Page #Main a:active,
+#Page #PageToolBar a:link, #Page #PageToolBar a:visited, #Page #PageToolBar a:active,
+#Page #SubContent .boxSimple a:link, #Page #SubContent .boxSimple a:visited, #Page #SubContent .boxSimple a:active {
+	color:#09357A;
+	text-decoration:none;
+	}
+#Page #Main a:hover,
+#Page #PageToolBar a:hover,
+#Page #SubContent .boxSimple a:hover {
+	color:#FFA02F;
+	}
+#Page #Content #Main .contentText a {text-decoration:none;}
+#Page #Content #Main .contentText .w_actionDownload a,
+#Page #Content #Main .contentText ul.list_BlueArrow li a,
+#Page #Content #Main .contentText li.list_BlueArrow a {text-decoration:none;}
+
+#Page #Content #Main a.action {background:url(FRONT/NetExpress/img/t1_bullet_link.gif) 0px 12px no-repeat; padding:7px 0 15px 15px; text-decoration:none; display:block;}
+#Page #Content #Main a.action:hover {background-image:url(FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+/* ===================================================================== */
+/* ##### T1 P3 ##### */
+/* ===================================================================== */
+#Page #Content #Breadcrumb {position:relative; top:-5px; margin:0px; padding:15px; font-size:0.9em; color:#777777;}
+#Page #Content #Breadcrumb a:link,
+#Page #Content #Breadcrumb a:visited,
+#Page #Content #Breadcrumb a:active {color:#999;}
+#Page #Content #Breadcrumb a:hover {text-decoration:underline; color:#FFA02F;}
+/*#Page #Content #Breadcrumb span {font-weight:bold;}*/
+#Page #Content #Main {float:left; position:relative; top:-5px; width:620px; /*border:1px dashed #CCC; background-color:#F1F1F1;*/ margin:0 0 -5px 15px; _margin-left:8px;}
+#Page #Content #SubMain {float:right; width:250px; margin-right:15px; _margin-right:8px;}
+#Page #Content #SubMain #SubBrand {text-align:center; }
+#Page #Content #SubMain #SubBrand img {margin: -15px auto 30px auto; _margin-top:0;}
+#Page #Content #SubMain #SubNavigation {/*border:1px dashed #005BBB; background-color:#F1F1F1; */margin-bottom:15px;}
+#Page #Content #SubMain #SubContent {margin-top:40px;}
+
+/* ===================================================================== */
+/* ##### ToolBar##### */
+/* ===================================================================== */
+#Page #Content #PageToolBar,
+#Page #Content #PageToolBarTop {position:relative; height:21px; float:right; border: 1px solid #E8E8E8; padding:1px 2px 0 2px; font-size:0.8em; line-height:2em; font-weight:bold; margin-top:-10px;}
+#Page #Content #PageToolBar {margin-top:15px;}
+#Page #Content #PageToolBarTop a, #PageToolBarTop a:active, #PageToolBarTop a:visited,
+#Page #Content #PageToolBar a, #PageToolBar a:active, #PageToolBar a:visited {margin-left:2px;  padding:0; float:left; display:block; width:20px; height:18px;  }
+#Page #Content #PageToolBar a span,
+#Page #Content #PageToolBarTop a span { margin-left:3px; border:0px; display:inline-block;}
+#Page #Content #PageToolBar a.ptbImprimer,
+#Page #Content #PageToolBarTop a.ptbImprimer {background:transparent url(FRONT/NetExpress/img/t1_toolbar_imprimer.png) 0px 0px no-repeat;}
+#Page #Content #PageToolBar a.ptbEnvoyer,
+#Page #Content #PageToolBarTop a.ptbEnvoyer {background:transparent url(FRONT/NetExpress/img/t1_toolbar_envoyer.png) 0px 0px no-repeat;}
+#Page #Content #PageToolBar a.ptbFavoris,
+#Page #Content #PageToolBarTop a.ptbFavoris {background:transparent url(FRONT/NetExpress/img/t1_toolbar_favoris.png) 0px 0px no-repeat;}
+#Page #Content #PageToolBar a.ptbPartager,
+#Page #Content #PageToolBarTop a.ptbPartager {width:auto; /padding-top:1px;}
+#Page #Content #PageToolBar a.ptbRss,
+#Page #Content #PageToolBarTop a.ptbRss {background:transparent url(FRONT/NetExpress/img/t1_toolbar_rss.png) 0px 0px no-repeat;}
+#Page #Content #PageToolBar a:hover,
+#Page #Content #PageToolBarTop a:hover {background-position:-20px 0;}
+#Page #Content #PageToolBar a span,
+#Page #Content #PageToolBarTop a span {display:none;}
+#Page #Content #PageToolBar span.message,
+#Page #Content #PageToolBarTop span.message {position:absolute; right:0px; bottom:-18px; display:none; width:300px; text-align:right;}
+
+/* ===================================================================== */
+/* ##### Page Rating ##### */
+/* ===================================================================== */
+#Page #Content #PageRating { clear: both; position:relative; float:right; margin-top:21px;}
+#Page #Content #PageRating p { color: #666; line-height: 13px; margin: 0; }
+#Page #Content #PageRating form { background: #fff; border: 1px solid #E8E8E8; margin: 5px 0 0; padding: 5px; }
+#Page #Content #PageRating form button { margin: 0; }
+#Page #Content #PageRating form #starsContainer,
+#Page #Content #PageRating form p { display: inline; }
+#Page #Content #PageRating form p { color: #000; margin: 0 0 0 5px; }
+#Page #Content #PageRating form .ui-stars-star,
+#Page #Content #PageRating form .ui-stars-cancel { float: left; display: block; overflow: hidden; text-indent: -999em; cursor: pointer; height: 13px; width: 13px; }
+#Page #Content #PageRating form .ui-stars-star a,
+#Page #Content #PageRating form .ui-stars-cancel a { background: url(FRONT/NetExpress/img/star_rating.png) no-repeat 0 0; display: block; width: 13px; }
+#Page #Content #PageRating form .ui-stars-cancel-hover a { background-position: 0 -13px; }
+#Page #Content #PageRating form .ui-stars-star a { background-position: 0 -26px; }
+#Page #Content #PageRating form .ui-stars-star-on a { background-position: 0 -39px; }
+#Page #Content #PageRating form .ui-stars-star-hover a { background-position: 0 -52px; }
+#Page #Content #PageRating form .ui-stars-star-disabled,
+#Page #Content #PageRating form .ui-stars-star-disabled a,
+#Page #Content #PageRating form .ui-stars-cancel-disabled a { cursor: default !important; }
+
+/* ===================================================================== */
+/*############# Nav4 #########################*/
+/* ===================================================================== */
+#Page #Main #MainTabs {width:620px; border-bottom: 1px solid #EFEFEF; height:37px; margin-bottom:20px;}
+#Page #Main #MainTabs ul {list-style: none; padding:0; margin:0; font-size: 0.95em; line-height:1.1em;}
+#Page #Main #MainTabs ul li {display: block; float: left; width:103px;}
+#Page #Main #MainTabs ul li a {color: #777; text-decoration: none; display:block;  height:32px; background: url(FRONT/NetExpress/img/nav4_bg.png) scroll 100% 0 no-repeat; padding:6px 5px 0 7px; border-right: 1px solid #E8E8E8;}
+#Page #Main #MainTabs ul li a.active {background-position:100% -50px; color:#ED7106;}
+#Page #Main #MainTabs ul li.first a {background-position:0px 0px;}
+#Page #Main #MainTabs ul li.first a.active {background-position:0px -50px;}
+#Page #Main #MainTabs ul li a:hover {color: #ED7106;}
+
+/* ===================================================================== */
+/*############# Eléments communs #########################*/
+/* ===================================================================== */
+#Page #Main {_padding-top:10px; padding-bottom:36px;}
+#Page #Main #SubTitle {margin-bottom:20px; font-weight:bold;}
+
+#Page #Main h2 {font-size:2em; color:#053778; margin:25px 0;}
+#Page #Main h3 {font-size:1.5em; font-weight:normal; margin:0 0 11px 0; line-height:1.2em;width:100%}
+#Page #Main h4 {font-size:1em; color:#09357A; margin:3px 0;}
+#Page #Main h5 {color:#333; margin:3px 0;}
+
+#Page #Main hr {clear:both; height:0px; border-top:1px solid #E5E5E5; margin:36px 0; position:relative; left:0; color:#FFF; /margin:31px 0;}
+
+#Page #Main .entity {color:#FFA02F; font-weight:bold;}
+#Page #Main .date {display:block; color:#FFA02F;/* margin:0;*/}
+#Page #Main .entity .date {color:#CCC; font-weight:bold; display:inline; margin-left:5px;}
+#Page #Main .entity span a {color:#999; text-decoration: underline; }
+#Page #Main .entity span a:hover { color:#FFA02F; text-decoration: none; }
+
+#Page #Main .contentTopic {float:right; margin:5px 0 20px 5px; /margin-bottom:5px;}
+#Page #Main .contentTopic span {color:#999;}
+#Page #Main .contentTopic a {color:#999; text-decoration:underline; margin:0 2px;}
+#Page #Main .contentTopic a:hover {color:#FFA02F; text-decoration:none;}
+
+#Page #Main .actionRead {margin:5px 0;}
+#Page #Main .actionRead a {background:transparent url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 0px 5px; padding-left:15px;}
+#Page #Main .actionRead a:hover {background-image:url(FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+#Page #Main .actionDownload {clear:both; margin:20px 0; background:transparent url(FRONT/NetExpress/img/img_cart_left.png) no-repeat scroll 0px 0px; position:relative; padding:0 0 0 35px;}
+#Page #Main .actionDownload span {display:block; background:transparent url(FRONT/NetExpress/img/img_cart_right.png) no-repeat scroll 100% 0;}
+#Page #Main .actionDownload a {height:47px; display:block; background:transparent url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 8px 20px; padding:15px 0 0 22px;}
+#Page #Main .actionDownload a:hover {background-image:url(FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+#Page #Main .actionDownload a img {position:absolute; left:5px; top:11px; _left:-30px;}
+
+#Page #Main .actionBack {margin:10px 0;}
+#Page #Main .actionBack a {background:transparent url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 0px 5px; padding-left:15px;}
+#Page #Main .actionBack a:hover {background-image:url(FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+#Page .contentText {/*overflow:hidden;*/}
+#Page .contentGroup {margin:0; padding:0;}
+#Page .cgIcon {margin-left:100px; _float:left; _margin-left:0px;}
+
+#Page .contentImage {margin:25px 0 0 0; background:transparent url(FRONT/NetExpress/img/img_degrade_blue.png) repeat-y 0px 0px; line-height:1em;}
+#Page .contentImage span {display:block; position:relative; top:-8px; color:#FFF;  background:transparent url(FRONT/NetExpress/img/img_arrondi_blue.png) no-repeat 0px 0px; _background:transparent url(http://bleuciel.edf.com/FRONT/NetExpress/img/img_arrondi_blue.gif) no-repeat 0px 0px; width:620px; padding:8px 0 0 10px; line-height:1.4em; }
+
+#Page .contentIcon {float:left; width:100px; margin:0;}
+
+#Page #Main .boxCart { background:transparent url(FRONT/NetExpress/img/img_cart.png) no-repeat 0 100%; margin:0 0 15px 0; padding:0;}
+#Page #Main .boxCartTop { background:transparent url(FRONT/NetExpress/img/img_cart.png) no-repeat 0 0; margin:0; height:4px; padding:0;}
+
+#Page #Main .contentHead,
+#Page #Main #ContentHead {width:620px; padding-bottom:36px;}
+#Page #Main #ContentMain {width:620px; clear:both; float:none; margin:0;}
+#Page #Main #ContentFoot {width:620px; clear:both; float:none; margin:0;}
+
+/* ##### ContentFoot MEF spécifique ##### */
+#Page #MainTB #ContentFoot,
+#Page #MainTB2 #ContentFoot,
+#Page #MainTBS #ContentFoot,
+#Page #MainTC .contentFoot,
+#Page #MainTC1 #ContentFoot,
+#Page #MainTD2 #ContentFoot,
+#Page #MainTDP #ContentFoot,
+#Page #MainTH2 #ContentFoot,
+#Page #MainTQ #ContentFoot,
+#Page #MainTY #ContentFoot,
+#Page #MainTK #ContentFoot,
+#Page #MainTM #ContentFoot,
+#Page #MainTLS #ContentFoot,
+#Page #MainTLC .contentFoot,
+#Page #MainTSD #ContentFoot,
+#Page #MainTV #ContentFoot,
+#Page #MainTR #ContentFoot,
+#Page #MainTS #ContentFoot {width:auto; background:#F3F3F3 url(FRONT/NetExpress/img/contentfoot_bg.png) no-repeat 15px 15px; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; padding:14px 14px 14px 100px; margin:30px 0 15px 0;}
+#Page #MainTB #ContentFoot hr,
+#Page #MainTB2 #ContentFoot hr,
+#Page #MainTBS #ContentFoot hr,
+#Page #MainTC .contentFoot hr,
+#Page #MainTC1 #ContentFoot hr,
+#Page #MainTD2 #ContentFoot hr,
+#Page #MainTDP #ContentFoot hr,
+#Page #MainTH2 #ContentFoot hr,
+#Page #MainTQ #ContentFoot hr,
+#Page #MainTY #ContentFoot hr,
+#Page #MainTK #ContentFoot hr,
+#Page #MainTM #ContentFoot hr,
+#Page #MainTLS #ContentFoot hr,
+#Page #MainTLC .contentFoot hr,
+#Page #MainTSD #ContentFoot hr,
+#Page #MainTV #ContentFoot hr,
+#Page #MainTR #ContentFoot hr,
+#Page #MainTS #ContentFoot hr {display:none;}
+
+#Page #Main #ContentPagination {margin:36px 0 5px 0; text-align:center; background:transparent url(FRONT/NetExpress/img/img_pagination_left.png) no-repeat 0px 0px;}
+#Page #Main #ContentPagination span {display:block; height:29px; background:transparent url(FRONT/NetExpress/img/img_pagination_right.png) no-repeat 100% 0;}
+#Page #Main #ContentPagination a {margin:7px 2px 0 2px;}
+#Page #Main #ContentPagination a span {display:none; }
+#Page #Main #ContentPagination a.contentPaginationPrevious {display:inline-block; width:13px; height:13px; margin-bottom:-1px; background:transparent url(FRONT/NetExpress/img/picto_pagination_previous.png) no-repeat 0 100%;}
+#Page #Main #ContentPagination a.contentPaginationNext {display:inline-block; width:13px; height:13px; margin-bottom:-1px; background:transparent url(FRONT/NetExpress/img/picto_pagination_next.png) no-repeat 0 100%;}
+#Page #Main #ContentPagination a.contentPaginationPrevious:hover {background:transparent url(FRONT/NetExpress/img/picto_pagination_previous_hover.png) no-repeat 100% 0;}
+#Page #Main #ContentPagination a.contentPaginationNext:hover {background:transparent url(FRONT/NetExpress/img/picto_pagination_next_hover.png) no-repeat 100% 0;}
+#Page #Main #ContentPagination a.active,
+#Page #Main #ContentPagination a:active {color:#FFA02F; font-weight:bold;}
+
+#Page #Main .alt1, #Page #Main .alt2 {clear:both; padding:15px;}
+#Page #Main .alt2 {background-color:#F1F1F1;}
+
+#Page #Main .inesLevel { position:absolute; top:6px; left:0px; text-align:center; color:#FFF; background: #FFF url(FRONT/NetExpress/img/ines_level.png) 30px no-repeat; width:29px; padding-left:1px; height:29px; font-size:0.9em; line-height:2.4em;}
+#Page #Main .il0 { background-position:0px;}
+#Page #Main .il1 { background-position:-30px;}
+#Page #Main .il2 { background-position:-60px;}
+#Page #Main .il3 { background-position:-90px;}
+#Page #Main .il4 { background-position:-120px;}
+#Page #Main .il5 { background-position:-150px;}
+#Page #Main .il6 { background-position:-180px;}
+#Page #Main .il7 { background-position:-210px;}
+
+/* ===================================================================== */
+/*############# Formulaires #########################*/
+/* ===================================================================== */
+form.formContent {background:#F3F3F3 url(FRONT/NetExpress/img/degrade_gris.png) repeat-y 0 0; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; width:493px; float:right; position:relative; margin:0 0 7px 0; padding:14px;}
+form.formContent div.formMessage {color:#FFA02F; font-size:0.9em;}
+form.formContent div.formMessage span {display:block; width:300px; padding-left:191px; margin-bottom:10px; font-weight:bold;}
+form.formContent div.formMessage span a {display:block; font-weight:normal; background:transparent url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 8px 5px; padding:0 0 0 22px;}
+
+form.formContent label {display:block; float:right; margin:5px 0; font-weight:bold; color:#666; /**/ width:100%; text-align:right;}
+form.formContent label span {margin-right:5px; color:#FFA02F; font-weight:normal;}
+
+form.formContent label.formRadioGroup,
+form.formContent label.formCheckGroup {clear:both; width:175px; /width:172px; _width:172px; text-align:right; float:left; padding-right:3px;}
+form.formContent div.formRadioGroup,
+form.formContent div.formCheckGroup {margin:4px 0; width:auto;}
+
+form.formContent label.formRadioGroup,
+form.formContent label.formCheckGroup {}
+form.formContent span.formRadioGroup,
+form.formContent span.formCheckGroup {display:block; width:296px; float:right; text-align:left;}
+
+form.formContent label.formCheck,
+form.formContent label.formRadio {float:none; display:inline; }
+form.formContent div.formCheckGroupList,
+form.formContent div.formRadioGroupList {margin:3px 0; width:auto; line-height:1em; padding:2px 0 7px 0; _margin:0; _padding:0;}
+form.formContent div.formCheckGroupList label.formCheck,
+form.formContent div.formRadioGroupList label.formRadio {display:block; margin-left:175px; width:auto; text-align:left;}/**/
+
+form.formContent input { border:1px solid #969696; font-size:0.9em; height:14px; width:300px; margin:0 0 0 14px;}
+form.formContent select {width:302px; /width:306px; border:1px solid #969696; font-size:0.9em; height:18px; margin:0 0 0 14px;}
+form.formContent textarea {width:300px; /width:302px; border:1px solid #969696; font-size:0.9em; margin:0 0 0 14px; vertical-align:top; font-family:Arial, Helvetica, sans-serif;}
+form.formContent .mandatory {border-color: #777;}
+form.formContent .error {border-color: #FFA02F;}
+form.formContent .ok {border-color: #00BF00;}
+
+form.formContent select:hover, form.formContent select:focus,
+form.formContent textarea:hover, form.formContent textarea:focus,
+form.formContent input:hover, form.formContent input:focus { color:#09357A; background-color:#F3F3F3;}
+
+form.formContent label.formRadio input, 
+form.formContent label.formCheck input,
+form.formContent div.formRadioList input, 
+form.formContent div.formCheckList input{width:14px; border:none; /*background:none;*/ padding-left:2px; margin-right:3px;} 
+form.formContent label.formFile input {height:21px; /height:19px;} 
+form.formContent label.formDate input {width:65px; margin-right:235px;} 
+
+form.formContent span.message {display:block; clear:both; margin-left:191px; /margin-left:189px; _margin-left:189px; font-size:0.9em; font-weight:bold;}
+
+#Page #Main button:hover, #Page #Main button:focus,
+form.formContent button:hover, form.formContent button:focus {border:1px solid #FFA02F; color:#09357A;}
+#Page #Main button,
+form.formContent button {padding-bottom:2px; background:transparent url(FRONT/NetExpress/img/t1_header_search_button_bg.png) repeat-x scroll 0 100%; border:1px solid #969696; font-size:0.8em; line-height:0.8em; height:18px; margin-top:9px; text-transform:uppercase;}
+form.formContent button.formButtonSubmit {clear:both; float:right; margin-right:0px; /margin-top:-4px;}
+form.formContent button.formButtonReset {margin-left:191px; /margin-left:187px; _margin-left:187px; float:left;}
+
+/* ### Combos Recherche/tri ### */
+#Page #Main #ContentHead #ContentSort {margin:20px 0 5px 0; text-align:center; background:transparent url(FRONT/NetExpress/img/img_pagination_left.png) no-repeat 0px 0px; position:relative; text-align:left;}
+#Page #Main #ContentHead #ContentSort span {padding:6px 0 0 6px; display:block; width:auto; height:29px; background:transparent url(FRONT/NetExpress/img/img_pagination_right.png) no-repeat 100% 0; font-weight:bold;/* color:#09357A;*/}
+#Page #Main #ContentHead #ContentSort form {position:absolute; top:5px; right:5px;}
+#Page #Main #ContentHead #ContentSort select { margin-left:5px; border:1px solid #969696; font-size:0.8em; height:18px;}
+#Page #Main #ContentHead #ContentSort button{margin:0 0 0 5px;}
+
+/* ### Accordéon générique pour insertion de FAQ ### */
+#Page #Main #AccDyn .ui-accordion {margin-top:21px;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative; zoom: 1;}
+#Page #Main #AccDyn .ui-accordion h4.ui-accordion-header { background: url(FRONT/NetExpress/img/img_cart_help_top.png) 0 0 no-repeat; margin:0 0 17px 0; padding: 3px 0 0; font-size: 1.3em; font-weight: normal; }
+#Page #Main #AccDyn .ui-accordion h4.ui-accordion-header .ui-accordion-header-inner { background: url(FRONT/NetExpress/img/img_cart_help_bottom.png) 0 bottom no-repeat; padding: 0 6px 3px 0; }
+#Page #Main #AccDyn .ui-accordion h5.ui-accordion-header {font-size:1.2em; font-weight:bold; margin:3px 0;}
+#Page #Main #AccDyn .ui-accordion h6.ui-accordion-header {font-size:1em; margin:3px 0;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #Main #AccDyn .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 5px 16px;}
+#Page #Content #Main .ui-accordion .ui-accordion-header a {text-decoration:none;}
+#Page #Main #AccDyn .ui-accordion h4.ui-accordion-header a {color:#FFF; padding: 0 0 0 21px;}
+#Page #Main #AccDyn .ui-accordion h5.ui-accordion-header a,
+#Page #Main #AccDyn .ui-accordion h6.ui-accordion-header a {color:#4D4D4D;}
+#Page #Main #AccDyn .ui-accordion h5.ui-state-active a,
+#Page #Main #AccDyn .ui-accordion h6.ui-state-active a {color:#FFA02F;}
+#Page #Main #AccDyn .ui-accordion h5.ui-state-active a:hover,
+#Page #Main #AccDyn .ui-accordion h6.ui-state-active a:hover {color:#4D4D4D;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #Main #AccDyn .ui-accordion h4.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat; left:5px; top:4px;}
+#Page #Main #AccDyn .ui-accordion h4.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion h5.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed_hover.gif) 0px 0px no-repeat; left:0px; top:3px;}
+#Page #Main #AccDyn .ui-accordion h6.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed_hover.gif) 0px 0px no-repeat; left:0px; top:4px;}
+#Page #Main #AccDyn .ui-accordion h5.ui-accordion-header:hover .ui-icon,
+#Page #Main #AccDyn .ui-accordion h6.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion h4.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion h4.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion h5.ui-state-active .ui-icon,
+#Page #Main #AccDyn .ui-accordion h6.ui-state-active .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion h5.ui-state-active:hover .ui-icon,
+#Page #Main #AccDyn .ui-accordion h6.ui-state-active:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-content {border-top:none; display:none; margin-bottom:2px; margin-top:-2px; overflow:auto;  top:1px; padding:0 0 10px 14px; zoom: 1;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-content .ui-accordion-content {padding:0 0 10px 17px;}
+#Page #Main #AccDyn .ui-accordion .ui-accordion-content-active {display:block;}
+
+/* ===================================================================== */
+/*############# Pages types #########################*/
+/* ===================================================================== */
+/* ### T1P3M1 TA ### */
+#Page #MainTA {}
+
+/* ### T1P3M1 TB ### */
+#Page #MainTB {}
+
+/* ### T1P3M1 TB2 ### */
+#Page #MainTB2 .twoCol {width:310px; float:left; margin-left:0; padding-bottom:30px; /padding-bottom:0;}
+#Page #MainTB2 .twoCol .contentGroup  {margin-left:0px; padding-right:20px;}
+#Page #MainTB2 .twoCol .cgIcon  {margin-left:100px; _margin-left:0px;}
+
+/* ### T1P3M1 TBS ### */
+#Page #MainTBS .cgSwapContainer h4 {font-weight:normal; color:#4D4D4D; font-size:1.4em;}
+#Page #MainTBS .ui-tabs-panel {display: block; border-width: 0; background: none; }
+#Page #MainTBS .ui-tabs-hide {display: none; !important}
+#Page #MainTBS .cgSwapContainer {width:auto; background:#F3F3F3; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; padding:14px; margin:30px 0 15px 0;}
+#Page #MainTBS .cgSwapContainer .cgSwap {float:right; position:absolute; top:-40px;/* _top:-44px; /top:-30px;*/ right:-7px; /*_right:145px;*/ font-size:0.8em; margin:0;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav {position: relative; list-style: none; margin: 0; padding:0; /display:inline-block;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav li {float:left;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav a {color:#FFA02F; display:block; float:left; width:13px; /*height:13px;*/ text-align:center; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg.gif) 50% 50% no-repeat; margin:0 5px 0 0; padding:0; _margin-right:3px; line-height:0.8em;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav a:hover {color:#09357A; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav a span {line-height:1.4em;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav a.active {color:#FFF; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:hover,
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:focus,
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:active,
+#Page #MainTBS .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a {color:#FFF; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTBS .cgSwapContainer .contentImage {background:none; float:left; width:340px; padding:0 ; margin:0; overflow:hidden; }
+#Page #MainTBS .cgSwapBloc .contentGroup {margin-left:355px; margin-top:-3px;}
+/* Accordeon */
+#Page #MainTBS #ContentHead {padding-bottom:20px;}
+#Page #MainTBS .ui-accordion {margin-top:21px;}
+#Page #MainTBS .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative; zoom: 1;}
+#Page #MainTBS .ui-accordion h4.ui-accordion-header { background: url(FRONT/NetExpress/img/img_cart_help_top.png) 0 0 no-repeat; margin:14px 0; padding: 3px 0 0; font-size: 1.3em; font-weight: normal; }
+#Page #MainTBS .ui-accordion h4.ui-accordion-header .ui-accordion-header-inner { background: url(FRONT/NetExpress/img/img_cart_help_bottom.png) 0 bottom no-repeat; padding: 0 6px 3px 0; }
+#Page #MainTBS .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTBS .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTBS .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 5px 16px; text-decoration:none;}
+#Page #MainTBS .ui-accordion h4.ui-accordion-header a {color:#FFF; padding: 0 0 0 21px;}
+#Page #MainTBS .ui-accordion h5.ui-accordion-header a {color:#000; font-size:1.1em;}
+#Page #MainTBS .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #MainTBS .ui-accordion h4.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat; left:5px; top:4px;}
+#Page #MainTBS .ui-accordion h4.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion h5.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed_hover.gif) 0px 0px no-repeat; left:0px; top:3px;}
+#Page #MainTBS .ui-accordion h5.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion h4.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion h4.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion h5.ui-state-active .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion h5.ui-state-active:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTBS .ui-accordion .ui-accordion-content {border-top:none; display:none; margin-bottom:2px; margin-top:-2px; overflow:auto;  top:1px; padding:0 0 10px 0; zoom: 1;}
+#Page #MainTBS .ui-accordion .ui-accordion-content .ui-accordion-content {padding:0 0 10px 17px;}
+#Page #MainTBS .ui-accordion .ui-accordion-content-active {display:block;}
+#Page #MainTBS .ui-accordion dl{ font-size:0.9em;}
+#Page #MainTBS .ui-accordion dl dt {font-weight:bold; margin-top:5px;}
+#Page #MainTBS .ui-accordion dl dd {margin-left:0;}
+
+/* ### T1P3M1 TC ### */
+#Page #MainTC #NavCarousel {position:relative; margin-bottom:20px;}
+#Page #MainTC #NavCarousel div.jcarousel-clip {padding-top:17px; width:620px; z-index:11;}
+#Page #MainTC #NavCarousel ul.jcarousel-list {}
+#Page #MainTC #NavCarousel li.jcarousel-item {width: 220px; height:80px; background-color:#FF8323; text-align:center; margin-right:60px; margin-left:-40px; text-align:center; list-style-image:none; list-style-position:outside; list-style-type:none; float:left;}
+#Page #MainTC #NavCarousel li.jcarousel-item span {display:block; margin-top:-3px; /margin-top:0px;}
+#Page #MainTC #NavCarousel li.active {background-color:#FBCC56;}
+#Page #MainTC #NavCarousel .jcarousel-item-placeholder {background:#fff ;color:#000;}
+#Page #MainTC #NavCarousel #NavCarShadow {background: transparent url(FRONT/NetExpress/img/navCarBgLeft.png) scroll 0px 0px no-repeat; _background:none; _border-left:1px solid #CCC; position:absolute; top:0px; left:0px; z-index:10;}
+#Page #MainTC #NavCarousel #NavCarShadow span{display:block; width:620px; height:120px; background: transparent url(FRONT/NetExpress/img/navCarBgRight.png) scroll 100% 0 no-repeat; _background:none; _border-right:1px solid #CCC; _width:618px;}
+#Page #MainTC #NavCarousel #NavCarControl {height:20px; width:100px; position:relative; left:265px; margin:0;}
+#Page #MainTC #NavCarousel #NavCarControl a {display:block; width:50px; height:50px; position:absolute; z-index:90;}
+#Page #MainTC #NavCarousel #NavCarControl a span {display:none;}
+#Page #MainTC #NavCarousel #NavCarControl a#NavCarControlPrev {background:transparent url(FRONT/NetExpress/img/arrow_move_left.png) no-repeat 50% 50% scroll; left:0;}
+#Page #MainTC #NavCarousel #NavCarControl a#NavCarControlNext {background:transparent url(FRONT/NetExpress/img/arrow_move_right.png) no-repeat 50% 50% scroll; right:0;}
+#Page #MainTC #NavCarousel #NavCarControl a#NavCarControlPrev:hover {background-image:url(FRONT/NetExpress/img/arrow_move_left_hover.png);}
+#Page #MainTC #NavCarousel #NavCarControl a#NavCarControlNext:hover {background-image:url(FRONT/NetExpress/img/arrow_move_right_hover.png);}
+
+/* ### T1P3M1 TC1 ### */
+#Page #MainTC1 #ContentHead {padding-bottom:0;}
+#Page #MainTC1 #CoverFlowLinks a {display:block; width:300px; float:left; margin:5px;}
+#Page #MainTC1 #CoverFlowLinks a img {width:160px; height:120px; float:left; margin-right:5px;}
+
+/* ### T1P3M1 TD ### */
+#Page #MainTD #ContentHead {padding-bottom:0;}
+#Page #MainTD #ContentHead form {text-align:right; margin:10px 0 21px 0;}
+#Page #MainTD #ContentHead label {}
+#Page #MainTD #ContentHead select {margin-left:5px; border:1px solid #969696; font-size:0.8em; height:18px;}
+#Page #MainTD #ContentHead button {margin:0 0 0 5px;}
+#Page #MainTD #ContentMain {/margin-top:0;}
+#Page #MainTD #ContentMain h3 {clear:both; background: url(FRONT/NetExpress/img/img_cart_help.png) 0px 0px no-repeat; padding:2px 0 20px 10px; color:#FFF; font-weight:normal; /*margin-bottom:20px; */font-size:1.2em;}
+#Page #MainTD #ContentMain span {}
+#Page #MainTD #ContentMain span span {color:#CCC;}
+#Page #MainTD #ContentMain h4 {color:#000;}
+#Page #MainTD #ContentMain .actionDownload {clear:none; margin-top:17px;}
+
+/* ### T1P3M1 TD2 ### */
+#Page #MainTD2 #ContentHead {padding-bottom:0;}
+#Page #MainTD2 #ContentHead form {text-align:right; margin:14px 0 0 0;}
+#Page #MainTD2 #ContentHead label {}
+#Page #MainTD2 #ContentHead select {margin-left:5px; border:1px solid #969696; font-size:0.8em; height:18px;}
+#Page #MainTD2 #ContentHead button {margin:0 0 0 5px;}
+#Page #MainTD2 #ContentMain {/margin-top:0;}
+#Page #MainTD2 #ContentMain h3 {height:22px; background: url(FRONT/NetExpress/img/img_cart_help.png) 0px 0px no-repeat; padding:2px 6px 0 0; font-size:1.2em; color:#FFF; padding-left:5px; margin:21px 0 7px 0;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative;}
+#Page #MainTD2 #ContentMain .ui-accordion h4.ui-accordion-header {padding:2px 0 0 0; font-size:1.1em; margin:10px 0 0 0;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 2px 30px; text-decoration:none; color:#4D4D4D; font-weight:bold;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-header a:hover {color:#FFA02F;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #MainTD2 #ContentMain .ui-accordion h4.ui-accordion-header .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat; left:14px; top:5px;}
+#Page #MainTD2 #ContentMain .ui-accordion h4.ui-accordion-header:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTD2 #ContentMain .ui-accordion h4.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTD2 #ContentMain .ui-accordion h4.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-content {border-top:none; display:none; overflow:auto; padding:0 0 10px 31px; zoom: 1; !padding-top:10px;}
+#Page #MainTD2 #ContentMain .ui-accordion .ui-accordion-content-active {display:block;}
+
+/* ### T1P3M1 TDP ### */
+#Page #MainTDP .twoCol { background:url(FRONT/NetExpress/img/picto_arrow_right.png) 50% 50% no-repeat;}
+#Page #MainTDP h3 {font-size:1em;  font-weight:bold; color:#000; line-height:1.2em; position:relative;}
+#Page #MainTDP h3 span {color:#FFA02F; display:block; width:280px; font-size:0.9em; padding:10px 0 0 15px; float:left;}
+#Page #MainTDP h3 span.alt {float:right;}
+#Page #MainTDP .twoCol {clear:both;}
+#Page #MainTDP .twoCol div.contentGroup {width:280px; margin:0; }
+#Page #MainTDP .twoCol div.contentGroup .contentText,
+#Page #MainTDP .twoCol div.contentGroup .contentText p {margin-left:0;}
+#Page #MainTDP .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative;}
+#Page #MainTDP .ui-accordion h3.ui-accordion-header {padding:2px 0 0 0; font-size:1.1em; margin:0;  height:42px;/*border-top:1px solid #E5E5E5;*/}
+#Page #MainTDP .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTDP .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTDP .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 0 16px; text-decoration:none; color:#4D4D4D; font-weight:bold;}
+#Page #MainTDP .ui-accordion .ui-accordion-header a:hover {color:#ee7206;}
+#Page #MainTDP .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px; margin:0;}
+#Page #MainTDP .ui-accordion h3.ui-accordion-header .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat; left:0px; top:5px;}
+#Page #MainTDP .ui-accordion h3.ui-accordion-header:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTDP .ui-accordion h3.ui-state-active a {color:#ee7206;}
+#Page #MainTDP .ui-accordion h3.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTDP .ui-accordion h3.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTDP .ui-accordion .ui-accordion-content {border-top:none; display:none; overflow:auto; padding:5px 0 0 16px; zoom: 1;}
+#Page #MainTDP .ui-accordion .ui-accordion-content-active {display:block;}
+#Page #MainTDP #ContentPagination {margin-bottom:36px; /margin-bottom:0;}
+
+/* ### T1P3M1 TE  et TEC ### */
+#Page #MainTE #ContentHead,
+#Page #MainTEC #ContentHead {padding-bottom:0;}
+#Page #MainTEC table.w_skinnedTable {margin:15px 0;}
+#Page #MainTEC table.w_skinnedTable caption {font-size:1.3em; /*font-weight:bold;*/ margin-bottom:-20px; padding-left:0;}
+#Page #MainTEC #ContentFoot {}
+#Page #MainTEC #ContentFoot h4 {}
+#Page #MainTEC #ContentFoot dl{ font-size:0.9em;}
+#Page #MainTEC #ContentFoot dl dt {font-weight:bold; margin-top:5px;}
+#Page #MainTEC #ContentFoot dl dd {margin-left:0;}
+
+/* ### T1P3M1 TF ### */
+#Page #MainTF #ContentHead .contentImage {margin-bottom:36px;}
+#Page #MainTF #ContentHead {padding-bottom:0;}
+#Page #MainTF .actionDownload {margin-bottom:0px;}
+
+/* ### T1P3M1 TG ### */
+#Page #MainTG #ContentMain .actionDownload {margin-bottom:0;}
+/* G2 */
+#Page #MainTG #ContentHead .contentText {color:#000;}
+#Page #MainTG #ContentFoot .contentGroup {margin:0; padding:0;}
+#Page #MainTG #ContentFoot .contentGroup .contentImage {background:none; margin:0 0 5px 0;}
+#Page #MainTG #ContentFoot .contentGroup .action {padding-bottom:0;}
+#Page #MainTG #ContentFoot .treeCol {padding:9px 0px}
+#Page #MainTG #ContentFoot .treeCol .contentGroup { display: inline; float:left; width:179px; margin:0px 14px; padding:0;}
+#Page #MainTG #ContentFoot .treeCol .first {}
+#Page #MainTG #ContentFoot .treeCol .last {margin-right:0;}
+
+/* ### T1P3M1 TH ### */
+#Page #MainTH #ContentMain .contentImage {float:left; margin:0 15px 5px 0; background:none;}
+#Page #MainTH #ContentMain hr {margin:14px 0; /margin-top:0;}
+
+/* ### T1P3M1 THA ### */
+#Page #MainTHA #ContentMain .contentImage {float:left; margin: 0; background:none;}
+#Page #MainTHA #ContentMain h3 {margin:0; font-size:1.3em;}
+#Page #MainTHA #ContentMain .date {margin:0 0 5px 0;}
+#Page #MainTHA #ContentMain .contentGroup {background-color:#F3F3F3; clear:both; padding:15px; margin:25px 0 0 0; zoom: 1; }
+#Page #MainTHA #ContentMain .contentGroup .contentGroup {background:none; margin: 0 0 0 150px; clear:none; padding:0;}
+#Page #MainTHA #ContentMain .contentGroup .contentGroup p {margin-top:0;}
+
+/* ### T1P3M1 TH2 ### */
+#Page #MainTH2 #ContentHead {padding-bottom:14px;}
+#Page #MainTH2 #ContentMain hr {margin:21px 0;}
+#Page #MainTH2 #ContentMain h3 {margin-bottom:21px ;}
+#Page #MainTH2 #ContentMain h4 {font-weight:normal; color:#4D4D4D; font-size:1.4em;}
+/*#Page #MainTH2 #ContentMain .contentImage {float:left; margin:0 15px 5px 0; background:none;}*/
+#Page #MainTH2 #ContentMain .contentGroup {margin-bottom:30px;}
+#Page #MainTH2 #ContentMain .contentGroup .actionRead {margin:5px 0 0 0;}
+#Page #MainTH2 #ContentMain .contentGroup .contentTopic {margin:0 0 5px 5px;}
+
+/* ### T1P3M1 TI ### */
+#Page #MainTI #ContentHead .contentImage {margin-bottom:36px;}
+#Page #MainTI #ContentHead {padding-bottom:0;}
+
+/* ### T1P3M1 TJ ### */
+#Page #MainTJ #ContentHead {padding-bottom:0;}
+#Page #MainTJ h3 {margin:20px 0;}
+#Page #MainTJ h4 {margin:2px 0; font-size:1em;}
+#Page #MainTJ .contentGroup .contentImage {margin:0 0 10px 0; background:none;}
+#Page #MainTJ .contentGroup .contentImage a img {border:1px solid #FFF; padding:1px; _padding:0;}
+#Page #MainTJ .contentGroup .contentImage a:hover img {border-color:#999;}
+#Page #MainTJ .contentGroup .contentText {color:#666;}
+#Page #MainTJ .contentGroup .contentText a {display:block; background:transparent url(FRONT/NetExpress/img/t1_bullet_link.gif) no-repeat scroll 0px 5px; margin-top:7px; padding-left:15px; text-decoration:none; }
+#Page #MainTJ .contentGroup .contentText a:hover {background:transparent url(FRONT/NetExpress/img/t1_bullet_link_over.gif) no-repeat scroll 0px 5px;}
+#Page #Content #MainTJ .contentText a {text-decoration:none;}
+#Page #MainTJ #ContentHead .contentGroup {position: relative; width:100%; height:113px; /margin-bottom:10px;}
+#Page #MainTJ #ContentHead h3 {font-size:1em;  position:absolute; top:10px; left:185px; color:#09357A; font-weight:bold;}
+#Page #MainTJ #ContentHead .contentGroup .contentImage {float:left;}
+#Page #MainTJ #ContentHead .contentGroup .contentText {float:none; position:absolute; bottom:0px; left:185px;}
+#Page #MainTJ #ContentMain {width:auto; margin:0;_width:681px; _margin-right:-100px;}
+#Page #MainTJ hr {width:620px; margin-left:0; /margin:0;}
+#Page #MainTJ #ContentMain .contentGroup {float:left; width:168px; height:245px; margin-right:38px;}
+/*#Page #MainTJ .fancyBox {display:none;}*/
+
+
+/* ### T1P3M1 TK ### */
+#Page #MainTK h4 {color:#4D4D4D;}
+#Page #MainTK #ContentHead {padding-bottom:36px;}
+#Page #MainTK #ContentMain .contentImage {padding-bottom:14px; background:none; margin-top:0;}
+#Page #MainTK .ui-tabs-panel {display: block; border-width: 0; background: none; }
+#Page #MainTK .ui-tabs-hide {display: none; !important}
+#Page #MainTK .cgSwapContainer .cgSwap {float:right; position:absolute; top:-30px; _top:-44px; /top:-30px; right:155px; _right:145px; font-size:0.8em; margin:0;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav {position: relative; list-style: none; margin: 0; padding:0; /display:inline-block;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav li {float:left;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav a {color:#FFA02F; display:block; float:left; width:13px; height:13px; text-align:center; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg.gif) 50% 50% no-repeat; margin:0 5px 0 0; padding:0; _margin-right:3px; line-height:0.8em;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav a:hover {color:#09357A; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav a span {line-height:1.4em;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav a.active {color:#FFF; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTK .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:hover,
+#Page #MainTK .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:focus,
+#Page #MainTK .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a:active,
+#Page #MainTK .cgSwapContainer .ui-tabs-nav .ui-tabs-selected a {color:#FFF; background:url(FRONT/NetExpress/img/t1_swap_numbers_bg_active.gif) 50% 50% no-repeat;}
+#Page #MainTK  .cgSwapContainer .contentImage {background:none; float:left; width:340px; padding:0 0 36px 0; /padding:0; _padding:0; margin:0; overflow:hidden;}
+#Page #MainTK .cgSwapBloc .contentGroup {margin-left:376px;}
+#Page #MainTK .twoCol {width:285px; float:left; margin-left:0; padding-bottom:30px; /padding-bottom:0;}
+#Page #MainTK .last {margin-left:50px;}
+#Page #MainTK .twoCol .contentGroup  {margin-left:0px;}
+#Page #MainTK .twoCol .cgIcon  {margin-left:100px; _margin-left:0px;}
+#Page #Content #MainTK .twoCol h3 {margin:0 0 17px 0;}
+#Page #Content #MainTK .twoCol h4 {margin:0 0 3px 0; padding:0; line-height:1.2em;}
+
+/* ### T1P3M1 TL ### */
+#Page #MainTL #ContentHead {width:620px;}
+
+/* ### T1P3M1 TLE ### */
+#Page #MainTLE #ContentHead {width:620px; padding-bottom:10px;}
+#Page #MainTLE #ContentHead .contentText{padding-bottom:14px;}
+#Page #MainTLE #ContentMain {width:620px;}
+#Page #MainTLE #ContentMain form.formContent {width:590px;}
+#Page #MainTLE #ContentMain form.formContent label { position: relative; }
+#Page #MainTLE #ContentMain form.formContent fieldset label { clear: both; color: #888; position: relative; float:none;  margin: 0; padding: 5px 0; overflow: hidden; }
+#Page #MainTLE #ContentMain form.formContent input { width:400px;}
+#Page #MainTLE #ContentMain form.formContent select {width:402px; /width:406px;}
+#Page #MainTLE #ContentMain form.formContent textarea {width:400px; /width:402px;}
+#Page #MainTLE #ContentMain form.formContent label.formDate input{ width:65px; margin-right:318px;}
+#Page #MainTLE #ContentMain form.formContent label.formDate a.btnDatepicker{ position:relative; right:310px; top:5px; /top:4px;}
+#Page #MainTLE #ContentMain form.formContent em { font-weight:normal; float: left; margin:0 0 7px 170px; font-size:0.95em; /margin-left:185px; /width: 400px;}
+#Page #MainTLE #ContentMain form.formContent label.formCheck input,
+#Page #MainTLE #ContentMain form.formContent label.formRadio input {width:14px; /*margin-top:2px;*/ position:relative; top:3px; /top:0;} 
+#Page #MainTLE #ContentMain form.formContent label.formCheck {margin-left:190px; /margin-left:207px; font-weight:normal;}
+#Page #MainTLE #ContentMain form.formContent label.formRadio {margin-left:35px; /margin-left:50px}
+#Page #MainTLE #ContentMain form.formContent div.formCheckGroupList {margin:0; line-height:1.2em; clear:both;}
+#Page #MainTLE #ContentMain form.formContent div.formRadioGroupList {float: left; width:400px; position:relative; top:-2px; /top:0; margin:0; padding:0;}
+#Page #MainTLE #ContentMain form.formContent label.formRadioGroup {float:left; width:152px;}
+/*#Page #MainTLE #ContentMain div.fancyBox {display:none;}*/
+div.eCard {text-align:left;font-size:1.2em;background-color:#F5F5F5; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; height:388px; margin-bottom:14px; width:600px; position:relative;} 
+div.eCard .contentImage {width:272px; height:388px; overflow:hidden; margin:0; padding:0; float:left; position:relative;}
+div.eCard .contentImage img {margin:0; padding:0; position:absolute; top:0px; z-index:9;}
+div.eCard .contentImage span { text-transform:uppercase;display:block; color:#FFF; background:#60bff6 url(FRONT/NetExpress/img/eCard_bgImage.png) repeat-y 0 0; padding: 4px; font-weight:bold; font-size:1.2em; margin:0; height:17px; width:264px; position:absolute; bottom:0px; z-index:10;}
+div.eCard .contentText {padding:14px; margin-left:272px; background:transparent url(FRONT/NetExpress/img/eCard_stant.png) no-repeat 100% 4px;}
+div.eCard .contentText .contentGroup {margin-top:14px; width:auto; padding:14px; background-color:#FFF; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; font-size:1.2em; line-height:1.4em; }
+div.eCard h2 {margin:0 0 75px 0; color:#053778; font-weight:normal; font-size:23px;}
+div.eCard h3 {margin:0 0 14px 0; color:#053778;}
+#fancybox-inner button:hover, #fancy_content button:focus {border:1px solid #FFA02F; color:#09357A;}
+#fancybox-inner button {margin:0px; padding-bottom:2px; background:transparent url(FRONT/NetExpress/img/t1_header_search_button_bg.png) repeat-x scroll 0 100%; border:1px solid #969696; font-size:0.8em; line-height:0.8em; height:18px; text-transform:uppercase;}
+#fancybox-inner button.formButtonSubmit {float:right; }
+#fancybox-inner button.formButtonReset {float:left;}
+/* Recaptcha */
+#Page #MainTLE form.formContent .recaptchaWidgetClass { clear: both; color: #666; font-weight: bold; margin: 5px 0 10px; overflow: hidden; width: 100%; }
+#Page #MainTLE form.formContent .recaptchaWidgetClass .recaptchaImageClass { float: right; display: inherit; height: 57px; border: 1px solid #969696; background: transparent; }
+#Page #MainTLE form.formContent .recaptchaWidgetClass #recaptcha_btn { float: right; margin: 0 0 0 10px; width: 25px; }
+#Page #MainTLE form.formContent .recaptchaWidgetClass #recaptcha_btn img { display: block; }
+#Page #MainTLE form.formContent .recaptchaWidgetClass label { clear: both; width: 100%; }
+#Page #MainTLE form.formContent .recaptchaWidgetClass label strong { }
+
+/* ### T1P3M1 TLL ### */
+#Page #MainTLL #ContentHead,
+#Page #MainTLL #ContentMain {width:620px;}
+#Page #MainTLL #ContentFoot {width:620px; padding:14px 0;}
+#Page #MainTLL form.formContent {width:380px; margin-top:14px;}
+#Page #MainTLL form.formContent label {text-align:left; float:none; margin:0;}
+#Page #MainTLL form.formContent textarea {width:378px;; margin:0; !width:405px;}
+#Page #MainTLL #ContentMain .contentIcon {width:180px; float:left;}
+#Page #MainTLL #ContentMain .cgIcon {margin-left:180px; width:410px; _margin-left:0;}
+#Page #MainTLL #ContentMain .info {background:#F3F3F3 url(FRONT/NetExpress/img/degrade_gris.png) repeat-y 0 0; border:1px solid #e3e3e3; -moz-border-radius:3px; -webkit-border-radius: 3px; margin:0 0 21px 0; padding:14px; color:#FFA02F; font-weight:bold;}
+#Page #MainTLL #ContentMain .info h3 {color:#666; font-size:1.1em; line-height:1.1em; font-weight:bold; margin: 0 0 7px 0;}
+#Page #MainTLL #ContentMain .contentText ul {list-style:url(FRONT/NetExpress/img/t1_bullet_orange.png); padding-left:20px; margin:4px 0;}
+#Page #MainTLL #ContentMain .contentText a.action {margin:14px 0;}
+
+/* ### T1P3M1 TLP ### */
+#Page #MainTLP #MainTabs ul li { width: auto; }
+#Page #MainTLP #MainTabs ul li a { width: 142px; }
+#Page #MainTLP #ContentHead,
+#Page #MainTLP #ContentMain,
+#Page #MainTLP #ContentFoot { padding: 0; width:620px; }
+/*#Page #MainTLP #ContentFoot .fancyBox { display: none; }*/
+#Page #MainTLP .twoCol {width:310px; float:left; margin-left:0; padding-bottom:30px; /padding-bottom:0;}
+#Page #MainTLP .twoCol .contentGroup {margin-left:0px;}
+#Page #MainTLP form.formContent { float: left; margin: 0; padding: 14px 12px; _padding-bottom: 0; width:249px;}
+#Page #MainTLP .last form.formContent { float: right; }
+#Page #MainTLP form.formContent .contentIcon {width:45px; float:left;}
+#Page #MainTLP form.formContent .cgIcon {margin-left:45px; _margin-left:0px;}
+#Page #MainTLP form.formContent h4 { color: #333; margin: 0 0 7px; }
+#Page #MainTLP form.formContent label { text-align: left; font-weight: normal; }
+#Page #MainTLP form.formContent input { display: block; margin: 3px 0 0; width: 202px; }
+#Page #MainTLP form.formContent #action-fancy1{ display: none; }
+#Page #MainTLP form.formContent #action-fancy2{ display: none; }
+ #Page #MainTLP form.formContent select { display: block; margin: 3px 0 0; width: 204px; }
+*+html #Page #MainTLP form.formContent input, 
+*+html #Page #MainTLP form.formContent select { margin-left: -45px; }
+#Page #MainTLP form.formContent button { _margin-right: -14px; }
+
+/* ### T1P3M1 TM ### */
+#Page #MainTM #ContentHead {width:620px;}
+#Page #MainTM h4 {color:#4D4D4D;}
+#Page #MainTM .twoCol {width:310px; float:left; margin-left:0; padding-bottom:30px; /padding-bottom:0;}
+#Page #MainTM .twoCol .contentGroup  {margin-left:0px; /*padding-right:20px;*/}
+#Page #MainTM .twoCol .cgIcon  {margin-left:100px; _margin-left:0px;}
+#Page #MainTM #ContentMain  span.date {margin:0 0 14px 0;}
+#Page #Content #MainTM .twoCol h3 {margin:0 0 17px 0;}
+#Page #Content #MainTM .twoCol h4 {margin:0 0 3px 0; padding:0; line-height:1.2em;}
+#Page #Content #MainTM .twoCol .contentGroup a.action {margin-top:0;}
+
+/* ### T1P3M1 TN ### */
+#Page #MainTN #ContentHead .twoCol { float: left; padding: 0 10px; margin: 0 0 30px; width: 290px; }
+#Page #MainTN #ContentHead .twoCol form.formContent { float: none; width:260px; overflow: hidden; }
+#Page #MainTN #ContentHead .twoCol form.formContent label { float: none; text-align: left; }
+#Page #MainTN #ContentHead .twoCol form.formContent label input { margin:0; width: 258px; }
+#Page #MainTN #ContentHead #ContentSort {clear: both;}
+#Page #MainTN #ContentHead #ContentSort select {width:300px;}
+
+#Page #MainTN li a {background:url(FRONT/NetExpress/img/t1_bullet_link.gif) 0px 6px no-repeat; padding-left:17px; display:block;}
+#Page #MainTN li a:hover {background-image:url(FRONT/NetExpress/img/t1_bullet_link_over.gif);}
+
+
+/* ### T1P3M1 TP ### */ /* Provisoire & Google - A revoir après déploiement nouvelles pages Synomia */
+#Page #MainTP #ContentHead {padding-bottom:0;}
+#Page #MainTP #ContentSearch {position:relative; width:620px; background:transparent url(FRONT/NetExpress/img/img_cart_search_left.png) no-repeat 0px 0px; margin: 0 0 15px;}
+#Page #MainTP #ContentSearch div {height:54px; padding:5px 0 0 10px; font-weight:bold; background:transparent url(FRONT/NetExpress/img/img_cart_search_right.png) no-repeat 100% 0; line-height: 1.3em;}
+#Page #MainTP #ContentSearch strong {color:#005BBB; font-weight:normal; display:inline-block; width:425px; margin-left:5px;}
+#Page #MainTP #ContentSearch form {margin:0; padding:0; font-weight:normal;}
+#Page #MainTP #ContentSearch form legend {display:none;}
+#Page #MainTP #ContentSearch label {vertical-align:bottom;}
+#Page #MainTP #ContentSearch fieldset {padding:0; position:absolute; bottom:5px; left:5px; }
+#Page #MainTP #ContentSearch label.inputRadio input {position:relative; top:1px;}
+#Page #MainTP #ContentSearch label.inputCheckbox input {position:relative; top:2px; margin-left:10px;}
+#Page #MainTP #ContentSearch span {display:block; position:absolute; right:0; _left: 483px; top: -40px; font-weight:normal;}
+#Page #MainTP #ContentSearch span.contentText {display:inline; position:relative; top: 0; left: 0; float: left;}
+#Page #MainTP #ContentSearch span a {display:block; height:27px; padding:4px 0 0 36px; font-size:1.2em; color:#005BBB; background:transparent url(FRONT/NetExpress/img/img_picto_help.png) no-repeat 0 0; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/img_picto_help.gif);}
+#Page #MainTP #ContentSearch span a:hover {color:#FFA02F;}
+#Page #MainTP h2 {color:#09357A; font-weight:normal;}
+#Page #MainTP h3 {font-size:1.5em; font-weight:normal; margin:3px 0;}
+#Page #MainTP h4 {font-size:1.1em; margin:2px 0;}
+#Page #MainTP #ContentHead h3 {font-size:1.4em; font-weight:normal; margin:-2px 0 5px 0;}
+#Page #MainTP #ContentHead h4 {font-size:1em; font-weight:bold;}
+#Page #MainTP #ContentMain h4 {margin:-2px 0 5px 0;}
+#Page #MainTP .contentImage {clear:both; background:none; float:left; margin:0;}
+#Page #MainTP .contentImage img {margin: 2px 13px 0 0;}
+#Page #MainTP .actionRead {margin-bottom:0; font-weight:bold;}
+#Page #MainTP .actionRead a  {float:right; font-weight:normal;}
+#Page #MainTP .alt1 .actionRead a, #Page #MainTP .alt2 .actionRead a {float:none;}
+#Page #MainTP #ContentFoot {text-align:center; color:#333; font-size:0.95em;}
+#Page #MainTP #ContentPagination {font-size:1.1em; margin:0;}
+#Page #Main div.mainTP2 #ContentSearch strong {/*width:290px;*/}
+#Page #Main div.mainTP2 #ContentMain ul li { color:#999; list-style:none;}
+#Page #Main div.mainTP2 #ContentMain ul li a {/*font-weight:bold;*/background:url(FRONT/NetExpress/img/t1_bullet_link.gif) 0px 5px no-repeat; padding:0 0 0 15px;}
+#Page #Main div.mainTP2 #ContentFoot {text-align:left; color:#333; font-size:0.95em; padding-top:10px;}
+/* ### T1P3M1 TPtemp ### */
+#Page #MainTP .breadcrumb {font-size:0.95em; color:#999;}
+#Page #MainTP a h3,
+#Page #MainTP h4,
+#Page #MainTP a .contentText {color:#000;}
+#Page #MainTP #ContentHead a:hover h4,
+#Page #MainTP #ContentMain a:hover h3 {color:#FFA02F;}
+#Page #MainTP a.video {display:block; padding-left:70px; background:url(FRONT/NetExpress/img/picto_webtv_orange.png) no-repeat 0 45%; _background:url(http://bleuciel.edf.com/FRONT/NetExpress/img/picto_webtv_orange.gif) no-repeat 0 45%; min-height:49px; _height:49px;}
+#Page #MainTP #ContentMain a.video .contentText {}
+#Page #MainTP #ContentMain h3 {font-size:1em; font-weight:bold;margin:-2px 0 5px 0;}
+#Page #MainTP #ContentFoot {margin-top:15px;}
+#Page #MainTP #ContentHead hr {margin:10px 0;}
+
+/* ### T1P3M1 TPS ### */
+#Page #MainTPS #ContentHead {padding-bottom:0;}
+
+#Page #MainTPS #ContentSearch {padding:7px 14px 10px 14px; _padding-top:0; position:relative;}
+#Page #MainTPS #ContentSearch strong {color:#09357A; font-weight:normal;}
+#Page #MainTPS #ContentSearch .contentText a {text-decoration:none; padding:2px; margin:0 2px;}
+#Page #MainTPS #ContentSearch .contentText .right {!margin-top:-15px;}
+body:empty #Page #MainTPS #ContentSearch .contentText .right { margin-top:-15px; /* FF2 et inf */}
+#Page #MainTPS #ContentSearch a.active,
+#Page #MainTPS #ContentSearch a.active:hover { background-color: #FFF; color:#FFA02F; cursor:default; border:1px solid #FFF; -moz-border-radius:3px; -webkit-border-radius: 3px;}
+#Page #MainTPS #ContentSearch a#SearchHelpButton {position:absolute; right:0; top: -40px; _top: -50px; display:block; height:27px; _width:auto; padding:4px 0 0 36px; font-size:1.2em; color:#09357A; background:transparent url(FRONT/NetExpress/img/img_picto_help.png) no-repeat 0 0; _background-image:url(http://bleuciel.edf.com/FRONT/NetExpress/img/img_picto_help.gif);}
+#Page #MainTPS #ContentSearch a#SearchHelpButton:hover {color:#FFA02F;}
+
+#Page #MainTPS hr {margin:7px 0 0 0;}
+#Page #MainTPS h3 {font-size:1.4em; font-weight:normal; margin:3px 0;}
+#Page #MainTPS h4 {font-size:1.1em; margin:2px 0;}
+#Page #MainTPS #ContentHead h3 {font-size:1.4em; font-weight:normal; margin:0 0 5px 0;}
+#Page #MainTPS #ContentHead h4 {font-size:1em; font-weight:bold;}
+#Page #MainTPS #ContentMain h4 {margin:-2px 0 5px 0;}
+#Page #MainTPS #ContentHead hr {margin:14px 0;}
+#Page #MainTPS #ContentHead .alt2 {margin-bottom:14px;}
+#Page #MainTPS .contentImage {clear:both; background:none; float:left; margin:0;}
+#Page #MainTPS .contentImage img {margin: 2px 13px 0 0;}
+#Page #MainTPS .actionRead {margin-bottom:0; font-weight:bold; color:#999;}
+#Page #MainTPS .actionRead a  {float:right; font-weight:normal;}
+#Page #MainTPS .alt1 .actionRead a, #Page #MainTPS .alt2 .actionRead a {float:none;}
+#Page #MainTPS #ContentFoot {text-align:center; color:#333; font-size:0.95em; margin-top:21px;}
+#Page #MainTPS #ContentPagination {font-size:1.1em; margin:0;}
+
+#Page #Main div.mainTPS2 #ContentMain ul li { color:#999; list-style:none;}
+#Page #Main div.mainTPS2 #ContentMain ul li a {/*font-weight:bold;*/background:url(FRONT/NetExpress/img/t1_bullet_link.gif) 0px 5px no-repeat; padding:0 0 0 15px;}
+#Page #Main div.mainTPS2 #ContentFoot {text-align:left; color:#333; font-size:0.95em;}
+
+#Page #MainTPS #ContentMain a .breadcrumb {font-size:0.95em; color:#999; display:block;}
+#Page #MainTPS #ContentMain a:hover .breadcrumb {color:#4D4D4D;}
+#Page #MainTPS #ContentMain a:hover .contentText {color:#000;}
+#Page #MainTPS #ContentMain a h3, #Page #MainTPS h4 {color:#000;}
+#Page #MainTPS #ContentMain a .contentText {color:#4D4D4D;}
+#Page #MainTPS #ContentMain a:hover h4 {color:#FFA02F;}
+/*#Page #MainTPS .alt1,
+#Page #MainTPS .alt2 {border:1px dotted #FFF;}
+#Page #MainTPS .alt1:hover,
+#Page #MainTPS .alt2:hover {border:1px dotted #999;}*/
+#Page #MainTPS a.video {display:block; padding-left:70px; background:url(FRONT/NetExpress/img/picto_webtv_orange.png) no-repeat 0 45%; _background:url(http://bleuciel.edf.com/FRONT/NetExpress/img/picto_webtv_orange.gif) no-repeat 0 45%; min-height:49px; _height:49px;}
+#Page #MainTPS .ui-accordion {border-bottom:1px solid #E5E5E5; padding-bottom:8px; margin-bottom:21px;}
+#Page #MainTPS .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative;}
+#Page #MainTPS .ui-accordion h3.ui-accordion-header {padding:7px 0 0 0; margin:8px 0 0 0; border-top:1px solid #E5E5E5;}
+#Page #MainTPS .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTPS .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTPS .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 0 21px; text-decoration:none; color:#4D4D4D;}
+#Page #MainTPS .ui-accordion .ui-accordion-header a:hover {color:#FFA02F;}
+
+#Page #MainTPS .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #MainTPS .ui-accordion h3.ui-accordion-header .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat; left:0px; top:12px;}
+#Page #MainTPS .ui-accordion h3.ui-accordion-header:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTPS .ui-accordion h3.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTPS .ui-accordion h3.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTPS .ui-accordion .ui-accordion-content {border-top:none; display:none; overflow:auto; padding:0 0 10px 21px; zoom: 1;}
+#Page #MainTPS .ui-accordion .ui-accordion-content-active {display:block;}
+
+
+/* ### T1P3M1 TQ ### */
+#Page #MainTQ #ContentHead {padding-bottom:15px;}
+
+/* ### T1P3M1 TS ### */
+#Page #MainTS #ContentHead {padding-bottom:20px;}
+#Page #MainTS .ui-accordion {}
+#Page #MainTS .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative; zoom: 1;}
+
+#Page #MainTS .ui-accordion h3.ui-accordion-header { background: url(FRONT/NetExpress/img/img_cart_help_top.png) 0 0 no-repeat; padding: 3px 0 0; font-size: 1.3em; font-weight: normal; }
+#Page #MainTS .ui-accordion h3.ui-accordion-header .ui-accordion-header-inner { background: url(FRONT/NetExpress/img/img_cart_help_bottom.png) 0 bottom no-repeat; padding: 0 6px 3px 0; }
+
+#Page #MainTS .ui-accordion h4.ui-accordion-header {font-size:1.2em; font-weight:bold;}
+#Page #MainTS .ui-accordion h5.ui-accordion-header {font-size:1em;}
+#Page #MainTS .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTS .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTS .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 5px 16px;}
+#Page #Content #Main #MainTS .ui-accordion .ui-accordion-header a {text-decoration:none;}
+#Page #MainTS .ui-accordion h3.ui-accordion-header a {color:#FFF; padding: 0 0 0 21px;}
+#Page #MainTS .ui-accordion h4.ui-accordion-header a,
+#Page #MainTS .ui-accordion h5.ui-accordion-header a {color:#4D4D4D;}
+#Page #MainTS .ui-accordion h4.ui-state-active a,
+#Page #MainTS .ui-accordion h5.ui-state-active a {color:#FFA02F;}
+#Page #MainTS .ui-accordion h4.ui-state-active a:hover,
+#Page #MainTS .ui-accordion h5.ui-state-active a:hover {color:#4D4D4D;}
+#Page #MainTS .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #MainTS .ui-accordion h3.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat; left:5px; top:6px;}
+#Page #MainTS .ui-accordion h3.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion h4.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed_hover.gif) 0px 0px no-repeat; left:0px; top:3px;}
+#Page #MainTS .ui-accordion h5.ui-accordion-header .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed_hover.gif) 0px 0px no-repeat; left:0px; top:4px;}
+#Page #MainTS .ui-accordion h4.ui-accordion-header:hover .ui-icon,
+#Page #MainTS .ui-accordion h5.ui-accordion-header:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion h3.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion h3.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/faq_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion h4.ui-state-active .ui-icon,
+#Page #MainTS .ui-accordion h5.ui-state-active .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion h4.ui-state-active:hover .ui-icon,
+#Page #MainTS .ui-accordion h5.ui-state-active:hover .ui-icon {background:url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened.gif) 0px 0px no-repeat;}
+#Page #MainTS .ui-accordion .ui-accordion-content {border-top:none; display:none; margin-bottom:2px; margin-top:-2px; overflow:auto;  top:1px; padding:0 0 10px 14px; zoom: 1;}
+#Page #MainTS .ui-accordion .ui-accordion-content .ui-accordion-content {padding:0 0 10px 17px;}
+#Page #MainTS .ui-accordion .ui-accordion-content-active {display:block;}
+
+/* ### T1P3M1 TSD ### */
+#Page #MainTSD .date {font-weight:normal; padding-left:46px;}
+#Page #MainTSD #ContentHead {padding-bottom:15px;}
+#Page #MainTSD .ui-accordion {}
+#Page #MainTSD .ui-accordion .ui-accordion-header {cursor:pointer; margin-top:1px; position:relative;}
+#Page #MainTSD .ui-accordion h3.ui-accordion-header {padding:2px 0 0 0; font-size:1.1em; margin:10px 0 0 0;}
+#Page #MainTSD .ui-accordion .ui-accordion-li-fix {display:inline; }
+#Page #MainTSD .ui-accordion .ui-accordion-header-active {border-bottom:0 none !important;}
+#Page #MainTSD .ui-accordion .ui-accordion-header a {display:block; font-size:1em; padding:0 0 2px 51px; text-decoration:none; color:#4D4D4D; font-weight:bold;}
+#Page #MainTSD .ui-accordion .ui-accordion-header a:hover {color:#FFA02F;}
+#Page #MainTSD .ui-accordion .ui-accordion-header .ui-icon {position:absolute; display:block; width:12px; height:12px;}
+#Page #MainTSD .ui-accordion h3.ui-accordion-header .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat; left:35px; top:5px;}
+#Page #MainTSD .ui-accordion h3.ui-accordion-header:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTSD .ui-accordion h3.ui-state-active .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_opened_hover.gif) 0px 0px no-repeat;}
+#Page #MainTSD .ui-accordion h3.ui-state-active:hover .ui-icon {background: url(FRONT/NetExpress/img/t1p3_nav_3_bullet_main_closed.gif) 0px 0px no-repeat;}
+#Page #MainTSD .ui-accordion .ui-accordion-content {border-top:none; display:none; overflow:auto; padding:0 0 10px 51px; zoom: 1;}
+#Page #MainTSD .ui-accordion .ui-accordion-content-active {display:block;}
+#Page #MainTSD #ContentPagination {margin-bottom:36px; /margin-bottom:0;}
+
+/* ### T1P3M1 TT ### */
+#Page #MainTT #ContentHead { padding: 0; }
+#Page #MainTT ol.formSteps { background: url(FRONT/NetExpress/img/bg_form_steps.png) 0 0 no-repeat; color: #000; height: 31px; line-height: 31px; list-style: none; margin: 0 0 15px; padding: 0; width: 620px; }
+#Page #MainTT ol.formSteps li { display: inline; float: left; position: relative; width: 207px; }
+#Page #MainTT ol.formSteps li.first { background: 0; width: 206px; }
+#Page #MainTT ol.formSteps li.last { background: 0; }
+#Page #MainTT ol.formSteps li.past { background: url(FRONT/NetExpress/img/bg_form_steps_arrows.png) 0 -124px repeat-x; color: #666; }
+#Page #MainTT ol.formSteps li.active { background: #002f76 url(FRONT/NetExpress/img/degrade_bleu.png) right 0 repeat-y; color: #fff; }
+#Page #MainTT ol.formSteps li em { display: block; height: 31px; font-style: normal; padding: 0 0 0 10px; }
+#Page #MainTT ol.formSteps li.first em { background: url(FRONT/NetExpress/img/bg_form_steps_arrows.png) 0 -155px no-repeat; }
+#Page #MainTT ol.formSteps li.firstActive em { background-position: 0 -186px; }
+#Page #MainTT ol.formSteps li.lastActive em { background: url(FRONT/NetExpress/img/bg_form_steps_arrows.png) right -217px no-repeat; }
+#Page #MainTT ol.formSteps li span { background: url(FRONT/NetExpress/img/bg_form_steps_arrows.png) 0 0 no-repeat; display: block; height: 31px; right: 0; _right: -1px; position: absolute; top: 0; width: 18px; z-index: 10; }
+#Page #MainTT ol.formSteps li.first span {}
+#Page #MainTT ol.formSteps li.past span { background-position: 0 -93px; }
+#Page #MainTT ol.formSteps li.nextActive span { background-position: 0 -62px; }
+#Page #MainTT ol.formSteps li.active span { background-position: 0 -31px; }
+#Page #MainTT ol.formSteps li.last span { display: none; }
+
+#Page #MainTT span.message { display: block; margin: 0 0 5px; }
+#Page #MainTT .formDetailedChoice { clear: both; margin: 0 0 20px; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceHeader { /*background: #60bff6 url(http://bleuciel.edf.com/FRONT/NetExpress/img/degrade_bleu_ciel.png) 0 0 repeat-y;*/ background: #002F76 url(FRONT/NetExpress/img/degrade_bleu.png) repeat-y right 0; color: #fff; font-size: 1.2em; font-weight: bold; margin: 0; padding: 8px 10px 8px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; zoom: 1; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent { background: #fbfbfb; border: 1px solid #ebebeb; color:#666666; padding:15px 10px; zoom: 1;  }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .contentText { margin: 0 0 12px; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table { border-collapse: collapse; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table th,
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td { text-align: center; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td { background: #fff; border: 1px solid #e4e4e4; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table .desc td { text-align: left; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td a.action { font-size: 0.9em; text-align: left; padding: 7px 0 0 15px !important; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td label { display: block; margin: 5px 0; text-align: left; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td label input { vertical-align: baseline; margin: 0 3px 0 5px; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent table td button { margin: 0; }
+
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .option { margin: 12px 0 0; position: relative; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .option label { background: #60bff6 url(FRONT/NetExpress/img/degrade_bleu_ciel.png) 0 0 repeat-y; color: #fff; display: block; font-weight: bold; padding: 8px 10px 8px 30px; width: auto; -moz-border-radius:3px; -webkit-border-radius: 3px; zoom: 1; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .option label { cursor: pointer; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .option label input { margin: 0; position: absolute; top: 10px; !top: 5px; left: 10px; !left: 5px; }
+#Page #MainTT .formDetailedChoice .formDetailedChoiceContent .option .contentText { background: #fff; border: solid #ebebeb; border-width: 0 1px 1px; color: #666; margin: 0; padding: 15px 10px; }
+
+#Page #MainTT .formRateSimulator { }
+#Page #MainTT .formRateSimulator table { border-collapse: collapse; }
+#Page #MainTT .formRateSimulator table thead th { text-align: center; }
+#Page #MainTT .formRateSimulator table thead th.empty { background: 0; border: 0; }
+#Page #MainTT .formRateSimulator table thead th a.formHelp { margin: 0 0 0 5px; }
+#Page #MainTT .formRateSimulator table tbody th { background:transparent url(FRONT/NetExpress/img/img_headertable_center.png) repeat-x scroll 0 0; border: 1px solid #e4e4e4; color: #053778; font-size: 1.1em; height: 48px; line-height: 1.1em; text-align: center; }
+#Page #MainTT .formRateSimulator table tbody th span { color: #000; display: block; font-size: 0.8em; font-weight: normal; }
+#Page #MainTT .formRateSimulator table tbody td { border: 1px solid #e4e4e4; text-align: center; }
+#Page #MainTT .formRecap table tbody td { font-size: 1.5em; font-weight: bold; }
+#Page #MainTT .formRecap table tbody td.last { font-weight: normal; }
+#Page #MainTT .formRateSimulator table tfoot td { text-align: right; }
+#Page #MainTT .formRateSimulator table td input,
+#Page #MainTT .formRateSimulator table td select { border: 1px solid #969696; font-size: 0.9em; margin: 0 5px 0 0; width: 130px; }
+#Page #MainTT .formRateSimulator table td input { height: 14px; }
+#Page #MainTT .formRateSimulator table td input:hover,
+#Page #MainTT .formRateSimulator table td input:focus,
+#Page #MainTT .formRateSimulator table td select:hover,
+#Page #MainTT .formRateSimulator table td select:focus { background: #f3f3f3; color: #09357a; }
+#Page #MainTT .formRateSimulator table td .error { border-color: #ffa02f; }
+#Page #MainTT button.formButtonSubmit { clear: both; float: right; margin-right: 0; }
+#Page #MainTT button.formButtonResetLarge { margin-left:0; }
+
+
+/*#### T1P3M1 TY ###*/
+#Page #MainTY iframe {border:none; }
+#Page #MainTY #ContentHead {padding-bottom:15px;}
+#Page #MainTY #ContentFoot {padding-top:15px;}
+
+/* EJP */
+#Page #MainTY #ContentMain #ContentEJP h3 { margin: 0 0 25px; }
+#Page #MainTY #ContentMain #ContentEJP h4 { background: url(FRONT/NetExpress/img/img_cart_help.png) 0 0 no-repeat; color: #fff; font-size: 1.2em; font-weight: normal; height: 22px; line-height: 22px; margin: 0 0 15px; padding: 0 6px; }
+#Page #MainTY #ContentMain #ContentEJP .EJPDay { margin: 0 0 40px; }
+#Page #MainTY #ContentMain #ContentEJP table.reacapEJPDay { margin: 0 0 20px; }
+#Page #MainTY #ContentMain #ContentEJP table.reacapEJPDay caption { font-weight: bold; }
+#Page #MainTY #ContentMain #ContentEJP table.reacapEJPDay thead th { width: 20%; }
+#Page #MainTY #ContentMain #ContentEJP table.reacapEJPDay thead th a { color: #ffa02f; }
+#Page #MainTY #ContentMain #ContentEJP ul.EJPLegende { list-style: none; margin: 0; padding: 0; text-align: right; }
+#Page #MainTY #ContentMain #ContentEJP ul.EJPLegende li { display: inline; margin: 0 0 0 10px; }
+#Page #MainTY #ContentMain #ContentEJP ul.EJPLegende li img { margin: 0 2px 0 0; vertical-align: middle; }
+
+.fancyEJP .boxCenter { overflow: hidden; }
+.fancyEJP .boxCenter .contentText { float: left; width: 45%; }
+.fancyEJP .boxCenter .contentImage { float: right; width: 45%; }
+.fancyEJP .boxCenter .contentImage img { display: block; width: 100%; }
+
+/* Tempo */
+#Page #MainTY #ContentMain #ContentTempo h3 { font-size: 1em; font-weight: bold; margin: 0 0 15px; }
+#Page #MainTY #ContentMain #ContentTempo h4 { background: url(FRONT/NetExpress/img/img_cart_help.png) 0 0 no-repeat; color: #fff; font-size: 1.2em; font-weight: normal; height: 22px; line-height: 22px; margin: 0 0 20px; padding: 0 6px; }
+#Page #MainTY #ContentMain #ContentTempo .TempoDay { border-bottom: 1px solid #e5e5e5; margin: 0 0 30px; padding: 0 0 30px; }
+
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos { margin: 20px 0 0; overflow: hidden; zoom: 1;}
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoColor { background: url(FRONT/NetExpress/img/couleur_tempo.png) 0 0 no-repeat; color: #fff; float: left; font-weight: bold; line-height: 26px; list-style: none; margin: 12px 60px 0 0; padding: 0; text-transform: uppercase; width: 133px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoColor li { float: left; height: 26px; width: 31px; padding: 0 5px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoColor li.blue { text-align: right; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoColor li.white { color: #000; text-align: center; width: 41px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoColor li.red { text-align: left; }
+
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours { color: #000; float: left; font-weight: bold; list-style: none; margin: 2px 0 0; padding: 0; width: 305px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li { float: left; position: relative; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.hc { width: 75px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.hp { width: 155px; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li .period { border: 1px solid #e3e3e3; clear: both; display: block; height: 24px; line-height: 24px; text-align: center; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.hc .period { background: #e3e3e3; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.blue .period { background: #0097de; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.white .period { background: #fff; }
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos ul.tempoHours li.red .period { background: #f00; }
+
+
+#Page #MainTY #ContentMain #ContentTempo .tempoInfos .tempoLegende { float: right; width: 85px; }
+
+
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays { list-style: none; margin: 0; padding: 0; overflow: hidden; }
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays li { display: inline; float: left; width: 33.3%; }
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays li span { border: 1px solid #e3e3e3; color: #000; display: block; font-weight: bold; text-align: center; }
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays li.blueDay span { background: #0097de; border-right: 0; color: #000; }
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays li.whiteDay span { background: #fff; border-right: 0; }
+#Page #MainTY #ContentMain #ContentTempo #TempoRemainingDays li.redDay span { background: #f00; }
+
+
+
+
+
+
+
+

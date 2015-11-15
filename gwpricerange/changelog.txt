@@ -1,0 +1,10 @@
+
+# Changelog
+
+## 1.0.1
+
+    - Fixed issue where validation allowed zero to be entered a valid price even if minimum was greater than 0
+
+## 1.0
+
+    - Let the good times roll.

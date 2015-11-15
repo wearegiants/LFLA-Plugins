@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+/* Communs */
+/*@page { marks:crop; orphans:3; widows:3;}*/
+#Page #Header #HeaderTop {display:none;}
+#Page #Header #HITgroup a span {font-weight:bold; text-decoration:underline;}
+#Page #Footer #FooterActions {display:none;}
+#Page #Footer #FooterLinks ul {display:none;}
+
+/* Spécifiques */
+@page {size: 21.0cm 29.7cm portrait;}
+#Page #MainNavigation #MnContainer ul.mainMenu li a.mnActive,
+#Page #MainNavigation #MnContainer ul.mainMenu li a.active {font-weight:bold; text-decoration:underline;}
+#Page #SmartBanners {display:none;}
+#Page #Widgets {display:none;}
+#Page #Content #PageToolBarTop, #Page #Content #PageToolBar {display:none;}
+#Page #Content #MainTabs a.active {font-weight:bold; text-decoration:underline;}
+
+/*
+#Page #Header,
+#Page #MainNavigation,
+#Page #Footer {width:21.0cm;}
+*/
+
+/* Correctif impression accordéons pour FF */
+#Page .ui-accordion .ui-accordion-content {display:inline !important;}

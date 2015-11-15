@@ -1,0 +1,453 @@
+﻿/*div principal*/
+
+ #crm_a1:link{
+ text-decoration:none;
+ color:#ffffff;}
+ #crm_a1:hover{
+ text-decoration:none;
+ color:#ffffff;}
+ #crm_a1:visited{
+ text-decoration:none;
+ color:#ffffff;} 
+ 
+ #crm_a2:link{
+ text-decoration:none;
+ color:#ffffff;}
+ #crm_a2:hover{
+ text-decoration:none;
+ color:#ffffff;}
+ #crm_a2:visited{
+ text-decoration:none;
+ color:#ffffff;}
+ 
+ .noli {
+ text-decoration:none;
+ color:#FFFFFF;}
+
+#imgx
+{
+	position:absolute;
+	top:-440px;
+}
+
+#crm_bodytxt
+{
+	margin:0;
+	padding:0;
+	left: 0;
+	top: 0;
+	width:591px;
+	line-height:normal;
+	font-size:1em;
+	text-align:justify;
+	background-color:#FFFFFF;
+}
+
+#crm_bodytxtst{
+	margin:0;
+	padding:0;
+	left: 0;
+	top: 0;
+	width:269px;
+	height:357px;
+	line-height:normal;
+	font-size:0%;
+	text-align:justify;
+	background-color:#FFFFFF;
+	overflow: hidden;
+}
+
+.divcrm{
+	margin:0;
+	padding:0;
+	border:none;
+	font-size:1em;
+}
+
+
+/*________________________________________________________________________________________________________________________*/
+/*______________________________________________________Start of popin____________________________________________________*/
+/*________________________________________________________________________________________________________________________*/
+
+
+#stealth_pop_BC, #stealth_pop_PR , #stealth_pop_CO, #stealth_pop_EN{
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	top:-440px;
+	/*left: 10em;
+	top: 5em;*/
+	height : 325px;
+	width : 439px;
+}
+
+
+
+#entry_pop{
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	top:-440px;
+	/*left: 10em;
+	top: 5em;*/
+	height : 325px;
+	width : 439px;
+}
+
+
+
+/*header*/
+#crm_headercrm{
+	background:url(image/header.html) no-repeat;
+	background-size: 100%;
+	height: 73px;
+	width : 400px;
+}
+
+#crm_headercrm img{
+	position:absolute;
+	top:10px;
+	left:370px;
+	border:none;
+}
+
+
+
+/*content*/
+#crm_content {
+	background:url(image/body.html) repeat;
+	background-size: 100%;
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:left;
+	/*position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 190px;
+	width : 400px;
+	position:relative;
+	text-indent:0;
+	top:0;
+	left:0;
+}
+
+#crm_content #crm_imgb {
+/* l'image occupe toute la place de son bloc conteneur */
+	width : 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+#crm_content img {
+	/* l'image occupe toute la place de son bloc conteneur */
+	margin:0;
+	padding:0;
+	text-indent:0;
+}
+
+
+
+/*fr content*/
+/*content*/
+
+#crm_fr_content {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute;
+	/*height:165px;*/
+	width:390px;
+	left:40px; 
+	top:0px;
+}
+
+#crm_fr_title {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#595667;
+	margin:0;
+	padding:0;
+	position: relative;
+	left:0; 
+	top:0;
+}
+
+#crm_fr_texte {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#595667;
+	margin:0;
+	padding:0;
+	position: absolute;
+	line-height:10pt;
+	text-align:left;
+	font-weight:normal;
+	left:1px;
+	top:28px;
+	width: 320px;
+	height: 72px;
+}
+
+/*all*/
+#crm_fr_sign {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#595667;
+	margin:0;
+	padding:0;
+	position: absolute;
+	left:0px; 
+	top:90px;
+}
+
+/*button fr*/
+
+#crm_bouton_rep {
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	/*position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 38px;
+	width : 156px;
+	position:absolute;
+	top:110px;
+	left:30px;
+}
+
+#crm_bouton_rep img {
+	/* l'image occupe toute la place de son bloc conteneur */
+	width : 100%;
+	height: 100%;
+	border: 0;
+}
+
+#crm_bouton_rep span {
+	/* l'image occupe toute la place de son bloc conteneur */
+	font-family: Arial;
+	font-size:9pt;
+	font-weight:bold;
+	color:#ffffff;
+	position:absolute;
+	top:12px;
+	left:58px;
+}
+
+/*button big*/
+
+#crm_bouton_non {
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	/*position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 38px;
+	width : 150px;
+	position:absolute;
+	top:110px;
+	left:210px;
+}
+
+#crm_bouton_non img {
+	/* l'image occupe toute la place de son bloc conteneur */
+	width : 100%;
+	height: 100%;
+	border: 0;
+}
+
+#crm_bouton_non span {
+/* l'image occupe toute la place de son bloc conteneur */
+	font-family:Arial;
+	font-size:9pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	position:absolute;
+	top:12px;
+	left:57px;
+}
+
+
+/*footer*/
+#crm_footercrm{
+	background:url(image/footer.html) no-repeat;
+	height:59px;
+	width :400px;
+	padding:0;
+	margin:0;
+	font-size:0%;
+}
+
+
+#crm_footercrm span{
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:7pt;
+	font-weight:normal;
+	color:#595667;
+	position:absolute;
+	width:380px;
+	top:230px;
+	left:33px;
+	text-align:left;
+}
+
+
+#crm_footercrm img{ 
+	position:absolute;
+	top:290px;
+	left:310px;
+	border:none;
+}
+
+/*________________________________________________________________________________________________________________________*/
+/*______________________________________________________end of popin______________________________________________________*/
+/*________________________________________________________________________________________________________________________*/
+
+
+
+
+/*________________________________________________________________________________________________________________________*/
+/*______________________________________________________Start of stealth___________________________________________________*/
+/*________________________________________________________________________________________________________________________*/
+
+#crm_img.stl {
+	width: 200%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+
+#crm_stl_content {
+	
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute;
+	/*height:165px;*/
+	width:204px;
+	left:30px; 
+	top:42px;
+}
+
+#crm_stealth {
+	
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 90px;
+	width : 290px;
+}
+
+
+
+/*Stelth content*/
+#crm_contentstlt {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:left;
+	/*position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 120px;
+	width : 325px;
+	position:relative;
+	text-indent:0;
+	top:0;
+	left:0;
+}
+
+
+#crm_contentstlt #crm_imgb {
+	/* l'image occupe toute la place de son bloc conteneur */
+	width : 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+#crm_contentstlt img {
+/* l'image occupe toute la place de son bloc conteneur */
+	margin:0;
+	padding:0;
+	text-indent:0;
+}
+
+#crm_stl_title {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	color:#595667;
+	margin:0;
+	padding:0;
+	position: relative;
+	left:0; 
+	top:0;
+}
+
+#crm_stl_texte {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#595667;
+	margin:0;
+	padding:0;
+	position: absolute;
+	line-height:11pt;
+	text-align:left;
+	font-weight:normal;
+	left:-4px;
+	top:47px;
+	width: 216px;
+	height: 72px;
+}
+
+
+#crm_bouton_stl {
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	/*position: absolute; /* dimension et positionnement du bloc conteneur de l'image */
+	/*left: 10em;
+	top: 5em;*/
+	height : 38px;
+	width : 169px;
+	position:absolute;
+	top:168px;
+	left:46px;
+}
+
+#crm_bouton_stl img {
+	/* l'image occupe toute la place de son bloc conteneur */
+	width : 100%;
+	height: 100%;
+	border: 0;
+}
+
+#crm_bouton_stl span {
+	/* l'image occupe toute la place de son bloc conteneur */
+	font-family:Arial;
+	font-size:9pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	position:absolute;
+	top:11px;
+	left:60px;
+}
+
+
+/*________________________________________________________________________________________________________________________*/
+/*_______________________________________________________end of stealth___________________________________________________*/
+/*________________________________________________________________________________________________________________________*/

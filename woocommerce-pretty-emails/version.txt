@@ -1,0 +1,8 @@
+1.4.3 Bufix. Logo doesn't show in footer.
+1.4.2 Custom logo options for social networks. Menu link color option added. Footer in logo can be disabled with size 0. Header image can be clickable with an URL option. New customer account introduction text is now customizable. Fix translation issue.
+1.4.1 Footer Bug fix. Adding custom text for customer email (processing & completed orders). Css option for download & meta links. WooCommerce 2.3 compatibility check (beta 2).
+1.4 Adding preview for email templates
+1.3 Adding option for footer logo custom width. Adding option for product thumbnail custom size.
+1.2 Improve Outlook 2007-2010 support.
+1.1 Bug Fix for gmail client. Add 3 new social profiles logo / url options.
+1.0 Initial release.

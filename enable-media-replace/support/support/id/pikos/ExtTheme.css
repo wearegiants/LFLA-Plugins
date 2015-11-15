@@ -1,0 +1,81 @@
+.LA_extTheme {
+	margin:0;
+	padding:0;
+	border:0;
+	
+	z-index:9008;
+	position:absolute;
+	bottom:79px;
+	left:261px;
+	background: 0 0 url("ExtTheme/fond.html") no-repeat;
+	z-index : 9010;
+}
+.LA_extTheme tr, .LA_extTheme table,.LA_extTheme td,.LA_extTheme p {
+	padding:0;
+	margin:0;
+	border:0;
+}
+.LA_extTheme table {
+	width:398px;
+	height : 123px;
+}
+.LA_extTheme .LA_div_close{
+	z-index:9009;
+	position:absolute;
+	right:0px;
+	top:0px;
+	font-size:1px;
+}
+.LA_extTheme .LAbt_close {
+	z-index:9009;
+	display:block;
+	margin:4px 0 0 0;
+}
+.LA_extTheme .LAbt_close:hover {}
+	
+.LA_extTheme .Text {
+	display:block;
+	height:114px;
+	overflow-y:auto;
+	margin:8px 1px 1px 1px;
+	font-size:11px;
+	text-align:left;
+	}
+.LA_extTheme .Text ul{	
+	padding:5px 0 0 28px;
+	margin:0;
+}
+.LA_extTheme .TopLeft {}
+.LA_extTheme .TopRight {}
+.LA_extTheme .TopCenter {}
+
+.LA_extTheme .BottomRight {}
+.LA_extTheme .BottomLeft {}	
+.LA_extTheme .BottomCenter {}
+	
+.LA_extTheme .MiddleLeft {}
+.LA_extTheme .MiddleRight {}
+.LA_extTheme .MiddleCenter {
+	width:398px;}
+	
+.LA_extTheme .MiddleCenter  li{
+	list-style-image:url(ExtTheme/fleche.html);
+}
+
+.LA_extTheme .MiddleCenter a{
+	color :#365DA0;	
+	text-decoration : none;
+}
+.LA_extTheme .MiddleCenter a:hover{
+	color :#FE5815;	
+	text-decoration : none;
+}
+.LA_theme_intro{
+	font-weight:bold;
+	display:block;
+	padding : 5px 0 0 5px;
+}
+.LA_theme_end{
+	display:block;
+	padding : 5px 0 0 5px;
+}
